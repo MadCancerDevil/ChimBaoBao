@@ -1,0 +1,69 @@
+name: Stock Tracker
+
+on:
+  schedule:
+    # Gio VN = UTC+7. Phien giao dich 9:00-14:45 VN = 2:00-7:45 UTC
+    # Chay moi 5 phut trong phien, thu 2 - thu 6
+    - cron: "*/5 2-7 * * 1-5"
+    # Bao cao cuoi ngay 15:30 VN = 8:30 UTC
+    - cron: "30 8 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tracker
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Cai thu vien
+        run: pip install -r requirements.txt
+
+      - name: Xac dinh che do chay
+        id: mode
+        run: |
+          # Dua vao cron da kich hoat, khong dua vao dong ho
+          # (tranh nham lan khi GitHub chay tre qua moc 8h UTC)
+          if [ "${{ github.event.schedule }}" = "30 8 * * 1-5" ]; then
+            echo "action=report" >> "$GITHUB_OUTPUT"
+          else
+            echo "action=check" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Chay tracker
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py ${{ steps.mode.outputs.action }}
+
+      - name: Luu trang thai & cau hinh
+        run: |
+          git config user.name "stock-tracker-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state.json config.json
+          if git diff --cached --quiet; then
+            echo "Khong co thay doi can luu"
+            exit 0
+          fi
+          git commit -m "update state [skip ci]"
+          # Keo thay doi tu xa ve truoc (neu nguoi dung vua sua config
+          # tren web) roi moi push, thu lai toi da 3 lan
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && \
+            git push origin "${GITHUB_REF_NAME}" && exit 0
+            echo "Push that bai, thu lai lan $i..."
+            sleep 3
+          done
+          echo "::warning::Khong luu duoc trang thai sau 3 lan thu"
