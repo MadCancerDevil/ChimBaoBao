@@ -1,0 +1,33 @@
+{
+  "symbols": {
+    "NRC": {
+      "mode": "manual",
+      "manual": {
+        "buy_zone_low": 5300,
+        "buy_zone_high": 5500,
+        "breakout_level": 6500,
+        "stoploss_level": 4800,
+        "target_low": 7500,
+        "target_high": 8500
+      }
+    }
+  },
+  "auto_defaults": {
+    "support_lookback_days": 30,
+    "resistance_lookback_days": 50,
+    "buy_zone_margin_pct": 3.0
+  },
+  "signals": {
+    "volume_spike_ratio": 2.5,
+    "volume_avg_period": 20,
+    "rsi_period": 14,
+    "rsi_oversold": 35,
+    "rsi_overbought": 72,
+    "ma_short": 20,
+    "ma_long": 50
+  },
+  "alerts": {
+    "cooldown_minutes": 240,
+    "daily_report_enabled": true
+  }
+}
