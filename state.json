@@ -1,6 +1,43 @@
 {
-  "last_update_id": 0,
+  "last_update_id": 735373774,
   "last_alerts": {},
-  "snapshot": {},
-  "snapshot_time": null
+  "snapshot": {
+    "NRC": {
+      "price": 6200.0,
+      "chg_pct": -1.59,
+      "rsi": 55.9,
+      "vol_ratio": 0.72,
+      "ma_ok": true,
+      "macd_ok": false,
+      "levels": {
+        "buy_zone_low": 5300,
+        "buy_zone_high": 5500,
+        "breakout_level": 6500,
+        "stoploss_level": 4800,
+        "target_low": 7500,
+        "target_high": 8500
+      },
+      "trends": {
+        "1 tuần": "GIẢM ↓ (-11.4%)",
+        "1 tháng": "TĂNG ↑ (+6.9%)",
+        "3 tháng": "TĂNG ↑ (+8.8%)",
+        "9 tháng": "ĐI NGANG → (-6.1%)"
+      },
+      "swings": {
+        "swing_high": {
+          "price": 7300.0,
+          "date": "2026-07-03"
+        },
+        "swing_low": {
+          "price": 6300.0,
+          "date": "2026-07-07"
+        }
+      },
+      "tracked_patterns": null,
+      "candles": [
+        "Marubozu giảm"
+      ]
+    }
+  },
+  "snapshot_time": "2026-07-12T16:17:23.495018+07:00"
 }
