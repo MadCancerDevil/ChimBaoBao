@@ -24,7 +24,15 @@
     "rsi_oversold": 35,
     "rsi_overbought": 72,
     "ma_short": 20,
-    "ma_long": 50
+    "ma_long": 50,
+    "candle_confluence_min": 3
+  },
+  "portfolio": {
+    "profit_guard_pct": 5,
+    "loss_alert_pcts": [
+      -5,
+      -10
+    ]
   },
   "alerts": {
     "cooldown_minutes": 240,
