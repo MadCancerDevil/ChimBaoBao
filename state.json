@@ -8,7 +8,7 @@
       "price": 6100.0,
       "chg_pct": -1.61,
       "rsi": 54.3,
-      "vol_ratio": 2.89,
+      "vol_ratio": 1.54,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -39,10 +39,10 @@
       "candles": []
     },
     "EVS": {
-      "price": 5400.0,
-      "chg_pct": -3.57,
-      "rsi": 64.7,
-      "vol_ratio": 0.45,
+      "price": 5300.0,
+      "chg_pct": -5.36,
+      "rsi": 61.1,
+      "vol_ratio": 0.58,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -54,10 +54,10 @@
         "target_high": 7930
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-6.9%)",
-        "1 tháng": "TĂNG ↑ (+17.4%)",
-        "3 tháng": "ĐI NGANG → (+5.9%)",
-        "9 tháng": "GIẢM ↓ (-25.0%)"
+        "1 tuần": "GIẢM ↓ (-8.6%)",
+        "1 tháng": "TĂNG ↑ (+15.2%)",
+        "3 tháng": "ĐI NGANG → (+3.9%)",
+        "9 tháng": "GIẢM ↓ (-26.4%)"
       },
       "swings": {
         "swing_high": {
@@ -78,7 +78,7 @@
       "price": 7900.0,
       "chg_pct": 9.72,
       "rsi": 84.1,
-      "vol_ratio": 11.49,
+      "vol_ratio": 6.2,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -111,12 +111,12 @@
       ]
     },
     "TTA": {
-      "price": 11700.0,
-      "chg_pct": 1.74,
-      "rsi": 60.4,
-      "vol_ratio": 0.77,
+      "price": 11600.0,
+      "chg_pct": 0.87,
+      "rsi": 58.7,
+      "vol_ratio": 0.33,
       "ma_ok": true,
-      "macd_ok": true,
+      "macd_ok": false,
       "levels": {
         "buy_zone_low": 10150,
         "buy_zone_high": 10454,
@@ -126,10 +126,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+3.5%)",
-        "1 tháng": "TĂNG ↑ (+12.0%)",
-        "3 tháng": "ĐI NGANG → (+0.9%)",
-        "9 tháng": "ĐI NGANG → (-2.1%)"
+        "1 tuần": "TĂNG ↑ (+2.7%)",
+        "1 tháng": "TĂNG ↑ (+11.0%)",
+        "3 tháng": "ĐI NGANG → (+0.0%)",
+        "9 tháng": "ĐI NGANG → (-2.9%)"
       },
       "swings": {
         "swing_high": {
@@ -145,5 +145,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-07-13T10:03:03.984247+07:00"
+  "snapshot_time": "2026-07-13T12:38:40.002485+07:00"
 }
