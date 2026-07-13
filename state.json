@@ -3,10 +3,10 @@
   "last_alerts": {},
   "snapshot": {
     "NRC": {
-      "price": 6200.0,
-      "chg_pct": -1.59,
-      "rsi": 55.9,
-      "vol_ratio": 0.72,
+      "price": 6100.0,
+      "chg_pct": -1.61,
+      "rsi": 54.3,
+      "vol_ratio": 2.94,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -18,10 +18,10 @@
         "target_high": 8500
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-11.4%)",
-        "1 tháng": "TĂNG ↑ (+6.9%)",
-        "3 tháng": "TĂNG ↑ (+8.8%)",
-        "9 tháng": "ĐI NGANG → (-6.1%)"
+        "1 tuần": "GIẢM ↓ (-9.0%)",
+        "1 tháng": "TĂNG ↑ (+5.2%)",
+        "3 tháng": "ĐI NGANG → (+5.2%)",
+        "9 tháng": "ĐI NGANG → (-7.6%)"
       },
       "swings": {
         "swing_high": {
@@ -34,10 +34,44 @@
         }
       },
       "tracked_patterns": null,
+      "candles": []
+    },
+    "EVS": {
+      "price": 5400.0,
+      "chg_pct": -3.57,
+      "rsi": 64.7,
+      "vol_ratio": 0.45,
+      "ma_ok": true,
+      "macd_ok": false,
+      "levels": {
+        "buy_zone_low": 4400,
+        "buy_zone_high": 4532,
+        "breakout_level": 6100,
+        "stoploss_level": 4202,
+        "target_low": 7015,
+        "target_high": 7930
+      },
+      "trends": {
+        "1 tuần": "GIẢM ↓ (-6.9%)",
+        "1 tháng": "TĂNG ↑ (+17.4%)",
+        "3 tháng": "ĐI NGANG → (+5.9%)",
+        "9 tháng": "GIẢM ↓ (-25.0%)"
+      },
+      "swings": {
+        "swing_high": {
+          "price": 6100.0,
+          "date": "2026-07-06"
+        },
+        "swing_low": {
+          "price": 5400.0,
+          "date": "2026-07-02"
+        }
+      },
+      "tracked_patterns": null,
       "candles": [
         "Marubozu giảm"
       ]
     }
   },
-  "snapshot_time": "2026-07-12T16:17:23.495018+07:00"
+  "snapshot_time": "2026-07-13T09:59:25.680881+07:00"
 }
