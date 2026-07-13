@@ -1,12 +1,14 @@
 {
   "last_update_id": 735373774,
-  "last_alerts": {},
+  "last_alerts": {
+    "SHN:VOL_SPIKE": "2026-07-13T10:03:03.983751+07:00"
+  },
   "snapshot": {
     "NRC": {
       "price": 6100.0,
       "chg_pct": -1.61,
       "rsi": 54.3,
-      "vol_ratio": 2.92,
+      "vol_ratio": 2.89,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -71,7 +73,77 @@
       "candles": [
         "Marubozu giảm"
       ]
+    },
+    "SHN": {
+      "price": 7900.0,
+      "chg_pct": 9.72,
+      "rsi": 84.1,
+      "vol_ratio": 11.49,
+      "ma_ok": true,
+      "macd_ok": true,
+      "levels": {
+        "buy_zone_low": 3200,
+        "buy_zone_high": 3296,
+        "breakout_level": 7900,
+        "stoploss_level": 3056,
+        "target_low": 9085,
+        "target_high": 10270
+      },
+      "trends": {
+        "1 tuần": "TĂNG ↑ (+12.9%)",
+        "1 tháng": "TĂNG ↑ (+132.4%)",
+        "3 tháng": "TĂNG ↑ (+102.6%)",
+        "9 tháng": "TĂNG ↑ (+58.0%)"
+      },
+      "swings": {
+        "swing_high": {
+          "price": 7400.0,
+          "date": "2026-07-06"
+        },
+        "swing_low": {
+          "price": 5700.0,
+          "date": "2026-07-08"
+        }
+      },
+      "tracked_patterns": null,
+      "candles": [
+        "Doji"
+      ]
+    },
+    "TTA": {
+      "price": 11700.0,
+      "chg_pct": 1.74,
+      "rsi": 60.4,
+      "vol_ratio": 0.77,
+      "ma_ok": true,
+      "macd_ok": true,
+      "levels": {
+        "buy_zone_low": 10150,
+        "buy_zone_high": 10454,
+        "breakout_level": 11900,
+        "stoploss_level": 9693,
+        "target_low": 13685,
+        "target_high": 15470
+      },
+      "trends": {
+        "1 tuần": "TĂNG ↑ (+3.5%)",
+        "1 tháng": "TĂNG ↑ (+12.0%)",
+        "3 tháng": "ĐI NGANG → (+0.9%)",
+        "9 tháng": "ĐI NGANG → (-2.1%)"
+      },
+      "swings": {
+        "swing_high": {
+          "price": 11900.0,
+          "date": "2026-07-09"
+        },
+        "swing_low": {
+          "price": 11100.0,
+          "date": "2026-07-07"
+        }
+      },
+      "tracked_patterns": "chữ nhật 15 phiên 10,900-11,900đ (nén 8.7%); 3 đỉnh quanh 11,800đ, viền cổ 10,900đ",
+      "candles": []
     }
   },
-  "snapshot_time": "2026-07-13T10:00:12.722966+07:00"
+  "snapshot_time": "2026-07-13T10:03:03.984247+07:00"
 }
