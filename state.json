@@ -5,10 +5,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 6200.0,
-      "chg_pct": 0.0,
-      "rsi": 55.9,
-      "vol_ratio": 1.57,
+      "price": 6100.0,
+      "chg_pct": -1.61,
+      "rsi": 46.7,
+      "vol_ratio": 0.47,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -20,10 +20,10 @@
         "target_high": 8500
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-7.5%)",
-        "1 tháng": "TĂNG ↑ (+6.9%)",
-        "3 tháng": "ĐI NGANG → (+6.9%)",
-        "9 tháng": "ĐI NGANG → (-6.1%)"
+        "1 tuần": "GIẢM ↓ (-6.2%)",
+        "1 tháng": "TĂNG ↑ (+5.2%)",
+        "3 tháng": "ĐI NGANG → (+5.2%)",
+        "9 tháng": "ĐI NGANG → (-6.2%)"
       },
       "swings": {
         "swing_high": {
@@ -36,15 +36,13 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "EVS": {
       "price": 5300.0,
-      "chg_pct": -5.36,
-      "rsi": 61.1,
-      "vol_ratio": 0.78,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 0.18,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -58,7 +56,7 @@
       "trends": {
         "1 tuần": "GIẢM ↓ (-8.6%)",
         "1 tháng": "TĂNG ↑ (+15.2%)",
-        "3 tháng": "ĐI NGANG → (+3.9%)",
+        "3 tháng": "ĐI NGANG → (+6.0%)",
         "9 tháng": "GIẢM ↓ (-26.4%)"
       },
       "swings": {
@@ -72,28 +70,30 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "SHN": {
-      "price": 7900.0,
-      "chg_pct": 9.72,
-      "rsi": 84.1,
-      "vol_ratio": 4.1,
+      "price": 7600.0,
+      "chg_pct": -3.8,
+      "rsi": 80.0,
+      "vol_ratio": 1.01,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 3200,
         "buy_zone_high": 3296,
-        "breakout_level": 7900,
+        "breakout_level": 8600,
         "stoploss_level": 3056,
-        "target_low": 9085,
-        "target_high": 10270
+        "target_low": 9890,
+        "target_high": 11180
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+12.9%)",
-        "1 tháng": "TĂNG ↑ (+132.4%)",
-        "3 tháng": "TĂNG ↑ (+102.6%)",
-        "9 tháng": "TĂNG ↑ (+58.0%)"
+        "1 tuần": "TĂNG ↑ (+20.6%)",
+        "1 tháng": "TĂNG ↑ (+130.3%)",
+        "3 tháng": "TĂNG ↑ (+94.9%)",
+        "9 tháng": "TĂNG ↑ (+49.0%)"
       },
       "swings": {
         "swing_high": {
@@ -106,15 +106,13 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "TTA": {
-      "price": 11500.0,
-      "chg_pct": 0.0,
-      "rsi": 56.8,
-      "vol_ratio": 0.49,
+      "price": 11400.0,
+      "chg_pct": -0.87,
+      "rsi": 51.2,
+      "vol_ratio": 0.1,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -126,10 +124,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+1.8%)",
-        "1 tháng": "TĂNG ↑ (+10.0%)",
+        "1 tuần": "ĐI NGANG → (+0.4%)",
+        "1 tháng": "TĂNG ↑ (+9.6%)",
         "3 tháng": "ĐI NGANG → (-0.9%)",
-        "9 tháng": "ĐI NGANG → (-3.8%)"
+        "9 tháng": "ĐI NGANG → (-4.6%)"
       },
       "swings": {
         "swing_high": {
@@ -141,11 +139,11 @@
           "date": "2026-07-07"
         }
       },
-      "tracked_patterns": "chữ nhật 15 phiên 10,900-11,900đ (nén 8.7%); 3 đỉnh quanh 11,800đ, viền cổ 10,900đ",
+      "tracked_patterns": "chữ nhật 16 phiên 10,900-11,900đ (nén 8.7%); 3 đỉnh quanh 11,900đ, viền cổ 11,100đ",
       "candles": [
-        "Doji"
+        "Shooting Star (Sao Băng)"
       ]
     }
   },
-  "snapshot_time": "2026-07-13T18:39:33.347522+07:00"
+  "snapshot_time": "2026-07-14T11:52:12.846879+07:00"
 }
