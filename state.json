@@ -1,14 +1,15 @@
 {
   "last_update_id": 735373774,
   "last_alerts": {
-    "SHN:VOL_SPIKE": "2026-07-13T15:36:45.710211+07:00"
+    "SHN:VOL_SPIKE": "2026-07-13T15:36:45.710211+07:00",
+    "SHN:CANDLE_Marubozu tăn": "2026-07-15T14:08:37.744703+07:00"
   },
   "snapshot": {
     "NRC": {
       "price": 5900.0,
       "chg_pct": -1.67,
       "rsi": 35.7,
-      "vol_ratio": 0.95,
+      "vol_ratio": 1.04,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -42,7 +43,7 @@
       "price": 5400.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.11,
+      "vol_ratio": 0.13,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -75,10 +76,10 @@
       ]
     },
     "SHN": {
-      "price": 7700.0,
-      "chg_pct": 5.48,
-      "rsi": 76.8,
-      "vol_ratio": 2.36,
+      "price": 8000.0,
+      "chg_pct": 9.59,
+      "rsi": 77.8,
+      "vol_ratio": 2.82,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -90,10 +91,10 @@
         "target_high": 11180
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+28.3%)",
-        "1 tháng": "TĂNG ↑ (+126.5%)",
-        "3 tháng": "TĂNG ↑ (+97.4%)",
-        "9 tháng": "TĂNG ↑ (+51.0%)"
+        "1 tuần": "TĂNG ↑ (+33.3%)",
+        "1 tháng": "TĂNG ↑ (+135.3%)",
+        "3 tháng": "TĂNG ↑ (+105.1%)",
+        "9 tháng": "TĂNG ↑ (+56.9%)"
       },
       "swings": {
         "swing_high": {
@@ -106,13 +107,15 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Marubozu tăng"
+      ]
     },
     "TTA": {
-      "price": 11450.0,
-      "chg_pct": -2.14,
-      "rsi": 44.2,
-      "vol_ratio": 0.12,
+      "price": 11700.0,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 0.43,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -124,10 +127,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "TĂNG ↑ (+10.1%)",
-        "3 tháng": "ĐI NGANG → (+0.0%)",
-        "9 tháng": "ĐI NGANG → (-3.0%)"
+        "1 tuần": "TĂNG ↑ (+2.2%)",
+        "1 tháng": "TĂNG ↑ (+12.5%)",
+        "3 tháng": "ĐI NGANG → (+2.2%)",
+        "9 tháng": "ĐI NGANG → (-0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -143,5 +146,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-07-15T11:52:45.710423+07:00"
+  "snapshot_time": "2026-07-15T14:08:37.745207+07:00"
 }
