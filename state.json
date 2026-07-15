@@ -9,7 +9,7 @@
       "price": 5900.0,
       "chg_pct": -1.67,
       "rsi": 35.7,
-      "vol_ratio": 1.04,
+      "vol_ratio": 1.08,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -43,7 +43,7 @@
       "price": 5400.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.13,
+      "vol_ratio": 0.22,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -79,7 +79,7 @@
       "price": 8000.0,
       "chg_pct": 9.59,
       "rsi": 77.8,
-      "vol_ratio": 2.82,
+      "vol_ratio": 2.43,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -112,10 +112,10 @@
       ]
     },
     "TTA": {
-      "price": 11700.0,
-      "chg_pct": 0.0,
-      "rsi": 50.0,
-      "vol_ratio": 0.43,
+      "price": 11600.0,
+      "chg_pct": -0.85,
+      "rsi": 47.5,
+      "vol_ratio": 0.62,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -127,10 +127,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.2%)",
-        "1 tháng": "TĂNG ↑ (+12.5%)",
-        "3 tháng": "ĐI NGANG → (+2.2%)",
-        "9 tháng": "ĐI NGANG → (-0.9%)"
+        "1 tuần": "ĐI NGANG → (+1.3%)",
+        "1 tháng": "TĂNG ↑ (+11.5%)",
+        "3 tháng": "ĐI NGANG → (+1.3%)",
+        "9 tháng": "ĐI NGANG → (-1.8%)"
       },
       "swings": {
         "swing_high": {
@@ -143,8 +143,10 @@
         }
       },
       "tracked_patterns": "chữ nhật 17 phiên 10,900-11,900đ (nén 8.7%); 3 đỉnh quanh 11,900đ, viền cổ 11,100đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-07-15T14:08:37.745207+07:00"
+  "snapshot_time": "2026-07-15T16:21:13.418052+07:00"
 }
