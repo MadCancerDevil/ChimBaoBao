@@ -45,7 +45,7 @@
       "price": 5900.0,
       "chg_pct": 9.26,
       "rsi": 63.2,
-      "vol_ratio": 2.22,
+      "vol_ratio": 2.14,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -79,7 +79,7 @@
       "price": 8800.0,
       "chg_pct": 10.0,
       "rsi": 78.9,
-      "vol_ratio": 1.55,
+      "vol_ratio": 1.47,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -112,10 +112,10 @@
       ]
     },
     "TTA": {
-      "price": 11450.0,
-      "chg_pct": -1.29,
-      "rsi": 50.0,
-      "vol_ratio": 0.08,
+      "price": 11550.0,
+      "chg_pct": -0.43,
+      "rsi": 52.8,
+      "vol_ratio": 0.1,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -127,10 +127,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-3.0%)",
-        "1 tháng": "TĂNG ↑ (+8.0%)",
-        "3 tháng": "ĐI NGANG → (+1.8%)",
-        "9 tháng": "ĐI NGANG → (-3.5%)"
+        "1 tuần": "GIẢM ↓ (-2.1%)",
+        "1 tháng": "TĂNG ↑ (+9.0%)",
+        "3 tháng": "ĐI NGANG → (+2.7%)",
+        "9 tháng": "ĐI NGANG → (-2.6%)"
       },
       "swings": {
         "swing_high": {
@@ -144,10 +144,9 @@
       },
       "tracked_patterns": "chữ nhật 18 phiên 10,900-11,900đ (nén 8.7%); 2 đáy quanh 11,200đ, viền cổ 11,900đ",
       "candles": [
-        "Hammer (Búa)",
-        "Evening Star (Sao Hôm)"
+        "Hammer (Búa)"
       ]
     }
   },
-  "snapshot_time": "2026-07-16T14:32:42.347839+07:00"
+  "snapshot_time": "2026-07-16T16:37:27.848405+07:00"
 }
