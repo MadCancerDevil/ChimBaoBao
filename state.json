@@ -7,18 +7,19 @@
     "EVS:MACD_CROSS": "2026-07-17T16:29:41.715795+07:00",
     "EVS:CANDLE_Marubozu tăn": "2026-07-17T16:29:42.191589+07:00",
     "EVS:CHART_BOTTOM_BREAK": "2026-07-17T16:29:42.666822+07:00",
-    "NRC:BUY_ZONE": "2026-07-20T15:29:24.877239+07:00",
+    "NRC:BUY_ZONE": "2026-07-21T14:45:29.544524+07:00",
     "TTA:BUY_ZONE": "2026-07-21T12:21:45.995692+07:00",
     "NRC:VOL_SPIKE": "2026-07-21T12:21:44.136556+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-07-21T12:21:44.763749+07:00",
-    "NRC:CANDLE_Three Black ": "2026-07-21T12:21:45.378582+07:00"
+    "NRC:CANDLE_Three Black ": "2026-07-21T12:21:45.378582+07:00",
+    "NRC:CANDLE_Hammer (Búa)": "2026-07-21T14:45:30.181752+07:00"
   },
   "snapshot": {
     "NRC": {
-      "price": 4800.0,
-      "chg_pct": -9.43,
-      "rsi": 10.7,
-      "vol_ratio": 8.13,
+      "price": 5400.0,
+      "chg_pct": 1.89,
+      "rsi": 16.7,
+      "vol_ratio": 5.99,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -30,10 +31,10 @@
         "target_high": 8500
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-20.0%)",
-        "1 tháng": "GIẢM ↓ (-17.2%)",
-        "3 tháng": "GIẢM ↓ (-28.4%)",
-        "9 tháng": "GIẢM ↓ (-27.3%)"
+        "1 tuần": "GIẢM ↓ (-10.0%)",
+        "1 tháng": "GIẢM ↓ (-6.9%)",
+        "3 tháng": "GIẢM ↓ (-19.4%)",
+        "9 tháng": "GIẢM ↓ (-18.2%)"
       },
       "swings": {
         "swing_high": {
@@ -47,15 +48,14 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Marubozu giảm",
-        "Three Black Crows (3 con quạ)"
+        "Hammer (Búa)"
       ]
     },
     "EVS": {
-      "price": 6200.0,
-      "chg_pct": 0.0,
-      "rsi": 65.2,
-      "vol_ratio": 0.69,
+      "price": 6100.0,
+      "chg_pct": -1.61,
+      "rsi": 62.5,
+      "vol_ratio": 2.57,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -67,10 +67,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+14.8%)",
-        "1 tháng": "TĂNG ↑ (+29.2%)",
-        "3 tháng": "TĂNG ↑ (+24.0%)",
-        "9 tháng": "ĐI NGANG → (-7.5%)"
+        "1 tuần": "TĂNG ↑ (+13.0%)",
+        "1 tháng": "TĂNG ↑ (+27.1%)",
+        "3 tháng": "TĂNG ↑ (+22.0%)",
+        "9 tháng": "ĐI NGANG → (-9.0%)"
       },
       "swings": {
         "swing_high": {
@@ -83,15 +83,13 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 5,200đ, viền cổ 6,900đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "SHN": {
-      "price": 10400.0,
-      "chg_pct": -0.95,
-      "rsi": 79.0,
-      "vol_ratio": 1.13,
+      "price": 10500.0,
+      "chg_pct": 0.0,
+      "rsi": 80.0,
+      "vol_ratio": 1.29,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -103,10 +101,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+42.5%)",
-        "1 tháng": "TĂNG ↑ (+181.1%)",
-        "3 tháng": "TĂNG ↑ (+173.7%)",
-        "9 tháng": "TĂNG ↑ (+100.0%)"
+        "1 tuần": "TĂNG ↑ (+43.8%)",
+        "1 tháng": "TĂNG ↑ (+183.8%)",
+        "3 tháng": "TĂNG ↑ (+176.3%)",
+        "9 tháng": "TĂNG ↑ (+101.9%)"
       },
       "swings": {
         "swing_high": {
@@ -119,13 +117,15 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
-      "price": 10550.0,
-      "chg_pct": 0.0,
-      "rsi": 27.5,
-      "vol_ratio": 0.15,
+      "price": 10450.0,
+      "chg_pct": -0.95,
+      "rsi": 26.4,
+      "vol_ratio": 1.38,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -137,10 +137,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-9.8%)",
-        "1 tháng": "GIẢM ↓ (-7.9%)",
-        "3 tháng": "ĐI NGANG → (-6.6%)",
-        "9 tháng": "ĐI NGANG → (-7.7%)"
+        "1 tuần": "GIẢM ↓ (-10.7%)",
+        "1 tháng": "GIẢM ↓ (-8.7%)",
+        "3 tháng": "ĐI NGANG → (-7.5%)",
+        "9 tháng": "ĐI NGANG → (-8.6%)"
       },
       "swings": {
         "swing_high": {
@@ -153,8 +153,10 @@
         }
       },
       "tracked_patterns": "3 đỉnh quanh 11,700đ, viền cổ 10,450đ; hội tụ (tam giác cân) 11,483-11,751đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-07-21T12:21:45.995732+07:00"
+  "snapshot_time": "2026-07-21T14:45:30.182667+07:00"
 }
