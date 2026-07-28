@@ -21,7 +21,7 @@
       "price": 4800.0,
       "chg_pct": -2.04,
       "rsi": 9.1,
-      "vol_ratio": 2.23,
+      "vol_ratio": 1.53,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -52,10 +52,10 @@
       "candles": []
     },
     "EVS": {
-      "price": 5800.0,
-      "chg_pct": 3.57,
-      "rsi": 51.7,
-      "vol_ratio": 1.56,
+      "price": 5900.0,
+      "chg_pct": 5.36,
+      "rsi": 53.3,
+      "vol_ratio": 2.14,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -67,10 +67,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-4.9%)",
-        "1 tháng": "ĐI NGANG → (+3.6%)",
-        "3 tháng": "TĂNG ↑ (+28.9%)",
-        "9 tháng": "ĐI NGANG → (-3.3%)"
+        "1 tuần": "GIẢM ↓ (-3.3%)",
+        "1 tháng": "TĂNG ↑ (+5.4%)",
+        "3 tháng": "TĂNG ↑ (+31.1%)",
+        "9 tháng": "ĐI NGANG → (-1.7%)"
       },
       "swings": {
         "swing_high": {
@@ -91,7 +91,7 @@
       "price": 7200.0,
       "chg_pct": -8.86,
       "rsi": 56.7,
-      "vol_ratio": 0.76,
+      "vol_ratio": 1.11,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -124,10 +124,10 @@
       ]
     },
     "TTA": {
-      "price": 10300.0,
-      "chg_pct": -1.9,
-      "rsi": 27.5,
-      "vol_ratio": 1.89,
+      "price": 10500.0,
+      "chg_pct": 0.0,
+      "rsi": 29.8,
+      "vol_ratio": 2.29,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -139,10 +139,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.4%)",
-        "1 tháng": "GIẢM ↓ (-11.2%)",
-        "3 tháng": "ĐI NGANG → (-5.1%)",
-        "9 tháng": "ĐI NGANG → (-7.5%)"
+        "1 tuần": "ĐI NGANG → (+0.5%)",
+        "1 tháng": "GIẢM ↓ (-9.5%)",
+        "3 tháng": "ĐI NGANG → (-3.2%)",
+        "9 tháng": "ĐI NGANG → (-5.7%)"
       },
       "swings": {
         "swing_high": {
@@ -158,5 +158,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-07-28T12:15:47.729629+07:00"
+  "snapshot_time": "2026-07-28T14:56:34.197672+07:00"
 }
