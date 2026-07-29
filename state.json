@@ -14,17 +14,17 @@
     "NRC:CANDLE_Three Black ": "2026-07-21T12:21:45.378582+07:00",
     "NRC:CANDLE_Hammer (Búa)": "2026-07-27T12:51:38.913740+07:00",
     "NRC:CANDLE_Bearish Engu": "2026-07-22T17:08:58.619373+07:00",
-    "TTA:CANDLE_Hammer (Búa)": "2026-07-24T12:21:22.172643+07:00",
+    "TTA:CANDLE_Hammer (Búa)": "2026-07-29T15:03:16.556648+07:00",
     "NRC:STOPLOSS": "2026-07-29T12:22:53.603468+07:00",
     "TTA:CANDLE_Bearish Engu": "2026-07-29T12:22:54.945039+07:00",
     "TTA:CANDLE_Marubozu giả": "2026-07-29T12:22:55.588760+07:00"
   },
   "snapshot": {
     "NRC": {
-      "price": 4600.0,
-      "chg_pct": -4.17,
-      "rsi": 9.5,
-      "vol_ratio": 1.17,
+      "price": 4700.0,
+      "chg_pct": -2.08,
+      "rsi": 10.0,
+      "vol_ratio": 1.2,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -36,10 +36,10 @@
         "target_high": 8500
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-9.8%)",
-        "1 tháng": "GIẢM ↓ (-30.3%)",
-        "3 tháng": "GIẢM ↓ (-30.3%)",
-        "9 tháng": "GIẢM ↓ (-29.2%)"
+        "1 tuần": "GIẢM ↓ (-7.8%)",
+        "1 tháng": "GIẢM ↓ (-28.8%)",
+        "3 tháng": "GIẢM ↓ (-28.8%)",
+        "9 tháng": "GIẢM ↓ (-27.7%)"
       },
       "swings": {
         "swing_high": {
@@ -53,14 +53,14 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Marubozu giảm"
+        "Hammer (Búa)"
       ]
     },
     "EVS": {
       "price": 5900.0,
       "chg_pct": 0.0,
       "rsi": 51.7,
-      "vol_ratio": 0.54,
+      "vol_ratio": 0.4,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -94,7 +94,7 @@
       "price": 7900.0,
       "chg_pct": 9.72,
       "rsi": 57.1,
-      "vol_ratio": 0.24,
+      "vol_ratio": 0.18,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -127,10 +127,10 @@
       ]
     },
     "TTA": {
-      "price": 10300.0,
-      "chg_pct": -1.9,
-      "rsi": 15.9,
-      "vol_ratio": 1.55,
+      "price": 10550.0,
+      "chg_pct": 0.48,
+      "rsi": 19.5,
+      "vol_ratio": 0.97,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -142,10 +142,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.8%)",
-        "1 tháng": "GIẢM ↓ (-12.0%)",
-        "3 tháng": "ĐI NGANG → (-4.6%)",
-        "9 tháng": "ĐI NGANG → (-8.0%)"
+        "1 tuần": "ĐI NGANG → (-0.5%)",
+        "1 tháng": "GIẢM ↓ (-9.8%)",
+        "3 tháng": "ĐI NGANG → (-2.3%)",
+        "9 tháng": "ĐI NGANG → (-5.7%)"
       },
       "swings": {
         "swing_high": {
@@ -159,10 +159,9 @@
       },
       "tracked_patterns": "3 đỉnh quanh 11,700đ, viền cổ 10,200đ",
       "candles": [
-        "Bearish Engulfing (Nhấn chìm giảm)",
-        "Marubozu giảm"
+        "Hammer (Búa)"
       ]
     }
   },
-  "snapshot_time": "2026-07-29T12:22:55.588802+07:00"
+  "snapshot_time": "2026-07-29T15:03:16.556723+07:00"
 }
