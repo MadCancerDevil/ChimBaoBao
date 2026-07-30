@@ -17,14 +17,15 @@
     "TTA:CANDLE_Hammer (Búa)": "2026-07-29T15:03:16.556648+07:00",
     "NRC:STOPLOSS": "2026-07-29T12:22:53.603468+07:00",
     "TTA:CANDLE_Bearish Engu": "2026-07-29T12:22:54.945039+07:00",
-    "TTA:CANDLE_Marubozu giả": "2026-07-29T12:22:55.588760+07:00"
+    "TTA:CANDLE_Marubozu giả": "2026-07-29T12:22:55.588760+07:00",
+    "TTA:CANDLE_Marubozu tăn": "2026-07-30T11:59:30.214646+07:00"
   },
   "snapshot": {
     "NRC": {
       "price": 4700.0,
-      "chg_pct": -2.08,
-      "rsi": 10.0,
-      "vol_ratio": 1.2,
+      "chg_pct": 0.0,
+      "rsi": 10.5,
+      "vol_ratio": 1.27,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -36,10 +37,10 @@
         "target_high": 8500
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-7.8%)",
-        "1 tháng": "GIẢM ↓ (-28.8%)",
-        "3 tháng": "GIẢM ↓ (-28.8%)",
-        "9 tháng": "GIẢM ↓ (-27.7%)"
+        "1 tuần": "GIẢM ↓ (-9.6%)",
+        "1 tháng": "GIẢM ↓ (-32.9%)",
+        "3 tháng": "GIẢM ↓ (-31.9%)",
+        "9 tháng": "GIẢM ↓ (-30.9%)"
       },
       "swings": {
         "swing_high": {
@@ -53,14 +54,14 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Hammer (Búa)"
+        "Doji"
       ]
     },
     "EVS": {
       "price": 5900.0,
       "chg_pct": 0.0,
-      "rsi": 51.7,
-      "vol_ratio": 0.4,
+      "rsi": 55.6,
+      "vol_ratio": 0.26,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -72,8 +73,8 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.7%)",
-        "1 tháng": "TĂNG ↑ (+5.4%)",
+        "1 tuần": "GIẢM ↓ (-3.3%)",
+        "1 tháng": "TĂNG ↑ (+7.3%)",
         "3 tháng": "TĂNG ↑ (+28.3%)",
         "9 tháng": "ĐI NGANG → (+0.0%)"
       },
@@ -83,18 +84,18 @@
           "date": "2026-07-20"
         },
         "swing_low": {
-          "price": 5800.0,
-          "date": "2026-07-22"
+          "price": 5400.0,
+          "date": "2026-07-28"
         }
       },
       "tracked_patterns": null,
       "candles": []
     },
     "SHN": {
-      "price": 7900.0,
-      "chg_pct": 9.72,
-      "rsi": 57.1,
-      "vol_ratio": 0.18,
+      "price": 8600.0,
+      "chg_pct": 8.86,
+      "rsi": 57.6,
+      "vol_ratio": 0.3,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -106,10 +107,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-16.8%)",
-        "1 tháng": "TĂNG ↑ (+51.9%)",
-        "3 tháng": "TĂNG ↑ (+113.5%)",
-        "9 tháng": "TĂNG ↑ (+75.6%)"
+        "1 tuần": "GIẢM ↓ (-6.5%)",
+        "1 tháng": "TĂNG ↑ (+50.9%)",
+        "3 tháng": "TĂNG ↑ (+126.3%)",
+        "9 tháng": "TĂNG ↑ (+91.1%)"
       },
       "swings": {
         "swing_high": {
@@ -117,20 +118,20 @@
           "date": "2026-07-21"
         },
         "swing_low": {
-          "price": 5700.0,
-          "date": "2026-07-08"
+          "price": 7200.0,
+          "date": "2026-07-28"
         }
       },
       "tracked_patterns": null,
       "candles": [
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "TTA": {
-      "price": 10550.0,
-      "chg_pct": 0.48,
-      "rsi": 19.5,
-      "vol_ratio": 0.97,
+      "price": 10600.0,
+      "chg_pct": 0.47,
+      "rsi": 25.0,
+      "vol_ratio": 0.08,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -142,10 +143,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.5%)",
-        "1 tháng": "GIẢM ↓ (-9.8%)",
-        "3 tháng": "ĐI NGANG → (-2.3%)",
-        "9 tháng": "ĐI NGANG → (-5.7%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "GIẢM ↓ (-9.4%)",
+        "3 tháng": "ĐI NGANG → (-3.2%)",
+        "9 tháng": "ĐI NGANG → (-4.1%)"
       },
       "swings": {
         "swing_high": {
@@ -157,11 +158,11 @@
           "date": "2026-07-27"
         }
       },
-      "tracked_patterns": "3 đỉnh quanh 11,700đ, viền cổ 10,200đ",
+      "tracked_patterns": "2 đáy quanh 10,200đ, viền cổ 10,700đ",
       "candles": [
-        "Hammer (Búa)"
+        "Marubozu tăng"
       ]
     }
   },
-  "snapshot_time": "2026-07-29T18:03:43.597073+07:00"
+  "snapshot_time": "2026-07-30T11:59:30.214684+07:00"
 }
