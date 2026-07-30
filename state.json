@@ -25,7 +25,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 10.0,
-      "vol_ratio": 1.06,
+      "vol_ratio": 1.08,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -56,9 +56,9 @@
       "candles": []
     },
     "EVS": {
-      "price": 6000.0,
-      "chg_pct": 1.69,
-      "rsi": 57.1,
+      "price": 5900.0,
+      "chg_pct": 0.0,
+      "rsi": 55.6,
       "vol_ratio": 0.69,
       "ma_ok": true,
       "macd_ok": false,
@@ -71,10 +71,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.6%)",
-        "1 tháng": "TĂNG ↑ (+9.1%)",
-        "3 tháng": "TĂNG ↑ (+30.4%)",
-        "9 tháng": "ĐI NGANG → (+1.7%)"
+        "1 tuần": "GIẢM ↓ (-3.3%)",
+        "1 tháng": "TĂNG ↑ (+7.3%)",
+        "3 tháng": "TĂNG ↑ (+28.3%)",
+        "9 tháng": "ĐI NGANG → (+0.0%)"
       },
       "swings": {
         "swing_high": {
@@ -87,9 +87,7 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Bullish Engulfing (Nhấn chìm tăng)"
-      ]
+      "candles": []
     },
     "SHN": {
       "price": 8600.0,
@@ -162,5 +160,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-07-30T14:39:09.726052+07:00"
+  "snapshot_time": "2026-07-30T17:04:04.175745+07:00"
 }
