@@ -22,10 +22,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4600.0,
-      "chg_pct": 0.0,
-      "rsi": 10.0,
-      "vol_ratio": 0.26,
+      "price": 4700.0,
+      "chg_pct": 2.17,
+      "rsi": 14.3,
+      "vol_ratio": 0.31,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -37,10 +37,10 @@
         "target_high": 8500
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-9.8%)",
-        "1 tháng": "GIẢM ↓ (-32.4%)",
-        "3 tháng": "GIẢM ↓ (-32.4%)",
-        "9 tháng": "GIẢM ↓ (-32.4%)"
+        "1 tuần": "GIẢM ↓ (-7.8%)",
+        "1 tháng": "GIẢM ↓ (-30.9%)",
+        "3 tháng": "GIẢM ↓ (-30.9%)",
+        "9 tháng": "GIẢM ↓ (-30.9%)"
       },
       "swings": {
         "swing_high": {
@@ -53,13 +53,15 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "EVS": {
       "price": 5800.0,
       "chg_pct": -1.69,
       "rsi": 60.0,
-      "vol_ratio": 0.63,
+      "vol_ratio": 0.65,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -92,10 +94,10 @@
       ]
     },
     "SHN": {
-      "price": 8600.0,
-      "chg_pct": 0.0,
-      "rsi": 54.1,
-      "vol_ratio": 1.05,
+      "price": 8800.0,
+      "chg_pct": 2.33,
+      "rsi": 55.2,
+      "vol_ratio": 0.84,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -107,10 +109,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "TĂNG ↑ (+38.7%)",
-        "3 tháng": "TĂNG ↑ (+132.4%)",
-        "9 tháng": "TĂNG ↑ (+87.0%)"
+        "1 tuần": "TĂNG ↑ (+2.3%)",
+        "1 tháng": "TĂNG ↑ (+41.9%)",
+        "3 tháng": "TĂNG ↑ (+137.8%)",
+        "9 tháng": "TĂNG ↑ (+91.3%)"
       },
       "swings": {
         "swing_high": {
@@ -129,7 +131,7 @@
       "price": 10600.0,
       "chg_pct": 0.95,
       "rsi": 26.3,
-      "vol_ratio": 1.64,
+      "vol_ratio": 1.11,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -160,5 +162,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-07-31T12:36:30.939531+07:00"
+  "snapshot_time": "2026-07-31T15:20:17.603762+07:00"
 }
