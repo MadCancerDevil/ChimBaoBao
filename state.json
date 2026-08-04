@@ -19,14 +19,15 @@
     "TTA:CANDLE_Bearish Engu": "2026-07-29T12:22:54.945039+07:00",
     "TTA:CANDLE_Marubozu giả": "2026-07-29T12:22:55.588760+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-08-03T12:42:40.053774+07:00",
-    "TTA:CANDLE_Bullish Engu": "2026-08-03T12:42:39.554675+07:00"
+    "TTA:CANDLE_Bullish Engu": "2026-08-03T12:42:39.554675+07:00",
+    "NRC:CANDLE_Marubozu tăn": "2026-08-04T12:15:47.803646+07:00"
   },
   "snapshot": {
     "NRC": {
-      "price": 4800.0,
-      "chg_pct": 2.13,
-      "rsi": 20.0,
-      "vol_ratio": 1.22,
+      "price": 4900.0,
+      "chg_pct": 2.08,
+      "rsi": 25.0,
+      "vol_ratio": 1.09,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -38,10 +39,10 @@
         "target_high": 8500
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.0%)",
-        "1 tháng": "GIẢM ↓ (-31.4%)",
-        "3 tháng": "GIẢM ↓ (-29.4%)",
-        "9 tháng": "GIẢM ↓ (-29.4%)"
+        "1 tuần": "TĂNG ↑ (+2.1%)",
+        "1 tháng": "GIẢM ↓ (-26.9%)",
+        "3 tháng": "GIẢM ↓ (-27.9%)",
+        "9 tháng": "GIẢM ↓ (-26.9%)"
       },
       "swings": {
         "swing_high": {
@@ -54,13 +55,15 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Marubozu tăng"
+      ]
     },
     "EVS": {
-      "price": 5800.0,
-      "chg_pct": 0.0,
-      "rsi": 58.3,
-      "vol_ratio": 0.72,
+      "price": 5700.0,
+      "chg_pct": -1.72,
+      "rsi": 56.0,
+      "vol_ratio": 0.26,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -72,10 +75,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+3.6%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "TĂNG ↑ (+26.1%)",
-        "9 tháng": "ĐI NGANG → (-9.4%)"
+        "1 tuần": "GIẢM ↓ (-3.4%)",
+        "1 tháng": "ĐI NGANG → (-1.7%)",
+        "3 tháng": "TĂNG ↑ (+23.9%)",
+        "9 tháng": "ĐI NGANG → (-9.5%)"
       },
       "swings": {
         "swing_high": {
@@ -88,15 +91,13 @@
         }
       },
       "tracked_patterns": "2 đỉnh quanh 6,100đ, viền cổ 5,400đ; Vai-Đầu-Vai, viền cổ 5,200đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "SHN": {
-      "price": 8100.0,
-      "chg_pct": -7.95,
-      "rsi": 54.5,
-      "vol_ratio": 0.51,
+      "price": 8200.0,
+      "chg_pct": 1.23,
+      "rsi": 51.2,
+      "vol_ratio": 0.16,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -108,15 +109,15 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.5%)",
-        "1 tháng": "TĂNG ↑ (+19.1%)",
-        "3 tháng": "TĂNG ↑ (+118.9%)",
-        "9 tháng": "TĂNG ↑ (+80.0%)"
+        "1 tuần": "TĂNG ↑ (+13.9%)",
+        "1 tháng": "TĂNG ↑ (+17.1%)",
+        "3 tháng": "TĂNG ↑ (+127.8%)",
+        "9 tháng": "TĂNG ↑ (+82.2%)"
       },
       "swings": {
         "swing_high": {
-          "price": 11400.0,
-          "date": "2026-07-21"
+          "price": 9400.0,
+          "date": "2026-07-31"
         },
         "swing_low": {
           "price": 7200.0,
@@ -124,13 +125,15 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
-      "price": 10700.0,
-      "chg_pct": 0.94,
-      "rsi": 22.2,
-      "vol_ratio": 0.32,
+      "price": 11050.0,
+      "chg_pct": 3.27,
+      "rsi": 36.6,
+      "vol_ratio": 1.85,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -142,10 +145,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+1.9%)",
-        "1 tháng": "GIẢM ↓ (-6.6%)",
-        "3 tháng": "ĐI NGANG → (-2.3%)",
-        "9 tháng": "ĐI NGANG → (-3.2%)"
+        "1 tuần": "TĂNG ↑ (+5.2%)",
+        "1 tháng": "ĐI NGANG → (-2.2%)",
+        "3 tháng": "ĐI NGANG → (+1.4%)",
+        "9 tháng": "ĐI NGANG → (-0.8%)"
       },
       "swings": {
         "swing_high": {
@@ -158,11 +161,8 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 10,200đ, viền cổ 10,700đ",
-      "candles": [
-        "Bullish Engulfing (Nhấn chìm tăng)",
-        "Marubozu tăng"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-08-03T18:57:29.628919+07:00"
+  "snapshot_time": "2026-08-04T12:15:47.804514+07:00"
 }
