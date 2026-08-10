@@ -1,7 +1,7 @@
 {
   "symbols": {
     "NRC": {
-      "mode": "manual",
+      "mode": "auto",
       "manual": {
         "buy_zone_low": 5300,
         "buy_zone_high": 5500,
