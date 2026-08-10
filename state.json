@@ -32,7 +32,7 @@
       "price": 4800.0,
       "chg_pct": 0.0,
       "rsi": 31.2,
-      "vol_ratio": 0.09,
+      "vol_ratio": 0.21,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -66,7 +66,7 @@
       "price": 5600.0,
       "chg_pct": 0.0,
       "rsi": 33.3,
-      "vol_ratio": 0.11,
+      "vol_ratio": 0.13,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -99,10 +99,10 @@
       ]
     },
     "SHN": {
-      "price": 8300.0,
-      "chg_pct": -3.49,
-      "rsi": 35.1,
-      "vol_ratio": 0.05,
+      "price": 8400.0,
+      "chg_pct": -2.33,
+      "rsi": 35.6,
+      "vol_ratio": 0.1,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -114,10 +114,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.5%)",
-        "1 tháng": "TĂNG ↑ (+15.3%)",
-        "3 tháng": "TĂNG ↑ (+124.3%)",
-        "9 tháng": "TĂNG ↑ (+93.0%)"
+        "1 tuần": "TĂNG ↑ (+3.7%)",
+        "1 tháng": "TĂNG ↑ (+16.7%)",
+        "3 tháng": "TĂNG ↑ (+127.0%)",
+        "9 tháng": "TĂNG ↑ (+95.3%)"
       },
       "swings": {
         "swing_high": {
@@ -130,15 +130,13 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Bearish Engulfing (Nhấn chìm giảm)"
-      ]
+      "candles": []
     },
     "TTA": {
-      "price": 11250.0,
-      "chg_pct": -1.32,
-      "rsi": 70.0,
-      "vol_ratio": 0.26,
+      "price": 11300.0,
+      "chg_pct": -0.88,
+      "rsi": 71.8,
+      "vol_ratio": 0.24,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -150,10 +148,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+5.1%)",
-        "1 tháng": "ĐI NGANG → (-2.2%)",
-        "3 tháng": "ĐI NGANG → (+5.6%)",
-        "9 tháng": "ĐI NGANG → (+1.0%)"
+        "1 tuần": "TĂNG ↑ (+5.6%)",
+        "1 tháng": "ĐI NGANG → (-1.7%)",
+        "3 tháng": "ĐI NGANG → (+6.1%)",
+        "9 tháng": "ĐI NGANG → (+1.4%)"
       },
       "swings": {
         "swing_high": {
@@ -169,5 +167,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-08-10T12:24:44.416399+07:00"
+  "snapshot_time": "2026-08-10T13:51:08.434153+07:00"
 }
