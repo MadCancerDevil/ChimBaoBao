@@ -29,9 +29,9 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4800.0,
-      "chg_pct": 0.0,
-      "rsi": 33.3,
+      "price": 4700.0,
+      "chg_pct": -2.08,
+      "rsi": 30.8,
       "vol_ratio": 0.16,
       "ma_ok": false,
       "macd_ok": true,
@@ -44,10 +44,10 @@
         "target_high": 10010
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.1%)",
-        "1 tháng": "GIẢM ↓ (-20.0%)",
-        "3 tháng": "GIẢM ↓ (-22.6%)",
-        "9 tháng": "GIẢM ↓ (-23.8%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "GIẢM ↓ (-21.7%)",
+        "3 tháng": "GIẢM ↓ (-24.2%)",
+        "9 tháng": "GIẢM ↓ (-25.4%)"
       },
       "swings": {
         "swing_high": {
@@ -60,15 +60,13 @@
         }
       },
       "tracked_patterns": "2 đỉnh quanh 5,000đ, viền cổ 4,600đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "EVS": {
-      "price": 5700.0,
-      "chg_pct": -1.72,
-      "rsi": 37.5,
-      "vol_ratio": 0.17,
+      "price": 5800.0,
+      "chg_pct": 0.0,
+      "rsi": 40.0,
+      "vol_ratio": 0.2,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -80,10 +78,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "TĂNG ↑ (+5.6%)",
-        "3 tháng": "TĂNG ↑ (+23.9%)",
-        "9 tháng": "ĐI NGANG → (-8.1%)"
+        "1 tuần": "ĐI NGANG → (+1.8%)",
+        "1 tháng": "TĂNG ↑ (+7.4%)",
+        "3 tháng": "TĂNG ↑ (+26.1%)",
+        "9 tháng": "ĐI NGANG → (-6.5%)"
       },
       "swings": {
         "swing_high": {
@@ -97,14 +95,14 @@
       },
       "tracked_patterns": "3 đáy quanh 5,500đ, viền cổ 6,100đ; Vai-Đầu-Vai, viền cổ 5,200đ",
       "candles": [
-        "Marubozu giảm"
+        "Doji"
       ]
     },
     "SHN": {
       "price": 7900.0,
       "chg_pct": 2.6,
       "rsi": 40.6,
-      "vol_ratio": 0.22,
+      "vol_ratio": 0.21,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -169,5 +167,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-08-12T13:59:39.022846+07:00"
+  "snapshot_time": "2026-08-12T15:26:05.309287+07:00"
 }
