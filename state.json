@@ -7,7 +7,7 @@
     "EVS:MACD_CROSS": "2026-07-17T16:29:41.715795+07:00",
     "EVS:CANDLE_Marubozu tăn": "2026-07-17T16:29:42.191589+07:00",
     "EVS:CHART_BOTTOM_BREAK": "2026-07-17T16:29:42.666822+07:00",
-    "NRC:BUY_ZONE": "2026-07-21T14:45:29.544524+07:00",
+    "NRC:BUY_ZONE": "2026-08-13T14:04:51.001119+07:00",
     "TTA:BUY_ZONE": "2026-07-30T14:39:09.726013+07:00",
     "NRC:VOL_SPIKE": "2026-07-21T17:09:46.528629+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-07-21T12:21:44.763749+07:00",
@@ -29,10 +29,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4800.0,
-      "chg_pct": 2.13,
-      "rsi": 38.5,
-      "vol_ratio": 0.37,
+      "price": 4600.0,
+      "chg_pct": -2.13,
+      "rsi": 30.8,
+      "vol_ratio": 0.41,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -44,10 +44,10 @@
         "target_high": 10010
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.1%)",
-        "1 tháng": "GIẢM ↓ (-18.6%)",
-        "3 tháng": "GIẢM ↓ (-22.6%)",
-        "9 tháng": "GIẢM ↓ (-23.8%)"
+        "1 tuần": "GIẢM ↓ (-2.1%)",
+        "1 tháng": "GIẢM ↓ (-22.0%)",
+        "3 tháng": "GIẢM ↓ (-25.8%)",
+        "9 tháng": "GIẢM ↓ (-27.0%)"
       },
       "swings": {
         "swing_high": {
@@ -55,20 +55,18 @@
           "date": "2026-08-07"
         },
         "swing_low": {
-          "price": 4700.0,
-          "date": "2026-08-11"
+          "price": 4600.0,
+          "date": "2026-08-06"
         }
       },
       "tracked_patterns": "2 đỉnh quanh 5,000đ, viền cổ 4,600đ",
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "candles": []
     },
     "EVS": {
-      "price": 5700.0,
-      "chg_pct": -1.72,
-      "rsi": 46.2,
-      "vol_ratio": 0.29,
+      "price": 5500.0,
+      "chg_pct": -5.17,
+      "rsi": 40.0,
+      "vol_ratio": 0.77,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -80,10 +78,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "TĂNG ↑ (+5.6%)",
-        "3 tháng": "TĂNG ↑ (+23.9%)",
-        "9 tháng": "ĐI NGANG → (-6.6%)"
+        "1 tuần": "GIẢM ↓ (-3.5%)",
+        "1 tháng": "ĐI NGANG → (+1.9%)",
+        "3 tháng": "TĂNG ↑ (+19.6%)",
+        "9 tháng": "ĐI NGANG → (-9.8%)"
       },
       "swings": {
         "swing_high": {
@@ -91,8 +89,8 @@
           "date": "2026-08-11"
         },
         "swing_low": {
-          "price": 5600.0,
-          "date": "2026-08-11"
+          "price": 5500.0,
+          "date": "2026-08-06"
         }
       },
       "tracked_patterns": "3 đáy quanh 5,500đ, viền cổ 6,100đ; Vai-Đầu-Vai, viền cổ 5,200đ",
@@ -101,10 +99,10 @@
       ]
     },
     "SHN": {
-      "price": 7700.0,
-      "chg_pct": -2.53,
-      "rsi": 43.1,
-      "vol_ratio": 0.49,
+      "price": 7500.0,
+      "chg_pct": -5.06,
+      "rsi": 41.8,
+      "vol_ratio": 0.78,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -116,10 +114,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-8.3%)",
-        "1 tháng": "ĐI NGANG → (-3.7%)",
-        "3 tháng": "TĂNG ↑ (+126.5%)",
-        "9 tháng": "TĂNG ↑ (+75.0%)"
+        "1 tuần": "GIẢM ↓ (-10.7%)",
+        "1 tháng": "GIẢM ↓ (-6.2%)",
+        "3 tháng": "TĂNG ↑ (+120.6%)",
+        "9 tháng": "TĂNG ↑ (+70.5%)"
       },
       "swings": {
         "swing_high": {
@@ -127,8 +125,8 @@
           "date": "2026-08-10"
         },
         "swing_low": {
-          "price": 7600.0,
-          "date": "2026-08-11"
+          "price": 7800.0,
+          "date": "2026-08-04"
         }
       },
       "tracked_patterns": "hội tụ (nêm/tam giác dốc xuống) 8,690-8,528đ",
@@ -141,7 +139,7 @@
       "price": 11200.0,
       "chg_pct": -0.88,
       "rsi": 68.4,
-      "vol_ratio": 0.35,
+      "vol_ratio": 0.34,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -170,10 +168,9 @@
       },
       "tracked_patterns": "2 đỉnh quanh 11,750đ, viền cổ 10,200đ; hội tụ (nêm/tam giác dốc xuống) 11,076-11,170đ",
       "candles": [
-        "Bearish Engulfing (Nhấn chìm giảm)",
-        "Marubozu giảm"
+        "Bearish Engulfing (Nhấn chìm giảm)"
       ]
     }
   },
-  "snapshot_time": "2026-08-13T12:50:51.842014+07:00"
+  "snapshot_time": "2026-08-13T14:04:51.002062+07:00"
 }
