@@ -32,7 +32,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 36.4,
-      "vol_ratio": 0.32,
+      "vol_ratio": 0.28,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -68,7 +68,7 @@
       "price": 5400.0,
       "chg_pct": -1.82,
       "rsi": 42.9,
-      "vol_ratio": 0.25,
+      "vol_ratio": 0.21,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -101,10 +101,10 @@
       ]
     },
     "SHN": {
-      "price": 7100.0,
-      "chg_pct": -5.33,
-      "rsi": 43.8,
-      "vol_ratio": 0.5,
+      "price": 7300.0,
+      "chg_pct": -2.67,
+      "rsi": 45.2,
+      "vol_ratio": 0.43,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -116,10 +116,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-17.4%)",
-        "1 tháng": "GIẢM ↓ (-19.3%)",
-        "3 tháng": "TĂNG ↑ (+102.9%)",
-        "9 tháng": "TĂNG ↑ (+61.4%)"
+        "1 tuần": "GIẢM ↓ (-15.1%)",
+        "1 tháng": "GIẢM ↓ (-17.0%)",
+        "3 tháng": "TĂNG ↑ (+108.6%)",
+        "9 tháng": "TĂNG ↑ (+65.9%)"
       },
       "swings": {
         "swing_high": {
@@ -132,15 +132,13 @@
         }
       },
       "tracked_patterns": "hội tụ (nêm/tam giác dốc xuống) 8,823-8,357đ",
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     },
     "TTA": {
-      "price": 10900.0,
-      "chg_pct": -1.8,
-      "rsi": 59.1,
-      "vol_ratio": 0.47,
+      "price": 11050.0,
+      "chg_pct": -0.45,
+      "rsi": 63.4,
+      "vol_ratio": 0.42,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -152,10 +150,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-4.4%)",
-        "1 tháng": "GIẢM ↓ (-5.6%)",
-        "3 tháng": "ĐI NGANG → (+3.8%)",
-        "9 tháng": "ĐI NGANG → (-2.2%)"
+        "1 tuần": "GIẢM ↓ (-3.1%)",
+        "1 tháng": "GIẢM ↓ (-4.3%)",
+        "3 tháng": "ĐI NGANG → (+5.2%)",
+        "9 tháng": "ĐI NGANG → (-0.8%)"
       },
       "swings": {
         "swing_high": {
@@ -171,5 +169,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-08-14T11:09:40.856272+07:00"
+  "snapshot_time": "2026-08-14T12:45:49.170463+07:00"
 }
