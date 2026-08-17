@@ -220,3 +220,73 @@ bot chạy sớm (~1-2 phút thay vì chờ 5 phút).
 Lưu ý: khi webhook bật, bot chính tự chuyển sang đọc lệnh từ hàng đợi
 do Worker ghi (thư mục `queue/`), không còn qua getUpdates — lệnh gửi
 ngoài giờ giao dịch cũng không bao giờ bị mất nữa.
+
+---
+
+## Bản vá: lỗi "ConnectionError" / "RetryError" khi lấy dữ liệu
+
+**Triệu chứng:** Actions chạy báo đỏ, log hiện `[ERR] MÃ: RetryError[...
+raised ConnectionError]` cho TẤT CẢ các mã cùng lúc.
+
+**Nguyên nhân:** nguồn dữ liệu VCI giới hạn số lượng truy cập từ các IP
+dùng chung của máy chủ cloud (GitHub Actions, Kaggle, Colab đều thuộc
+nhóm này) — đây là giới hạn của gói miễn phí phía nhà cung cấp dữ liệu,
+không phải lỗi cấu hình của bạn. Càng nhiều mã theo dõi và gọi càng dồn
+dập thì càng dễ bị chặn tạm thời.
+
+**Đã khắc phục trong bản này:**
+- Tự động thử lại tối đa 4 lần với độ trễ tăng dần khi gặp lỗi kết nối,
+  trước khi thực sự báo lỗi.
+- Giãn cách ngẫu nhiên 1,5–3 giây giữa các mã khi tải dữ liệu, tránh dồn
+  request cùng lúc.
+- Cảnh báo lỗi toàn bộ mã chỉ gửi tối đa 1 lần/giờ (không bị spam liên
+  tục mỗi 5 phút nếu bị chặn kéo dài).
+
+**Nếu vẫn còn gặp thường xuyên sau bản vá này:**
+- Giảm số mã theo dõi cùng lúc (mỗi mã thêm là thêm 1 lần gọi API).
+- Giãn lịch chạy thưa hơn: sửa `*/5` thành `*/10` hoặc `*/15` trong
+  `.github/workflows/tracker.yml` (dòng cron đầu tiên).
+- Cân nhắc gói trả phí của vnstock (banner "Insiders Program" hiện trong
+  log) nếu cần độ ổn định cao hơn — đây là quyết định của bạn, không bắt
+  buộc để hệ thống chạy được.
+
+---
+
+## Bản vá: lịch chạy không chính xác (GitHub tự trễ 15-90 phút)
+
+**Triệu chứng:** cấu hình chạy mỗi 5 phút nhưng thực tế Actions chỉ chạy
+rải rác ~1 tiếng/lần; có ngày mất hẳn báo cáo cuối ngày dù mọi thứ vẫn
+cấu hình đúng.
+
+**Nguyên nhân:** đây là giới hạn đã biết của chính GitHub Actions — lịch
+chạy tự động (`schedule:`) không được đảm bảo đúng giờ, có thể trễ
+15-90 phút hoặc bị bỏ qua hoàn toàn khi hệ thống GitHub tải cao, đặc
+biệt với lịch chạy dày như mỗi 5 phút. Không có cách nào sửa từ phía
+code để khắc phục hoàn toàn — đây là hành vi của nền tảng.
+
+**Cách khắc phục:** dùng chính Cloudflare Worker đã cài (mục 8) để
+**chủ động gọi GitHub chạy đúng giờ**, thay vì để GitHub tự quyết định.
+Cloudflare Cron Trigger đáng tin cậy hơn nhiều so với lịch cron của
+GitHub. Lịch `schedule:` gốc trong GitHub vẫn được giữ lại làm dự
+phòng — nếu Cloudflare gặp sự cố, GitHub vẫn tự chạy được (dù có thể
+trễ), hệ thống không phụ thuộc hoàn toàn vào 1 phía.
+
+### Thêm Cron Trigger trên Cloudflare (bắt buộc để có bản vá này)
+
+1. Vào trang Worker của bạn trên Cloudflare Dashboard.
+2. Vào tab **Settings** → mục **Triggers**.
+3. Tìm phần **Cron Triggers** → bấm **Add Cron Trigger**.
+4. Thêm lần lượt **2 lịch** (mỗi lần bấm Add Cron Trigger là 1 lịch):
+   - `*/5 2-7 * * 1-5` — kiểm tra tín hiệu mỗi 5 phút trong phiên
+     (9h00–14h45 giờ VN, thứ 2–6)
+   - `30 8 * * 1-5` — báo cáo tổng kết cuối ngày (15h30 giờ VN)
+5. Bấm **Save** / **Add trigger** để lưu (tùy giao diện, tên nút có thể
+   khác đôi chút).
+
+**Không cần làm gì thêm** — `worker.js` trong bản vá này đã có sẵn hàm
+`scheduled()` tự nhận diện đúng lịch nào vừa kích hoạt và gọi GitHub
+chạy đúng chế độ (kiểm tra / báo cáo) tương ứng.
+
+**Kiểm tra hoạt động:** sau khi thêm Cron Trigger, đợi tới đúng phút kế
+tiếp chia hết cho 5 trong giờ giao dịch, vào tab Actions trên GitHub xem
+có lượt chạy mới xuất hiện đúng giờ không (thay vì rải rác như trước).

@@ -10,7 +10,9 @@ Chay tren GitHub Actions, thong bao qua Telegram (ho tro group).
 import glob
 import json
 import os
+import random
 import sys
+import time
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -104,17 +106,41 @@ def tg_get_updates(offset):
 # Du lieu gia (vnstock) - tang len 200 nen cho khung 9 thang
 # ---------------------------------------------------------------
 
-def fetch_history(symbol, days=200):
+def fetch_history(symbol, days=200, max_retries=4):
+    """Lay du lieu OHLCV ngay. Tra ve DataFrame co cot:
+    time, open, high, low, close, volume (gia don vi: dong).
+
+    VCI (nguon du lieu) gioi han request tu IP cloud dung chung
+    (nhu GitHub Actions) - can thu lai voi do tre tang dan neu
+    gap ConnectionError/RetryError, thay vi bo cuoc ngay."""
+    import random
+    import time as _time
+
     from vnstock import Vnstock
+
     end = datetime.now(VN_TZ).date()
     start = end - timedelta(days=days * 2)
-    stock = Vnstock().stock(symbol=symbol, source="VCI")
-    df = stock.quote.history(start=str(start), end=str(end), interval="1D")
-    df = df.rename(columns=str.lower)
-    if df["close"].iloc[-1] < 500:
-        for c in ["open", "high", "low", "close"]:
-            df[c] = df[c] * 1000
-    return df.dropna().reset_index(drop=True).tail(days).reset_index(drop=True)
+
+    last_err = None
+    for attempt in range(max_retries):
+        try:
+            stock = Vnstock().stock(symbol=symbol, source="VCI")
+            df = stock.quote.history(start=str(start), end=str(end),
+                                     interval="1D")
+            df = df.rename(columns=str.lower)
+            if df["close"].iloc[-1] < 500:
+                for c in ["open", "high", "low", "close"]:
+                    df[c] = df[c] * 1000
+            return (df.dropna().reset_index(drop=True)
+                    .tail(days).reset_index(drop=True))
+        except Exception as e:
+            last_err = e
+            if attempt < max_retries - 1:
+                wait = (2 ** attempt) + random.uniform(0.5, 1.5)
+                print(f"[WARN] {symbol}: thu lai sau {wait:.1f}s "
+                      f"(lan {attempt + 1}/{max_retries}) - {e}")
+                _time.sleep(wait)
+    raise last_err
 
 
 def symbol_exists(symbol):
@@ -609,7 +635,9 @@ def main():
     pf = pfm.load_portfolio()
 
     market, errors = {}, []
-    for sym, sym_cfg in list(cfg["symbols"].items()):
+    for idx, (sym, sym_cfg) in enumerate(list(cfg["symbols"].items())):
+        if idx > 0:
+            time.sleep(random.uniform(1.5, 3.0))  # giai request, tranh dot
         try:
             df = compute_indicators(fetch_history(sym), cfg)
             market[sym] = analyze_symbol(sym, df, cfg, sym_cfg)
@@ -618,7 +646,21 @@ def main():
             print(f"[ERR] {sym}: {e}")
 
     if errors and not market:
-        tg_send("❌ Lỗi lấy dữ liệu tất cả các mã:\n" + "\n".join(errors))
+        is_conn_err = any("Connection" in e or "Retry" in e for e in errors)
+        note = ("\n\nℹ️ Nghi do giới hạn truy cập từ nguồn dữ liệu (VCI) "
+                "khi gọi dồn dập từ máy chủ cloud - hệ thống đã tự thử "
+                "lại, sẽ tiếp tục thử ở chu kỳ sau." if is_conn_err else "")
+        last = state.get("last_alerts", {}).get("SYSTEM:ALL_ERR")
+        allow = not last or datetime.now(VN_TZ) - \
+            datetime.fromisoformat(last) >= timedelta(minutes=60)
+        if allow:
+            tg_send("❌ Lỗi lấy dữ liệu tất cả các mã:\n"
+                    + "\n".join(errors) + note)
+            state.setdefault("last_alerts", {})["SYSTEM:ALL_ERR"] = \
+                datetime.now(VN_TZ).isoformat()
+            save_json(STATE_FILE, state)
+        else:
+            print("[INFO] Bo qua canh bao loi toan bo (da bao gan day)")
         sys.exit(1)
 
     changed = process_commands(state, cfg, market, pf)

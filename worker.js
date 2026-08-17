@@ -80,7 +80,7 @@ export default {
                              msg.from.first_name));
       } else if (WRITE_CMDS.includes(cmd)) {
         await queueCommand(env, msg);
-        await triggerWorkflow(env);
+        await triggerWorkflow(env, "check");
         await reply(`✅ Đã ghi nhận lệnh ${text}\n` +
           `Sẽ áp dụng ở lần cập nhật dữ liệu tiếp theo (~1-2 phút).`);
       } else {
@@ -90,6 +90,18 @@ export default {
       await reply(`❌ Lỗi xử lý: ${e.message}`);
     }
     return new Response("ok");
+  },
+
+  // Cloudflare Cron Trigger goi ham nay - dung de CHU DONG "goi" GitHub
+  // chay dung gio, thay vi phu thuoc lich noi bo cua GitHub (von hay
+  // bi tre 15-90 phut hoac bo qua luot khi tai cao). Cau hinh Cron
+  // Trigger trong Cloudflare Dashboard, xem HUONG-DAN.md.
+  async scheduled(event, env, ctx) {
+    // event.cron khop dung 1 trong cac lich da khai bao ben Cloudflare.
+    // "30 8 * * 1-5"  -> bao cao cuoi ngay
+    // con lai (vd "*/5 2-7 * * 1-5") -> kiem tra tin hieu trong phien
+    const mode = event.cron === "30 8 * * 1-5" ? "report" : "check";
+    ctx.waitUntil(triggerWorkflow(env, mode));
   },
 };
 
@@ -206,14 +218,18 @@ async function queueCommand(env, msg) {
   if (!r.ok) throw new Error(`ghi hàng đợi thất bại (${r.status})`);
 }
 
-async function triggerWorkflow(env) {
-  await fetch(
+async function triggerWorkflow(env, mode = "check") {
+  const r = await fetch(
     `https://api.github.com/repos/${env.REPO}/actions/workflows/` +
     `tracker.yml/dispatches`,
     { method: "POST",
       headers: ghHeaders(env),
-      body: JSON.stringify({ ref: env.BRANCH }) });
-  // Khong throw neu that bai - lenh van se duoc xu ly o chu ky 5 phut
+      body: JSON.stringify({ ref: env.BRANCH, inputs: { mode } }) });
+  if (!r.ok) {
+    // Khong throw de khong lam hong phan xac nhan cho lenh nguoi dung -
+    // GitHub schedule du phong van co the tu chay o chu ky sau.
+    console.log(`triggerWorkflow(${mode}) that bai: ${r.status}`);
+  }
 }
 
 function ghHeaders(env) {
