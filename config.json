@@ -10,6 +10,17 @@
         "target_low": 7500,
         "target_high": 8500
       }
+    },
+    "EVS": {
+      "mode": "auto",
+      "manual": {
+        "buy_zone_low": 0,
+        "buy_zone_high": 0,
+        "breakout_level": 0,
+        "stoploss_level": 0,
+        "target_low": 0,
+        "target_high": 0
+      }
     }
   },
   "auto_defaults": {

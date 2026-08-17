@@ -35,7 +35,43 @@
       },
       "tracked_patterns": "3 đỉnh quanh 4,900đ, viền cổ 4,600đ",
       "candles": []
+    },
+    "EVS": {
+      "price": 5300.0,
+      "chg_pct": 0.0,
+      "rsi": 25.0,
+      "vol_ratio": 0.53,
+      "ma_ok": true,
+      "macd_ok": false,
+      "levels": {
+        "buy_zone_low": 5100,
+        "buy_zone_high": 5253,
+        "breakout_level": 6900,
+        "stoploss_level": 4870,
+        "target_low": 7935,
+        "target_high": 8970
+      },
+      "trends": {
+        "1 tuần": "GIẢM ↓ (-7.0%)",
+        "1 tháng": "GIẢM ↓ (-17.2%)",
+        "3 tháng": "TĂNG ↑ (+15.2%)",
+        "9 tháng": "ĐI NGANG → (-13.1%)"
+      },
+      "swings": {
+        "swing_high": {
+          "price": 5800.0,
+          "date": "2026-08-11"
+        },
+        "swing_low": {
+          "price": 5500.0,
+          "date": "2026-08-06"
+        }
+      },
+      "tracked_patterns": "3 đáy quanh 5,500đ, viền cổ 6,100đ",
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-08-17T16:37:52.024576+07:00"
+  "snapshot_time": "2026-08-17T16:42:34.335497+07:00"
 }
