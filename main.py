@@ -110,13 +110,13 @@ def fetch_history(symbol, days=200, max_retries=4):
     """Lay du lieu OHLCV ngay. Tra ve DataFrame co cot:
     time, open, high, low, close, volume (gia don vi: dong).
 
-    VCI (nguon du lieu) gioi han request tu IP cloud dung chung
-    (nhu GitHub Actions) - can thu lai voi do tre tang dan neu
-    gap ConnectionError/RetryError, thay vi bo cuoc ngay."""
+    Dung lop Quote moi cua vnstock (lop Vnstock() cu da het han ho tro
+    tu 31/08/2025 va co bug noi bo). Van giu retry vi VCI gioi han
+    request tu IP cloud dung chung (nhu GitHub Actions)."""
     import random
     import time as _time
 
-    from vnstock import Vnstock
+    from vnstock import Quote
 
     end = datetime.now(VN_TZ).date()
     start = end - timedelta(days=days * 2)
@@ -124,9 +124,9 @@ def fetch_history(symbol, days=200, max_retries=4):
     last_err = None
     for attempt in range(max_retries):
         try:
-            stock = Vnstock().stock(symbol=symbol, source="VCI")
-            df = stock.quote.history(start=str(start), end=str(end),
-                                     interval="1D")
+            quote = Quote(symbol=symbol, source="VCI")
+            df = quote.history(start=str(start), end=str(end),
+                               interval="1D")
             df = df.rename(columns=str.lower)
             if df["close"].iloc[-1] < 500:
                 for c in ["open", "high", "low", "close"]:
