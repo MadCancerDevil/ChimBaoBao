@@ -290,3 +290,52 @@ chạy đúng chế độ (kiểm tra / báo cáo) tương ứng.
 **Kiểm tra hoạt động:** sau khi thêm Cron Trigger, đợi tới đúng phút kế
 tiếp chia hết cho 5 trong giờ giao dịch, vào tab Actions trên GitHub xem
 có lượt chạy mới xuất hiện đúng giờ không (thay vì rải rác như trước).
+
+---
+
+## Bản vá: lỗi "cannot access local variable 'hosting_service'"
+
+**Triệu chứng:** log hiện lỗi Python nằm ngay bên trong thư viện
+`vnstock`, thử lại 4 lần vẫn lỗi y hệt (khác với ConnectionError ở bản
+vá trước — lỗi này không phải do mạng, thử lại không giúp được gì).
+
+**Nguyên nhân:** code đang dùng lớp `Vnstock()` kiểu cũ
+(`Vnstock().stock(symbol=..., source="VCI")`) — lớp này đã **chính thức
+hết hạn hỗ trợ từ 31/08/2025** theo thông báo của chính thư viện, và
+đường code nội bộ xử lý lớp cũ này hiện có lỗi thật (không phải do bạn
+cấu hình sai).
+
+**Đã khắc phục:** chuyển sang lớp `Quote` mới
+(`from vnstock import Quote; Quote(symbol=..., source="VCI")`) — đúng
+theo hướng dẫn migration chính thức của vnstock, không còn phụ thuộc
+đường code cũ đã lỗi thời.
+
+**Bạn chỉ cần thay lại file `main.py`** bằng bản trong gói này, không
+cần đổi gì thêm ở `requirements.txt` hay các file khác.
+
+---
+
+## Bản vá: lỗi "hosting_service" vẫn còn dù đã đổi sang lớp Quote
+
+**Nguyên nhân thật sự:** không phải do cách gọi API (`Vnstock()` hay
+`Quote()`), mà do **phiên bản thư viện**. `requirements.txt` trước đó
+ghi `vnstock>=3.2.0` không giới hạn trên, nên mỗi lần workflow chạy sẽ
+tự lấy bản **mới nhất tuyệt đối**. Vnstock bản 4.0.0 (phát hành
+28/04/2026) giới thiệu một lớp "smart manager" mới tự động quản lý
+request/rate-limit — và chính lớp mới này chứa lỗi `hosting_service`,
+ảnh hưởng đến cả cách gọi cũ lẫn mới.
+
+**Đã khắc phục:** ghim `requirements.txt` ở dòng phiên bản **3.x**
+(`vnstock>=3.2.0,<4.0.0`) — vẫn nhận các bản vá lỗi trong dòng 3.x,
+nhưng không bao giờ tự nhảy sang dòng 4.x cho đến khi bạn chủ động đổi.
+Đã kiểm tra: với bản 3.5.1, khi mạng bị chặn chỉ trả về lỗi
+`ConnectionError` thông thường (cơ chế thử-lại đã xử lý tốt), không
+còn lỗi `hosting_service` nữa.
+
+**Bạn cần thay 2 file:** `main.py` (bản dùng lớp `Quote`, đã gửi ở bản
+vá trước) và `requirements.txt` (bản ghim phiên bản này).
+
+**Nếu về sau muốn nâng lên dòng 4.x** (khi vnstock đã sửa lỗi này):
+sửa lại `vnstock>=3.2.0,<4.0.0` thành `vnstock>=4.0.0` trong
+`requirements.txt`, thử chạy lại — nếu ổn định thì giữ, nếu lỗi thì
+quay lại ghim 3.x như cũ.
