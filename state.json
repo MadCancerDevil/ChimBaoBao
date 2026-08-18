@@ -8,7 +8,7 @@
       "price": 4800.0,
       "chg_pct": 2.13,
       "rsi": 54.5,
-      "vol_ratio": 0.9,
+      "vol_ratio": 0.89,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -42,7 +42,7 @@
       "price": 5200.0,
       "chg_pct": -1.89,
       "rsi": 23.1,
-      "vol_ratio": 0.94,
+      "vol_ratio": 0.95,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -73,10 +73,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 11450.0,
-      "chg_pct": -1.72,
-      "rsi": 66.7,
-      "vol_ratio": 0.68,
+      "price": 11400.0,
+      "chg_pct": -2.15,
+      "rsi": 65.5,
+      "vol_ratio": 0.69,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -88,10 +88,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.4%)",
-        "1 tháng": "TĂNG ↑ (+8.5%)",
-        "3 tháng": "TĂNG ↑ (+10.6%)",
-        "9 tháng": "ĐI NGANG → (+4.6%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "TĂNG ↑ (+8.1%)",
+        "3 tháng": "TĂNG ↑ (+10.1%)",
+        "9 tháng": "ĐI NGANG → (+4.1%)"
       },
       "swings": {
         "swing_high": {
@@ -104,13 +104,15 @@
         }
       },
       "tracked_patterns": "hội tụ (nêm/tam giác dốc lên) 11,262-11,430đ",
-      "candles": []
+      "candles": [
+        "Dark Cloud Cover (Mây đen)"
+      ]
     },
     "SHN": {
-      "price": 7400.0,
-      "chg_pct": -2.63,
-      "rsi": 45.5,
-      "vol_ratio": 0.1,
+      "price": 7200.0,
+      "chg_pct": -5.26,
+      "rsi": 43.9,
+      "vol_ratio": 0.13,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -122,10 +124,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-3.9%)",
-        "1 tháng": "GIẢM ↓ (-29.5%)",
-        "3 tháng": "TĂNG ↑ (+105.6%)",
-        "9 tháng": "TĂNG ↑ (+68.2%)"
+        "1 tuần": "GIẢM ↓ (-6.5%)",
+        "1 tháng": "GIẢM ↓ (-31.4%)",
+        "3 tháng": "TĂNG ↑ (+100.0%)",
+        "9 tháng": "TĂNG ↑ (+63.6%)"
       },
       "swings": {
         "swing_high": {
@@ -141,5 +143,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-08-18T14:41:27.279617+07:00"
+  "snapshot_time": "2026-08-18T15:15:48.966011+07:00"
 }
