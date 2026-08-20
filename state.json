@@ -7,8 +7,8 @@
     "NRC": {
       "price": 4800.0,
       "chg_pct": 0.0,
-      "rsi": 60.0,
-      "vol_ratio": 1.3,
+      "rsi": 55.6,
+      "vol_ratio": 0.72,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -21,14 +21,14 @@
       },
       "trends": {
         "1 tuần": "TĂNG ↑ (+2.1%)",
-        "1 tháng": "GIẢM ↓ (-11.1%)",
+        "1 tháng": "GIẢM ↓ (-5.9%)",
         "3 tháng": "GIẢM ↓ (-22.6%)",
-        "9 tháng": "GIẢM ↓ (-26.2%)"
+        "9 tháng": "GIẢM ↓ (-25.0%)"
       },
       "swings": {
         "swing_high": {
           "price": 4900.0,
-          "date": "2026-08-12"
+          "date": "2026-08-18"
         },
         "swing_low": {
           "price": 4600.0,
@@ -36,15 +36,13 @@
         }
       },
       "tracked_patterns": "3 đáy quanh 4,600đ, viền cổ 5,000đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "EVS": {
       "price": 5300.0,
-      "chg_pct": 1.92,
-      "rsi": 28.6,
-      "vol_ratio": 0.97,
+      "chg_pct": 0.0,
+      "rsi": 30.8,
+      "vol_ratio": 0.11,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -56,10 +54,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-8.6%)",
-        "1 tháng": "GIẢM ↓ (-13.1%)",
+        "1 tuần": "GIẢM ↓ (-3.6%)",
+        "1 tháng": "GIẢM ↓ (-11.7%)",
         "3 tháng": "TĂNG ↑ (+15.2%)",
-        "9 tháng": "ĐI NGANG → (-14.5%)"
+        "9 tháng": "ĐI NGANG → (-13.1%)"
       },
       "swings": {
         "swing_high": {
@@ -71,14 +69,16 @@
           "date": "2026-08-17"
         }
       },
-      "tracked_patterns": "3 đáy quanh 5,500đ, viền cổ 6,100đ",
-      "candles": []
+      "tracked_patterns": null,
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
       "price": 11500.0,
-      "chg_pct": 0.88,
-      "rsi": 67.9,
-      "vol_ratio": 0.56,
+      "chg_pct": 0.0,
+      "rsi": 66.7,
+      "vol_ratio": 0.17,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -90,46 +90,46 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+1.8%)",
-        "1 tháng": "TĂNG ↑ (+10.0%)",
+        "1 tuần": "TĂNG ↑ (+3.6%)",
+        "1 tháng": "TĂNG ↑ (+8.5%)",
         "3 tháng": "TĂNG ↑ (+11.7%)",
-        "9 tháng": "ĐI NGANG → (+5.0%)"
+        "9 tháng": "ĐI NGANG → (+5.5%)"
       },
       "swings": {
         "swing_high": {
-          "price": 11450.0,
-          "date": "2026-08-12"
+          "price": 11800.0,
+          "date": "2026-08-18"
         },
         "swing_low": {
           "price": 10900.0,
           "date": "2026-08-14"
         }
       },
-      "tracked_patterns": "2 đáy quanh 10,900đ, viền cổ 11,800đ; hội tụ (nêm/tam giác dốc lên) 11,192-11,434đ",
+      "tracked_patterns": "2 đáy quanh 10,900đ, viền cổ 11,800đ; hội tụ (nêm/tam giác dốc lên) 11,252-11,437đ",
       "candles": [
-        "Shooting Star (Sao Băng)"
+        "Marubozu tăng"
       ]
     },
     "SHN": {
-      "price": 7100.0,
-      "chg_pct": -1.39,
-      "rsi": 35.3,
-      "vol_ratio": 0.38,
+      "price": 7200.0,
+      "chg_pct": 1.41,
+      "rsi": 34.0,
+      "vol_ratio": 0.16,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
-        "buy_zone_low": 5800,
-        "buy_zone_high": 5974,
+        "buy_zone_low": 6800,
+        "buy_zone_high": 7004,
         "breakout_level": 11400,
-        "stoploss_level": 5539,
+        "stoploss_level": 6494,
         "target_low": 13110,
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-10.1%)",
-        "1 tháng": "GIẢM ↓ (-32.4%)",
-        "3 tháng": "TĂNG ↑ (+102.9%)",
-        "9 tháng": "TĂNG ↑ (+57.8%)"
+        "1 tuần": "GIẢM ↓ (-4.0%)",
+        "1 tháng": "GIẢM ↓ (-24.2%)",
+        "3 tháng": "TĂNG ↑ (+105.7%)",
+        "9 tháng": "TĂNG ↑ (+53.2%)"
       },
       "swings": {
         "swing_high": {
@@ -141,9 +141,11 @@
           "date": "2026-08-14"
         }
       },
-      "tracked_patterns": "2 đáy quanh 7,100đ, viền cổ 9,700đ; hội tụ (nêm/tam giác dốc xuống) 7,810-7,850đ",
-      "candles": []
+      "tracked_patterns": "2 đáy quanh 7,100đ, viền cổ 9,700đ; hội tụ (nêm/tam giác dốc xuống) 7,871-7,693đ",
+      "candles": [
+        "Hammer (Búa)"
+      ]
     }
   },
-  "snapshot_time": "2026-08-19T16:05:18.501227+07:00"
+  "snapshot_time": "2026-08-20T09:56:39.066236+07:00"
 }
