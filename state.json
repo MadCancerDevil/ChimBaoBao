@@ -7,10 +7,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4900.0,
-      "chg_pct": 2.08,
-      "rsi": 55.6,
-      "vol_ratio": 0.52,
+      "price": 4800.0,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 0.41,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -22,10 +22,10 @@
         "target_high": 10010
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+6.5%)",
-        "1 tháng": "GIẢM ↓ (-5.8%)",
-        "3 tháng": "GIẢM ↓ (-21.0%)",
-        "9 tháng": "GIẢM ↓ (-25.8%)"
+        "1 tuần": "TĂNG ↑ (+4.3%)",
+        "1 tháng": "GIẢM ↓ (-7.7%)",
+        "3 tháng": "GIẢM ↓ (-22.6%)",
+        "9 tháng": "GIẢM ↓ (-27.3%)"
       },
       "swings": {
         "swing_high": {
@@ -39,14 +39,14 @@
       },
       "tracked_patterns": "3 đỉnh quanh 4,900đ, viền cổ 4,600đ",
       "candles": [
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "EVS": {
       "price": 5400.0,
       "chg_pct": 1.89,
       "rsi": 35.7,
-      "vol_ratio": 0.6,
+      "vol_ratio": 0.47,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -79,10 +79,10 @@
       ]
     },
     "TTA": {
-      "price": 11500.0,
-      "chg_pct": 1.32,
-      "rsi": 63.8,
-      "vol_ratio": 0.13,
+      "price": 11400.0,
+      "chg_pct": 0.44,
+      "rsi": 62.5,
+      "vol_ratio": 0.2,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -94,10 +94,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.7%)",
-        "1 tháng": "TĂNG ↑ (+8.5%)",
-        "3 tháng": "TĂNG ↑ (+11.7%)",
-        "9 tháng": "ĐI NGANG → (+4.5%)"
+        "1 tuần": "ĐI NGANG → (+1.8%)",
+        "1 tháng": "TĂNG ↑ (+7.5%)",
+        "3 tháng": "TĂNG ↑ (+10.7%)",
+        "9 tháng": "ĐI NGANG → (+3.6%)"
       },
       "swings": {
         "swing_high": {
@@ -111,15 +111,14 @@
       },
       "tracked_patterns": "2 đỉnh quanh 11,800đ, viền cổ 10,900đ",
       "candles": [
-        "Bullish Engulfing (Nhấn chìm tăng)",
-        "Marubozu tăng"
+        "Shooting Star (Sao Băng)"
       ]
     },
     "SHN": {
-      "price": 7100.0,
-      "chg_pct": 2.9,
-      "rsi": 39.1,
-      "vol_ratio": 0.08,
+      "price": 7000.0,
+      "chg_pct": 1.45,
+      "rsi": 37.8,
+      "vol_ratio": 0.2,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -131,10 +130,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.4%)",
-        "1 tháng": "GIẢM ↓ (-22.8%)",
-        "3 tháng": "TĂNG ↑ (+97.2%)",
-        "9 tháng": "TĂNG ↑ (+51.1%)"
+        "1 tuần": "GIẢM ↓ (-2.8%)",
+        "1 tháng": "GIẢM ↓ (-23.9%)",
+        "3 tháng": "TĂNG ↑ (+94.4%)",
+        "9 tháng": "TĂNG ↑ (+48.9%)"
       },
       "swings": {
         "swing_high": {
@@ -147,10 +146,8 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 7,100đ, viền cổ 9,700đ; hội tụ (nêm/tam giác dốc xuống) 7,932-7,537đ",
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-08-21T10:57:07.455206+07:00"
+  "snapshot_time": "2026-08-21T11:42:07.918778+07:00"
 }
