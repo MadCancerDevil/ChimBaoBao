@@ -8,9 +8,9 @@
   "snapshot": {
     "NRC": {
       "price": 5000.0,
-      "chg_pct": 4.17,
-      "rsi": 60.0,
-      "vol_ratio": 1.4,
+      "chg_pct": 0.0,
+      "rsi": 55.6,
+      "vol_ratio": 1.0,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -22,10 +22,10 @@
         "target_high": 10010
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+8.7%)",
-        "1 tháng": "ĐI NGANG → (-3.8%)",
-        "3 tháng": "GIẢM ↓ (-19.4%)",
-        "9 tháng": "GIẢM ↓ (-24.2%)"
+        "1 tuần": "TĂNG ↑ (+6.4%)",
+        "1 tháng": "ĐI NGANG → (-2.0%)",
+        "3 tháng": "GIẢM ↓ (-16.7%)",
+        "9 tháng": "GIẢM ↓ (-20.6%)"
       },
       "swings": {
         "swing_high": {
@@ -37,14 +37,16 @@
           "date": "2026-08-19"
         }
       },
-      "tracked_patterns": "3 đỉnh quanh 4,900đ, viền cổ 4,600đ",
-      "candles": []
+      "tracked_patterns": "3 đáy quanh 4,600đ, viền cổ 5,100đ; hội tụ (nêm/tam giác dốc xuống) 4,632-4,858đ",
+      "candles": [
+        "Doji"
+      ]
     },
     "EVS": {
       "price": 5600.0,
-      "chg_pct": 5.66,
-      "rsi": 43.8,
-      "vol_ratio": 1.35,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 0.79,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -57,9 +59,9 @@
       },
       "trends": {
         "1 tuần": "TĂNG ↑ (+5.7%)",
-        "1 tháng": "GIẢM ↓ (-8.2%)",
+        "1 tháng": "ĐI NGANG → (-3.4%)",
         "3 tháng": "TĂNG ↑ (+24.4%)",
-        "9 tháng": "ĐI NGANG → (-9.7%)"
+        "9 tháng": "ĐI NGANG → (-8.2%)"
       },
       "swings": {
         "swing_high": {
@@ -72,13 +74,15 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
-      "price": 11600.0,
-      "chg_pct": 2.2,
-      "rsi": 65.0,
-      "vol_ratio": 0.4,
+      "price": 11450.0,
+      "chg_pct": -1.29,
+      "rsi": 57.9,
+      "vol_ratio": 0.02,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -90,10 +94,10 @@
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+3.6%)",
-        "1 tháng": "TĂNG ↑ (+9.4%)",
-        "3 tháng": "TĂNG ↑ (+12.6%)",
-        "9 tháng": "ĐI NGANG → (+5.5%)"
+        "1 tuần": "ĐI NGANG → (-1.7%)",
+        "1 tháng": "TĂNG ↑ (+9.0%)",
+        "3 tháng": "TĂNG ↑ (+8.0%)",
+        "9 tháng": "ĐI NGANG → (+5.0%)"
       },
       "swings": {
         "swing_high": {
@@ -101,20 +105,20 @@
           "date": "2026-08-18"
         },
         "swing_low": {
-          "price": 10900.0,
-          "date": "2026-08-14"
+          "price": 11300.0,
+          "date": "2026-08-20"
         }
       },
       "tracked_patterns": "2 đỉnh quanh 11,800đ, viền cổ 10,900đ",
       "candles": [
-        "Bullish Engulfing (Nhấn chìm tăng)"
+        "Marubozu giảm"
       ]
     },
     "SHN": {
-      "price": 7100.0,
-      "chg_pct": 2.9,
-      "rsi": 39.1,
-      "vol_ratio": 0.35,
+      "price": 7200.0,
+      "chg_pct": 1.41,
+      "rsi": 28.2,
+      "vol_ratio": 0.13,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -126,10 +130,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.4%)",
-        "1 tháng": "GIẢM ↓ (-22.8%)",
-        "3 tháng": "TĂNG ↑ (+97.2%)",
-        "9 tháng": "TĂNG ↑ (+51.1%)"
+        "1 tuần": "GIẢM ↓ (-5.3%)",
+        "1 tháng": "GIẢM ↓ (-16.3%)",
+        "3 tháng": "TĂNG ↑ (+105.7%)",
+        "9 tháng": "TĂNG ↑ (+50.0%)"
       },
       "swings": {
         "swing_high": {
@@ -137,13 +141,15 @@
           "date": "2026-08-13"
         },
         "swing_low": {
-          "price": 7100.0,
-          "date": "2026-08-14"
+          "price": 6700.0,
+          "date": "2026-08-20"
         }
       },
-      "tracked_patterns": "2 đáy quanh 7,100đ, viền cổ 9,700đ; hội tụ (nêm/tam giác dốc xuống) 7,932-7,537đ",
-      "candles": []
+      "tracked_patterns": "2 đáy quanh 7,100đ, viền cổ 9,700đ; hội tụ (nêm/tam giác dốc xuống) 7,994-7,380đ",
+      "candles": [
+        "Marubozu tăng"
+      ]
     }
   },
-  "snapshot_time": "2026-08-21T16:08:06.443365+07:00"
+  "snapshot_time": "2026-08-24T10:02:53.025715+07:00"
 }
