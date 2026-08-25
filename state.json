@@ -10,9 +10,9 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4900.0,
-      "chg_pct": -2.0,
-      "rsi": 62.5,
+      "price": 4800.0,
+      "chg_pct": -4.0,
+      "rsi": 55.6,
       "vol_ratio": 0.49,
       "ma_ok": false,
       "macd_ok": true,
@@ -25,10 +25,10 @@
         "target_high": 10010
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.1%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "GIẢM ↓ (-18.3%)",
-        "9 tháng": "GIẢM ↓ (-22.2%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "ĐI NGANG → (-2.0%)",
+        "3 tháng": "GIẢM ↓ (-20.0%)",
+        "9 tháng": "GIẢM ↓ (-23.8%)"
       },
       "swings": {
         "swing_high": {
@@ -41,13 +41,16 @@
         }
       },
       "tracked_patterns": "3 đáy quanh 4,600đ, viền cổ 5,100đ; hội tụ (nêm/tam giác dốc xuống) 4,638-4,848đ",
-      "candles": []
+      "candles": [
+        "Evening Star (Sao Hôm)",
+        "Marubozu giảm"
+      ]
     },
     "EVS": {
       "price": 5600.0,
       "chg_pct": 0.0,
       "rsi": 46.2,
-      "vol_ratio": 0.59,
+      "vol_ratio": 0.52,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -83,7 +86,7 @@
       "price": 11800.0,
       "chg_pct": 0.0,
       "rsi": 52.3,
-      "vol_ratio": 0.69,
+      "vol_ratio": 0.6,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -117,7 +120,7 @@
       "price": 6900.0,
       "chg_pct": -2.82,
       "rsi": 27.0,
-      "vol_ratio": 1.08,
+      "vol_ratio": 0.98,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -150,5 +153,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-08-25T14:14:34.657477+07:00"
+  "snapshot_time": "2026-08-25T15:01:46.655478+07:00"
 }
