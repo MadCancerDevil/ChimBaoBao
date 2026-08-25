@@ -2,7 +2,7 @@
   "last_update_id": 0,
   "last_alerts": {
     "EVS:BUY_ZONE": "2026-08-18T14:41:27.278559+07:00",
-    "SHN:BUY_ZONE": "2026-08-25T09:58:39.367022+07:00",
+    "SHN:BUY_ZONE": "2026-08-25T14:14:34.657414+07:00",
     "SHN:CANDLE_Marubozu tăn": "2026-08-21T10:02:53.572912+07:00",
     "SHN:CANDLE_Evening Star": "2026-08-25T09:58:39.906266+07:00",
     "SHN:CANDLE_Marubozu giả": "2026-08-25T09:58:40.472457+07:00",
@@ -13,7 +13,7 @@
       "price": 4900.0,
       "chg_pct": -2.0,
       "rsi": 62.5,
-      "vol_ratio": 0.3,
+      "vol_ratio": 0.49,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -44,10 +44,10 @@
       "candles": []
     },
     "EVS": {
-      "price": 5500.0,
-      "chg_pct": -1.79,
-      "rsi": 42.9,
-      "vol_ratio": 0.68,
+      "price": 5600.0,
+      "chg_pct": 0.0,
+      "rsi": 46.2,
+      "vol_ratio": 0.59,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -59,10 +59,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+5.8%)",
-        "1 tháng": "ĐI NGANG → (-1.8%)",
-        "3 tháng": "TĂNG ↑ (+19.6%)",
-        "9 tháng": "ĐI NGANG → (-8.3%)"
+        "1 tuần": "TĂNG ↑ (+7.7%)",
+        "1 tháng": "ĐI NGANG → (+0.0%)",
+        "3 tháng": "TĂNG ↑ (+21.7%)",
+        "9 tháng": "ĐI NGANG → (-6.7%)"
       },
       "swings": {
         "swing_high": {
@@ -76,14 +76,14 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Doji"
+        "Marubozu tăng"
       ]
     },
     "TTA": {
       "price": 11800.0,
       "chg_pct": 0.0,
       "rsi": 52.3,
-      "vol_ratio": 0.52,
+      "vol_ratio": 0.69,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -114,10 +114,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 7000.0,
-      "chg_pct": -1.41,
-      "rsi": 27.8,
-      "vol_ratio": 1.16,
+      "price": 6900.0,
+      "chg_pct": -2.82,
+      "rsi": 27.0,
+      "vol_ratio": 1.08,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -129,10 +129,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.8%)",
-        "1 tháng": "GIẢM ↓ (-11.4%)",
-        "3 tháng": "TĂNG ↑ (+100.0%)",
-        "9 tháng": "TĂNG ↑ (+45.8%)"
+        "1 tuần": "GIẢM ↓ (-4.2%)",
+        "1 tháng": "GIẢM ↓ (-12.7%)",
+        "3 tháng": "TĂNG ↑ (+97.1%)",
+        "9 tháng": "TĂNG ↑ (+43.8%)"
       },
       "swings": {
         "swing_high": {
@@ -146,9 +146,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Hammer (Búa)"
+        "Evening Star (Sao Hôm)"
       ]
     }
   },
-  "snapshot_time": "2026-08-25T13:20:09.817136+07:00"
+  "snapshot_time": "2026-08-25T14:14:34.657477+07:00"
 }
