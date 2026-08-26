@@ -13,7 +13,7 @@
       "price": 4900.0,
       "chg_pct": 2.08,
       "rsi": 60.0,
-      "vol_ratio": 0.08,
+      "vol_ratio": 0.07,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -46,10 +46,10 @@
       ]
     },
     "EVS": {
-      "price": 5400.0,
-      "chg_pct": -3.57,
-      "rsi": 40.0,
-      "vol_ratio": 0.64,
+      "price": 5500.0,
+      "chg_pct": -1.79,
+      "rsi": 42.9,
+      "vol_ratio": 0.51,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -61,10 +61,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+1.9%)",
-        "1 tháng": "GIẢM ↓ (-8.5%)",
-        "3 tháng": "TĂNG ↑ (+20.0%)",
-        "9 tháng": "ĐI NGANG → (-10.0%)"
+        "1 tuần": "TĂNG ↑ (+3.8%)",
+        "1 tháng": "GIẢM ↓ (-6.8%)",
+        "3 tháng": "TĂNG ↑ (+22.2%)",
+        "9 tháng": "ĐI NGANG → (-8.3%)"
       },
       "swings": {
         "swing_high": {
@@ -78,14 +78,14 @@
       },
       "tracked_patterns": "2 đỉnh quanh 5,700đ, viền cổ 5,100đ",
       "candles": [
-        "Marubozu giảm"
+        "Doji"
       ]
     },
     "TTA": {
       "price": 11650.0,
       "chg_pct": -1.27,
       "rsi": 51.1,
-      "vol_ratio": 0.02,
+      "vol_ratio": 0.01,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -118,10 +118,10 @@
       ]
     },
     "SHN": {
-      "price": 7000.0,
-      "chg_pct": 1.45,
-      "rsi": 30.6,
-      "vol_ratio": 0.16,
+      "price": 6700.0,
+      "chg_pct": -2.9,
+      "rsi": 27.0,
+      "vol_ratio": 0.23,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -133,10 +133,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.4%)",
-        "1 tháng": "ĐI NGANG → (-2.8%)",
-        "3 tháng": "TĂNG ↑ (+112.1%)",
-        "9 tháng": "TĂNG ↑ (+48.9%)"
+        "1 tuần": "GIẢM ↓ (-5.6%)",
+        "1 tháng": "GIẢM ↓ (-6.9%)",
+        "3 tháng": "TĂNG ↑ (+103.0%)",
+        "9 tháng": "TĂNG ↑ (+42.6%)"
       },
       "swings": {
         "swing_high": {
@@ -149,10 +149,8 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-08-26T10:59:49.164176+07:00"
+  "snapshot_time": "2026-08-26T11:49:46.211982+07:00"
 }
