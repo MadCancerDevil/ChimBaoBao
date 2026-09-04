@@ -2,7 +2,7 @@
   "last_update_id": 0,
   "last_alerts": {
     "EVS:BUY_ZONE": "2026-08-18T14:41:27.278559+07:00",
-    "SHN:BUY_ZONE": "2026-09-04T13:59:13.442976+07:00",
+    "SHN:BUY_ZONE": "2026-09-04T19:05:33.485333+07:00",
     "SHN:CANDLE_Marubozu tăn": "2026-08-26T10:59:49.164135+07:00",
     "SHN:CANDLE_Evening Star": "2026-08-25T09:58:39.906266+07:00",
     "SHN:CANDLE_Marubozu giả": "2026-08-25T09:58:40.472457+07:00",
@@ -13,7 +13,7 @@
       "price": 4800.0,
       "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 0.58,
+      "vol_ratio": 0.61,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -44,10 +44,10 @@
       "candles": []
     },
     "EVS": {
-      "price": 5400.0,
-      "chg_pct": 0.0,
-      "rsi": 33.3,
-      "vol_ratio": 0.43,
+      "price": 5300.0,
+      "chg_pct": -1.85,
+      "rsi": 30.8,
+      "vol_ratio": 0.64,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -59,10 +59,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-3.6%)",
-        "1 tháng": "GIẢM ↓ (-6.9%)",
-        "3 tháng": "TĂNG ↑ (+20.0%)",
-        "9 tháng": "ĐI NGANG → (-10.0%)"
+        "1 tuần": "GIẢM ↓ (-5.4%)",
+        "1 tháng": "GIẢM ↓ (-8.6%)",
+        "3 tháng": "TĂNG ↑ (+17.8%)",
+        "9 tháng": "ĐI NGANG → (-11.7%)"
       },
       "swings": {
         "swing_high": {
@@ -75,15 +75,13 @@
         }
       },
       "tracked_patterns": "3 đỉnh quanh 5,700đ, viền cổ 5,100đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "TTA": {
       "price": 11250.0,
       "chg_pct": -0.88,
       "rsi": 48.9,
-      "vol_ratio": 0.25,
+      "vol_ratio": 0.26,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -110,21 +108,21 @@
           "date": "2026-08-20"
         }
       },
-      "tracked_patterns": "chữ nhật 18 phiên 10,900-11,850đ (nén 8.3%); 2 đỉnh quanh 11,850đ, viền cổ 11,200đ",
+      "tracked_patterns": "chữ nhật 18 phiên 10,900-11,850đ (nén 8.3%); 2 đỉnh quanh 11,850đ, viền cổ 11,100đ",
       "candles": []
     },
     "SHN": {
       "price": 6100.0,
       "chg_pct": -3.17,
       "rsi": 20.0,
-      "vol_ratio": 0.74,
+      "vol_ratio": 0.85,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
-        "buy_zone_low": 6100,
-        "buy_zone_high": 6283,
+        "buy_zone_low": 6000,
+        "buy_zone_high": 6180,
         "breakout_level": 11400,
-        "stoploss_level": 5826,
+        "stoploss_level": 5730,
         "target_low": 13110,
         "target_high": 14820
       },
@@ -145,10 +143,8 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-09-04T13:59:13.443014+07:00"
+  "snapshot_time": "2026-09-04T19:05:33.485371+07:00"
 }
