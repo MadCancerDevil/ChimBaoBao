@@ -20,21 +20,21 @@
     "NRC": {
       "price": 4600.0,
       "chg_pct": 0.0,
-      "rsi": 33.3,
-      "vol_ratio": 0.25,
+      "rsi": 20.0,
+      "vol_ratio": 1.8,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 4400,
         "buy_zone_high": 4532,
-        "breakout_level": 6700,
+        "breakout_level": 6600,
         "stoploss_level": 4202,
-        "target_low": 7705,
-        "target_high": 8710
+        "target_low": 7590,
+        "target_high": 8580
       },
       "trends": {
         "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "ĐI NGANG → (-2.1%)",
+        "1 tháng": "GIẢM ↓ (-4.2%)",
         "3 tháng": "GIẢM ↓ (-20.7%)",
         "9 tháng": "GIẢM ↓ (-28.1%)"
       },
@@ -45,19 +45,19 @@
         },
         "swing_low": {
           "price": 4400.0,
-          "date": "2026-09-11"
+          "date": "2026-09-17"
         }
       },
       "tracked_patterns": null,
       "candles": [
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "EVS": {
-      "price": 5400.0,
-      "chg_pct": 8.0,
-      "rsi": 47.4,
-      "vol_ratio": 2.31,
+      "price": 5200.0,
+      "chg_pct": -3.7,
+      "rsi": 42.9,
+      "vol_ratio": 1.2,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -69,10 +69,10 @@
         "target_high": 8970
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+12.5%)",
-        "1 tháng": "ĐI NGANG → (+1.9%)",
-        "3 tháng": "TĂNG ↑ (+12.5%)",
-        "9 tháng": "ĐI NGANG → (-11.5%)"
+        "1 tuần": "TĂNG ↑ (+10.6%)",
+        "1 tháng": "ĐI NGANG → (+0.0%)",
+        "3 tháng": "TĂNG ↑ (+8.3%)",
+        "9 tháng": "ĐI NGANG → (-14.8%)"
       },
       "swings": {
         "swing_high": {
@@ -84,29 +84,29 @@
           "date": "2026-09-16"
         }
       },
-      "tracked_patterns": null,
+      "tracked_patterns": "2 đáy quanh 4,700đ, viền cổ 5,500đ",
       "candles": []
     },
     "TTA": {
       "price": 11150.0,
       "chg_pct": 0.0,
-      "rsi": 25.0,
-      "vol_ratio": 0.14,
+      "rsi": 27.3,
+      "vol_ratio": 0.05,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
-        "buy_zone_low": 10550,
-        "buy_zone_high": 10866,
+        "buy_zone_low": 10800,
+        "buy_zone_high": 11124,
         "breakout_level": 11900,
-        "stoploss_level": 10075,
+        "stoploss_level": 10314,
         "target_low": 13685,
         "target_high": 15470
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.9%)",
-        "1 tháng": "GIẢM ↓ (-4.3%)",
-        "3 tháng": "ĐI NGANG → (+6.2%)",
-        "9 tháng": "ĐI NGANG → (+6.0%)"
+        "1 tuần": "ĐI NGANG → (+0.9%)",
+        "1 tháng": "ĐI NGANG → (-2.2%)",
+        "3 tháng": "ĐI NGANG → (-0.4%)",
+        "9 tháng": "ĐI NGANG → (+5.5%)"
       },
       "swings": {
         "swing_high": {
@@ -118,14 +118,14 @@
           "date": "2026-09-15"
         }
       },
-      "tracked_patterns": "chữ nhật 28 phiên 10,800-11,850đ (nén 9.2%)",
+      "tracked_patterns": "chữ nhật 29 phiên 10,800-11,850đ (nén 9.2%)",
       "candles": []
     },
     "SHN": {
-      "price": 7500.0,
-      "chg_pct": 8.7,
+      "price": 7300.0,
+      "chg_pct": -2.67,
       "rsi": 56.5,
-      "vol_ratio": 3.66,
+      "vol_ratio": 1.1,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -137,10 +137,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+17.2%)",
-        "1 tháng": "ĐI NGANG → (-1.3%)",
-        "3 tháng": "TĂNG ↑ (+97.4%)",
-        "9 tháng": "TĂNG ↑ (+56.2%)"
+        "1 tuần": "TĂNG ↑ (+9.0%)",
+        "1 tháng": "ĐI NGANG → (+1.4%)",
+        "3 tháng": "TĂNG ↑ (+102.8%)",
+        "9 tháng": "TĂNG ↑ (+49.0%)"
       },
       "swings": {
         "swing_high": {
@@ -152,11 +152,9 @@
           "date": "2026-09-16"
         }
       },
-      "tracked_patterns": null,
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "tracked_patterns": "2 đáy quanh 6,300đ, viền cổ 7,500đ",
+      "candles": []
     }
   },
-  "snapshot_time": "2026-09-18T20:05:46.417632+07:00"
+  "snapshot_time": "2026-09-21T14:40:59.863822+07:00"
 }
