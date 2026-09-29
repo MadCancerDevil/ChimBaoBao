@@ -80,9 +80,28 @@ def tg_send(text, parse_mode="HTML"):
         print(text)
         return
     try:
-        requests.post(f"{TG_API}/sendMessage",
-                      json={"chat_id": TELEGRAM_CHAT_ID, "text": text,
-                            "parse_mode": parse_mode}, timeout=15)
+        r = requests.post(f"{TG_API}/sendMessage",
+                          json={"chat_id": TELEGRAM_CHAT_ID, "text": text,
+                                "parse_mode": parse_mode}, timeout=15)
+        if r.status_code != 200:
+            body = r.text[:500]
+            print(f"[ERR] Telegram tu choi tin nhan (HTTP {r.status_code}): "
+                  f"{body}")
+            # Loi hay gap nhat: ky tu HTML khong hop le (< > & thua) khien
+            # Telegram tu choi ca tin nhan. Thu gui lai o dang van ban
+            # thuong (khong dinh dang) de KHONG mat noi dung, thay vi im
+            # lang bo qua nhu truoc.
+            if parse_mode and "parse entities" in body.lower():
+                r2 = requests.post(
+                    f"{TG_API}/sendMessage",
+                    json={"chat_id": TELEGRAM_CHAT_ID, "text": text},
+                    timeout=15)
+                if r2.status_code != 200:
+                    print(f"[ERR] Gui lai dang van ban thuong cung that "
+                          f"bai (HTTP {r2.status_code}): {r2.text[:500]}")
+                else:
+                    print("[INFO] Da gui lai thanh cong o dang van ban "
+                          "thuong (khong dinh dang) sau khi HTML loi.")
     except Exception as e:
         print(f"[ERR] Gui Telegram that bai: {e}")
 
@@ -422,7 +441,7 @@ def build_report_block(sym, prof, cfg):
         f"{(last['close']/week_ago['close']-1)*100:+.2f}% tuần) | "
         f"KL {vr:.1f}x TB20",
         f"RSI {last['rsi']:.1f} ({rsi_note}) | "
-        f"MA20 {'>' if last['ma_short'] > last['ma_long'] else '<'} MA50 | "
+        f"MA20 {'&gt;' if last['ma_short'] > last['ma_long'] else '&lt;'} MA50 | "
         f"MACD {'✅' if last['macd'] > last['macd_signal'] else '⚠️'}",
         "Đa khung: " + " | ".join(
             f"{k}: {v}" for k, v in prof["trends"].items()),
