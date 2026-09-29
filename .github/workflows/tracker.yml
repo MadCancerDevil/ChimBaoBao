@@ -2,12 +2,20 @@ name: Stock Tracker
 
 on:
   schedule:
-    # Gio VN = UTC+7. Phien giao dich 9:00-14:45 VN = 2:00-7:45 UTC
-    # Chay moi 5 phut trong phien, thu 2 - thu 6
+    # Du phong: GitHub tu chay theo lich nay, nhung KHONG dam bao dung
+    # gio (co the tre 15-90 phut khi tai cao). Lich chinh xac do
+    # Cloudflare Worker Cron Trigger chu dong goi qua workflow_dispatch
+    # ben duoi - xem HUONG-DAN.md.
     - cron: "*/5 2-7 * * 1-5"
-    # Bao cao cuoi ngay 15:30 VN = 8:30 UTC
     - cron: "30 8 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "che do chay"
+        required: false
+        default: "check"
+        type: choice
+        options: ["check", "report"]
 
 permissions:
   contents: write
@@ -34,9 +42,13 @@ jobs:
       - name: Xac dinh che do chay
         id: mode
         run: |
-          # Dua vao cron da kich hoat, khong dua vao dong ho
-          # (tranh nham lan khi GitHub chay tre qua moc 8h UTC)
-          if [ "${{ github.event.schedule }}" = "30 8 * * 1-5" ]; then
+          # Uu tien input tuong minh khi duoc goi qua workflow_dispatch
+          # (tu Cloudflare Worker hoac bam nut Run workflow thu cong).
+          # Chi khi khong co input (tuc GitHub tu kich hoat theo lich
+          # du phong) moi doan qua chuoi cron da kich hoat.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "action=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 8 * * 1-5" ]; then
             echo "action=report" >> "$GITHUB_OUTPUT"
           else
             echo "action=check" >> "$GITHUB_OUTPUT"
