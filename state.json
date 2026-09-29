@@ -15,14 +15,14 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-09-18T14:08:00.516498+07:00",
     "EVS:MACD_CROSS": "2026-09-18T19:12:47.271754+07:00",
-    "TTA:BUY_ZONE": "2026-09-29T09:28:55.763396+07:00"
+    "TTA:BUY_ZONE": "2026-09-29T13:31:06.935736+07:00"
   },
   "snapshot": {
     "NRC": {
       "price": 4600.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.08,
+      "vol_ratio": 0.07,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -58,7 +58,7 @@
       "price": 5100.0,
       "chg_pct": 0.0,
       "rsi": 55.0,
-      "vol_ratio": 0.17,
+      "vol_ratio": 0.16,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -94,7 +94,7 @@
       "price": 10800.0,
       "chg_pct": -0.92,
       "rsi": 17.6,
-      "vol_ratio": 0.06,
+      "vol_ratio": 0.07,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -130,7 +130,7 @@
       "price": 7200.0,
       "chg_pct": -1.37,
       "rsi": 52.8,
-      "vol_ratio": 0.68,
+      "vol_ratio": 0.67,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -161,5 +161,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-09-29T13:26:02.124717+07:00"
+  "snapshot_time": "2026-09-29T13:31:06.936628+07:00"
 }
