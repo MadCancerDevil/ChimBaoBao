@@ -103,34 +103,87 @@ def tg_get_updates(offset):
 
 
 # ---------------------------------------------------------------
-# Du lieu gia (vnstock) - tang len 200 nen cho khung 9 thang
+# Du lieu gia - goi thang API VCI (Vietcap), khong qua vnstock
 # ---------------------------------------------------------------
+# LY DO: goi vnstock (va goi phu thuoc bat buoc "vnai" cua no) da bi
+# PyPI dua vao dien "quarantine" tu 23-24/9/2026, khong cai dat duoc
+# nua tu bat ky nguon nao (ca PyPI lan GitHub, vi vnai khong co ma
+# nguon mo). Doan code duoi day goi truc tiep API cong khai cua VCI
+# ma chinh vnstock cung chi la lop boc ben ngoai - da doc tu ma nguon
+# mo cua vnstock (repo thinh-vu/vnstock, file
+# vnstock/explorer/vci/quote.py va const.py) de lay dung URL, dinh
+# dang payload va cach xu ly du lieu tra ve.
+
+_VCI_CHART_URL = "https://trading.vietcap.com.vn/api/chart/OHLCChart/gap"
+_VCI_HEADERS = {
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "vi",
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Referer": "https://trading.vietcap.com.vn/",
+    "Origin": "https://trading.vietcap.com.vn/",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    ),
+}
+
 
 def fetch_history(symbol, days=200, max_retries=4):
     """Lay du lieu OHLCV ngay. Tra ve DataFrame co cot:
     time, open, high, low, close, volume (gia don vi: dong).
 
-    Dung lop Quote moi cua vnstock (lop Vnstock() cu da het han ho tro
-    tu 31/08/2025 va co bug noi bo). Van giu retry vi VCI gioi han
-    request tu IP cloud dung chung (nhu GitHub Actions)."""
+    Goi thang API VCI bang requests (xem ghi chu tren dau file ve ly
+    do khong dung vnstock nua). Van giu retry vi VCI gioi han request
+    tu IP cloud dung chung (nhu GitHub Actions)."""
     import random
     import time as _time
 
-    from vnstock import Quote
-
     end = datetime.now(VN_TZ).date()
     start = end - timedelta(days=days * 2)
+    start_stamp = int(datetime.combine(
+        start, datetime.min.time(), tzinfo=VN_TZ).timestamp())
+    end_stamp = int(datetime.combine(
+        end + timedelta(days=1), datetime.min.time(),
+        tzinfo=VN_TZ).timestamp())
+
+    payload = {
+        "timeFrame": "ONE_DAY",
+        "symbols": [symbol.upper()],
+        "from": start_stamp,
+        "to": end_stamp,
+    }
 
     last_err = None
     for attempt in range(max_retries):
         try:
-            quote = Quote(symbol=symbol, source="VCI")
-            df = quote.history(start=str(start), end=str(end),
-                               interval="1D")
-            df = df.rename(columns=str.lower)
-            if df["close"].iloc[-1] < 500:
-                for c in ["open", "high", "low", "close"]:
-                    df[c] = df[c] * 1000
+            resp = requests.post(_VCI_CHART_URL, headers=_VCI_HEADERS,
+                                 json=payload, timeout=20)
+            if resp.status_code != 200:
+                raise ConnectionError(
+                    f"VCI tra ve {resp.status_code} - {resp.reason}")
+            json_data = resp.json()
+            if not json_data or not json_data[0].get("t"):
+                raise ValueError(
+                    f"Khong co du lieu cho {symbol} (mien VCI khong "
+                    "tra ve gia tri - kiem tra lai ma co dung khong)")
+
+            raw = json_data[0]
+            df = pd.DataFrame({
+                "time": raw["t"], "open": raw["o"], "high": raw["h"],
+                "low": raw["l"], "close": raw["c"], "volume": raw["v"],
+            })
+            # VCI tra ve unix timestamp (giay), gio UTC
+            df["time"] = (pd.to_datetime(df["time"].astype(int), unit="s")
+                          .dt.tz_localize("UTC")
+                          .dt.tz_convert("Asia/Ho_Chi_Minh")
+                          .dt.tz_localize(None))
+            for c in ["open", "high", "low", "close"]:
+                df[c] = df[c].astype(float)
+            df["volume"] = df["volume"].astype(float)
+
             return (df.dropna().reset_index(drop=True)
                     .tail(days).reset_index(drop=True))
         except Exception as e:

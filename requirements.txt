@@ -1,3 +1,6 @@
-vnstock>=3.2.0,<4.0.0
+# vnstock da bi go khoi requirements.txt (16/09/2026): goi VCI PyPI
+# "quarantine" toan bo goi vnstock va goi phu thuoc bat buoc vnai tu
+# 23-24/9/2026, khong the cai dat tu bat ky nguon nao. main.py gio
+# goi thang API cong khai cua VCI bang requests, khong con can vnstock.
 pandas>=2.0.0
 requests>=2.31.0
