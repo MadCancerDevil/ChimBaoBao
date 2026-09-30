@@ -22,7 +22,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 0.08,
+      "vol_ratio": 0.66,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -125,10 +125,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 7900.0,
-      "chg_pct": 8.22,
-      "rsi": 57.1,
-      "vol_ratio": 0.44,
+      "price": 8000.0,
+      "chg_pct": 9.59,
+      "rsi": 57.9,
+      "vol_ratio": 1.48,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -140,10 +140,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+16.2%)",
-        "1 tháng": "TĂNG ↑ (+17.9%)",
-        "3 tháng": "TĂNG ↑ (+51.9%)",
-        "9 tháng": "TĂNG ↑ (+58.0%)"
+        "1 tuần": "TĂNG ↑ (+17.6%)",
+        "1 tháng": "TĂNG ↑ (+19.4%)",
+        "3 tháng": "TĂNG ↑ (+53.8%)",
+        "9 tháng": "TĂNG ↑ (+60.0%)"
       },
       "swings": {
         "swing_high": {
@@ -157,9 +157,10 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Morning Star (Sao Mai)"
+        "Morning Star (Sao Mai)",
+        "Marubozu tăng"
       ]
     }
   },
-  "snapshot_time": "2026-09-30T09:06:36.972544+07:00"
+  "snapshot_time": "2026-09-30T09:16:12.864638+07:00"
 }
