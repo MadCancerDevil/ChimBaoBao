@@ -20,24 +20,24 @@
   "snapshot": {
     "NRC": {
       "price": 4700.0,
-      "chg_pct": 2.17,
+      "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 0.53,
+      "vol_ratio": 0.08,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 4400,
         "buy_zone_high": 4532,
-        "breakout_level": 6000,
+        "breakout_level": 5800,
         "stoploss_level": 4202,
-        "target_low": 6900,
-        "target_high": 7800
+        "target_low": 6670,
+        "target_high": 7540
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.2%)",
-        "1 tháng": "ĐI NGANG → (-2.1%)",
-        "3 tháng": "GIẢM ↓ (-30.9%)",
-        "9 tháng": "GIẢM ↓ (-23.0%)"
+        "1 tuần": "GIẢM ↓ (-4.1%)",
+        "1 tháng": "GIẢM ↓ (-4.1%)",
+        "3 tháng": "GIẢM ↓ (-28.8%)",
+        "9 tháng": "GIẢM ↓ (-24.2%)"
       },
       "swings": {
         "swing_high": {
@@ -45,13 +45,13 @@
           "date": "2026-09-23"
         },
         "swing_low": {
-          "price": 4500.0,
-          "date": "2026-09-22"
+          "price": 4600.0,
+          "date": "2026-09-28"
         }
       },
       "tracked_patterns": "2 đỉnh quanh 5,000đ, viền cổ 4,400đ",
       "candles": [
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "EVS": {
@@ -125,10 +125,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 7300.0,
-      "chg_pct": 0.0,
-      "rsi": 53.8,
-      "vol_ratio": 0.65,
+      "price": 7900.0,
+      "chg_pct": 8.22,
+      "rsi": 57.1,
+      "vol_ratio": 0.44,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -140,10 +140,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+5.8%)",
-        "1 tháng": "TĂNG ↑ (+5.8%)",
-        "3 tháng": "TĂNG ↑ (+52.1%)",
-        "9 tháng": "TĂNG ↑ (+49.0%)"
+        "1 tuần": "TĂNG ↑ (+16.2%)",
+        "1 tháng": "TĂNG ↑ (+17.9%)",
+        "3 tháng": "TĂNG ↑ (+51.9%)",
+        "9 tháng": "TĂNG ↑ (+58.0%)"
       },
       "swings": {
         "swing_high": {
@@ -155,9 +155,11 @@
           "date": "2026-09-23"
         }
       },
-      "tracked_patterns": "2 đỉnh quanh 7,500đ, viền cổ 6,300đ; hội tụ (nêm/tam giác dốc xuống) 6,782-7,213đ",
-      "candles": []
+      "tracked_patterns": null,
+      "candles": [
+        "Morning Star (Sao Mai)"
+      ]
     }
   },
-  "snapshot_time": "2026-09-30T09:01:55.901266+07:00"
+  "snapshot_time": "2026-09-30T09:06:36.972544+07:00"
 }
