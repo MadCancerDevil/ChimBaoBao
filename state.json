@@ -25,7 +25,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 1.18,
+      "vol_ratio": 1.15,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -94,10 +94,10 @@
       ]
     },
     "TTA": {
-      "price": 10850.0,
-      "chg_pct": 0.46,
-      "rsi": 22.2,
-      "vol_ratio": 0.28,
+      "price": 10800.0,
+      "chg_pct": 0.0,
+      "rsi": 17.6,
+      "vol_ratio": 0.31,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -109,10 +109,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.4%)",
-        "1 tháng": "GIẢM ↓ (-6.9%)",
-        "3 tháng": "ĐI NGANG → (-7.3%)",
-        "9 tháng": "ĐI NGANG → (+1.9%)"
+        "1 tuần": "ĐI NGANG → (-1.8%)",
+        "1 tháng": "GIẢM ↓ (-7.3%)",
+        "3 tháng": "ĐI NGANG → (-7.7%)",
+        "9 tháng": "ĐI NGANG → (+1.4%)"
       },
       "swings": {
         "swing_high": {
@@ -125,15 +125,13 @@
         }
       },
       "tracked_patterns": "chữ nhật 22 phiên 10,700-11,800đ (nén 9.8%); 2 đỉnh quanh 11,050đ, viền cổ 10,700đ",
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "candles": []
     },
     "SHN": {
       "price": 8000.0,
       "chg_pct": 9.59,
       "rsi": 57.9,
-      "vol_ratio": 2.35,
+      "vol_ratio": 2.29,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -167,5 +165,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-09-30T13:41:38.871060+07:00"
+  "snapshot_time": "2026-09-30T13:46:36.036828+07:00"
 }
