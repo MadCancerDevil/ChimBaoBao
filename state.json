@@ -25,22 +25,22 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 0.97,
+      "vol_ratio": 0.0,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 4400,
         "buy_zone_high": 4532,
-        "breakout_level": 5800,
+        "breakout_level": 5500,
         "stoploss_level": 4202,
-        "target_low": 6670,
-        "target_high": 7540
+        "target_low": 6325,
+        "target_high": 7150
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-4.1%)",
+        "1 tuần": "GIẢM ↓ (-2.1%)",
         "1 tháng": "GIẢM ↓ (-4.1%)",
-        "3 tháng": "GIẢM ↓ (-28.8%)",
-        "9 tháng": "GIẢM ↓ (-24.2%)"
+        "3 tháng": "GIẢM ↓ (-32.9%)",
+        "9 tháng": "GIẢM ↓ (-23.0%)"
       },
       "swings": {
         "swing_high": {
@@ -52,7 +52,7 @@
           "date": "2026-09-28"
         }
       },
-      "tracked_patterns": "2 đỉnh quanh 5,000đ, viền cổ 4,400đ",
+      "tracked_patterns": "2 đáy quanh 4,600đ, viền cổ 5,000đ; hội tụ (nêm/tam giác dốc xuống) 4,619-4,814đ",
       "candles": [
         "Doji"
       ]
@@ -61,7 +61,7 @@
       "price": 5100.0,
       "chg_pct": 2.0,
       "rsi": 57.9,
-      "vol_ratio": 0.19,
+      "vol_ratio": 0.26,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -131,7 +131,7 @@
       "price": 8800.0,
       "chg_pct": 10.0,
       "rsi": 70.7,
-      "vol_ratio": 8.97,
+      "vol_ratio": 9.42,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -162,5 +162,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-01T09:31:06.943879+07:00"
+  "snapshot_time": "2026-10-01T09:35:53.392497+07:00"
 }
