@@ -128,10 +128,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 8300.0,
-      "chg_pct": 3.75,
-      "rsi": 67.9,
-      "vol_ratio": 0.01,
+      "price": 8700.0,
+      "chg_pct": 8.75,
+      "rsi": 70.2,
+      "vol_ratio": 0.69,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -143,10 +143,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+12.2%)",
-        "1 tháng": "TĂNG ↑ (+23.9%)",
-        "3 tháng": "TĂNG ↑ (+45.6%)",
-        "9 tháng": "TĂNG ↑ (+69.4%)"
+        "1 tuần": "TĂNG ↑ (+17.6%)",
+        "1 tháng": "TĂNG ↑ (+29.9%)",
+        "3 tháng": "TĂNG ↑ (+52.6%)",
+        "9 tháng": "TĂNG ↑ (+77.6%)"
       },
       "swings": {
         "swing_high": {
@@ -159,10 +159,8 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-10-01T09:01:00.316951+07:00"
+  "snapshot_time": "2026-10-01T09:05:58.352269+07:00"
 }
