@@ -25,7 +25,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 0.09,
+      "vol_ratio": 0.28,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -61,7 +61,7 @@
       "price": 5000.0,
       "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 0.22,
+      "vol_ratio": 0.29,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -94,9 +94,9 @@
       ]
     },
     "TTA": {
-      "price": 10800.0,
-      "chg_pct": 0.0,
-      "rsi": 20.0,
+      "price": 10700.0,
+      "chg_pct": -0.93,
+      "rsi": 17.6,
       "vol_ratio": 0.0,
       "ma_ok": false,
       "macd_ok": false,
@@ -109,10 +109,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.8%)",
-        "1 tháng": "GIẢM ↓ (-6.5%)",
-        "3 tháng": "ĐI NGANG → (-7.7%)",
-        "9 tháng": "ĐI NGANG → (+1.9%)"
+        "1 tuần": "GIẢM ↓ (-2.7%)",
+        "1 tháng": "GIẢM ↓ (-7.4%)",
+        "3 tháng": "GIẢM ↓ (-8.5%)",
+        "9 tháng": "ĐI NGANG → (+0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -126,14 +126,14 @@
       },
       "tracked_patterns": "chữ nhật 23 phiên 10,700-11,800đ (nén 9.8%); 3 đáy quanh 10,700đ, viền cổ 11,250đ",
       "candles": [
-        "Doji"
+        "Marubozu giảm"
       ]
     },
     "SHN": {
       "price": 8600.0,
       "chg_pct": 7.5,
       "rsi": 69.6,
-      "vol_ratio": 3.43,
+      "vol_ratio": 3.35,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -164,5 +164,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-01T14:15:55.874097+07:00"
+  "snapshot_time": "2026-10-01T14:20:55.653431+07:00"
 }
