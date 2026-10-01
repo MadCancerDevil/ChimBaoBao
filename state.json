@@ -13,7 +13,7 @@
     "EVS:CANDLE_Marubozu tăn": "2026-09-15T19:44:10.661304+07:00",
     "EVS:CANDLE_Bullish Engu": "2026-09-17T14:14:03.530297+07:00",
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
-    "SHN:VOL_SPIKE": "2026-10-01T09:15:53.944400+07:00",
+    "SHN:VOL_SPIKE": "2026-10-01T13:15:59.049577+07:00",
     "EVS:MACD_CROSS": "2026-09-18T19:12:47.271754+07:00",
     "TTA:BUY_ZONE": "2026-10-01T13:01:01.363938+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
@@ -61,7 +61,7 @@
       "price": 5100.0,
       "chg_pct": 2.0,
       "rsi": 57.9,
-      "vol_ratio": 0.12,
+      "vol_ratio": 0.14,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -128,10 +128,10 @@
       ]
     },
     "SHN": {
-      "price": 8400.0,
-      "chg_pct": 5.0,
-      "rsi": 68.5,
-      "vol_ratio": 4.12,
+      "price": 8500.0,
+      "chg_pct": 6.25,
+      "rsi": 69.1,
+      "vol_ratio": 4.1,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -143,10 +143,10 @@
         "target_high": 14820
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+13.5%)",
-        "1 tháng": "TĂNG ↑ (+25.4%)",
-        "3 tháng": "TĂNG ↑ (+47.4%)",
-        "9 tháng": "TĂNG ↑ (+71.4%)"
+        "1 tuần": "TĂNG ↑ (+14.9%)",
+        "1 tháng": "TĂNG ↑ (+26.9%)",
+        "3 tháng": "TĂNG ↑ (+49.1%)",
+        "9 tháng": "TĂNG ↑ (+73.5%)"
       },
       "swings": {
         "swing_high": {
@@ -159,10 +159,8 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-10-01T13:10:56.532160+07:00"
+  "snapshot_time": "2026-10-01T13:15:59.049617+07:00"
 }
