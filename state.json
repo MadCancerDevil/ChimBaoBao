@@ -128,25 +128,25 @@
       ]
     },
     "SHN": {
-      "price": 8600.0,
-      "chg_pct": 7.5,
-      "rsi": 69.6,
-      "vol_ratio": 3.07,
+      "price": 8500.0,
+      "chg_pct": -1.16,
+      "rsi": 66.7,
+      "vol_ratio": 0.02,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 5900,
         "buy_zone_high": 6077,
-        "breakout_level": 11400,
+        "breakout_level": 11000,
         "stoploss_level": 5634,
-        "target_low": 13110,
-        "target_high": 14820
+        "target_low": 12650,
+        "target_high": 14300
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+16.2%)",
-        "1 tháng": "TĂNG ↑ (+28.4%)",
-        "3 tháng": "TĂNG ↑ (+50.9%)",
-        "9 tháng": "TĂNG ↑ (+75.5%)"
+        "1 tuần": "TĂNG ↑ (+9.0%)",
+        "1 tháng": "TĂNG ↑ (+34.9%)",
+        "3 tháng": "TĂNG ↑ (+37.1%)",
+        "9 tháng": "TĂNG ↑ (+70.0%)"
       },
       "swings": {
         "swing_high": {
@@ -159,8 +159,10 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-10-02T09:01:14.331940+07:00"
+  "snapshot_time": "2026-10-02T09:06:42.365524+07:00"
 }
