@@ -25,7 +25,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 50.0,
-      "vol_ratio": 0.24,
+      "vol_ratio": 0.22,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -61,7 +61,7 @@
       "price": 4900.0,
       "chg_pct": 0.0,
       "rsi": 55.6,
-      "vol_ratio": 0.1,
+      "vol_ratio": 0.09,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -133,7 +133,7 @@
       "price": 8300.0,
       "chg_pct": -3.49,
       "rsi": 64.3,
-      "vol_ratio": 0.27,
+      "vol_ratio": 0.37,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -161,10 +161,8 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-10-02T09:51:04.942104+07:00"
+  "snapshot_time": "2026-10-02T09:56:03.207690+07:00"
 }
