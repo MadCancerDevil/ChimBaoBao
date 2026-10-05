@@ -15,7 +15,7 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-01T13:15:59.049577+07:00",
     "EVS:MACD_CROSS": "2026-10-02T13:21:08.293561+07:00",
-    "TTA:BUY_ZONE": "2026-10-02T13:01:57.689109+07:00",
+    "TTA:BUY_ZONE": "2026-10-05T09:01:22.093166+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-09-30T13:20:58.231030+07:00"
@@ -58,25 +58,25 @@
       ]
     },
     "EVS": {
-      "price": 5300.0,
-      "chg_pct": 8.16,
+      "price": 5400.0,
+      "chg_pct": 1.89,
       "rsi": 63.6,
-      "vol_ratio": 1.31,
+      "vol_ratio": 0.22,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 4700,
         "buy_zone_high": 4841,
-        "breakout_level": 6300,
+        "breakout_level": 6200,
         "stoploss_level": 4488,
-        "target_low": 7245,
-        "target_high": 8190
+        "target_low": 7130,
+        "target_high": 8060
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "ĐI NGANG → (-1.9%)",
-        "3 tháng": "ĐI NGANG → (-3.6%)",
-        "9 tháng": "ĐI NGANG → (-14.5%)"
+        "1 tuần": "TĂNG ↑ (+5.9%)",
+        "1 tháng": "ĐI NGANG → (+1.9%)",
+        "3 tháng": "ĐI NGANG → (-6.9%)",
+        "9 tháng": "ĐI NGANG → (-11.5%)"
       },
       "swings": {
         "swing_high": {
@@ -84,14 +84,13 @@
           "date": "2026-09-22"
         },
         "swing_low": {
-          "price": 5000.0,
-          "date": "2026-09-28"
+          "price": 4900.0,
+          "date": "2026-10-01"
         }
       },
       "tracked_patterns": "3 đỉnh quanh 5,600đ, viền cổ 4,700đ",
       "candles": [
-        "Bullish Engulfing (Nhấn chìm tăng)",
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "TTA": {
@@ -163,5 +162,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-02T21:54:37.179443+07:00"
+  "snapshot_time": "2026-10-05T09:01:22.093858+07:00"
 }
