@@ -26,7 +26,7 @@
       "price": 4600.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.2,
+      "vol_ratio": 0.19,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -59,9 +59,9 @@
       ]
     },
     "EVS": {
-      "price": 5500.0,
-      "chg_pct": 3.77,
-      "rsi": 65.2,
+      "price": 5600.0,
+      "chg_pct": 5.66,
+      "rsi": 66.7,
       "vol_ratio": 3.25,
       "ma_ok": false,
       "macd_ok": true,
@@ -74,10 +74,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+7.8%)",
-        "1 tháng": "ĐI NGANG → (+3.8%)",
-        "3 tháng": "ĐI NGANG → (-5.2%)",
-        "9 tháng": "ĐI NGANG → (-9.8%)"
+        "1 tuần": "TĂNG ↑ (+9.8%)",
+        "1 tháng": "TĂNG ↑ (+5.7%)",
+        "3 tháng": "ĐI NGANG → (-3.4%)",
+        "9 tháng": "ĐI NGANG → (-8.2%)"
       },
       "swings": {
         "swing_high": {
@@ -93,10 +93,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10650.0,
-      "chg_pct": -1.39,
-      "rsi": 23.1,
-      "vol_ratio": 0.67,
+      "price": 10800.0,
+      "chg_pct": 0.0,
+      "rsi": 30.0,
+      "vol_ratio": 0.64,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -108,10 +108,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.3%)",
-        "1 tháng": "GIẢM ↓ (-5.3%)",
-        "3 tháng": "ĐI NGANG → (-7.0%)",
-        "9 tháng": "ĐI NGANG → (+0.9%)"
+        "1 tuần": "ĐI NGANG → (-0.9%)",
+        "1 tháng": "GIẢM ↓ (-4.0%)",
+        "3 tháng": "ĐI NGANG → (-5.7%)",
+        "9 tháng": "ĐI NGANG → (+2.4%)"
       },
       "swings": {
         "swing_high": {
@@ -124,13 +124,15 @@
         }
       },
       "tracked_patterns": "chữ nhật 23 phiên 10,650-11,750đ (nén 9.9%); 3 đáy quanh 10,700đ, viền cổ 11,250đ",
-      "candles": []
+      "candles": [
+        "Marubozu tăng"
+      ]
     },
     "SHN": {
       "price": 8000.0,
       "chg_pct": 0.0,
       "rsi": 60.3,
-      "vol_ratio": 0.59,
+      "vol_ratio": 0.58,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -163,5 +165,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-05T11:06:01.422281+07:00"
+  "snapshot_time": "2026-10-05T11:11:27.081964+07:00"
 }
