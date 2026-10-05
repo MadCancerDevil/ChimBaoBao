@@ -26,7 +26,7 @@
       "price": 4700.0,
       "chg_pct": 2.17,
       "rsi": 54.5,
-      "vol_ratio": 0.16,
+      "vol_ratio": 0.15,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -62,7 +62,7 @@
       "price": 5600.0,
       "chg_pct": 5.66,
       "rsi": 66.7,
-      "vol_ratio": 4.96,
+      "vol_ratio": 4.65,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -93,10 +93,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10750.0,
-      "chg_pct": -0.46,
-      "rsi": 27.3,
-      "vol_ratio": 0.54,
+      "price": 10650.0,
+      "chg_pct": -1.39,
+      "rsi": 23.1,
+      "vol_ratio": 0.66,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -108,10 +108,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.4%)",
-        "1 tháng": "GIẢM ↓ (-4.4%)",
-        "3 tháng": "ĐI NGANG → (-6.1%)",
-        "9 tháng": "ĐI NGANG → (+1.9%)"
+        "1 tuần": "GIẢM ↓ (-2.3%)",
+        "1 tháng": "GIẢM ↓ (-5.3%)",
+        "3 tháng": "ĐI NGANG → (-7.0%)",
+        "9 tháng": "ĐI NGANG → (+0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -124,15 +124,13 @@
         }
       },
       "tracked_patterns": "chữ nhật 23 phiên 10,650-11,750đ (nén 9.9%); 3 đáy quanh 10,700đ, viền cổ 11,250đ",
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "candles": []
     },
     "SHN": {
-      "price": 8100.0,
-      "chg_pct": 1.25,
-      "rsi": 61.0,
-      "vol_ratio": 0.86,
+      "price": 8000.0,
+      "chg_pct": 0.0,
+      "rsi": 60.3,
+      "vol_ratio": 0.97,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -144,10 +142,10 @@
         "target_high": 13260
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+11.0%)",
-        "1 tháng": "TĂNG ↑ (+32.8%)",
-        "3 tháng": "TĂNG ↑ (+19.1%)",
-        "9 tháng": "TĂNG ↑ (+65.3%)"
+        "1 tuần": "TĂNG ↑ (+9.6%)",
+        "1 tháng": "TĂNG ↑ (+31.1%)",
+        "3 tháng": "TĂNG ↑ (+17.6%)",
+        "9 tháng": "TĂNG ↑ (+63.3%)"
       },
       "swings": {
         "swing_high": {
@@ -161,9 +159,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Doji"
+        "Shooting Star (Sao Băng)"
       ]
     }
   },
-  "snapshot_time": "2026-10-05T10:06:08.077343+07:00"
+  "snapshot_time": "2026-10-05T10:11:00.157367+07:00"
 }
