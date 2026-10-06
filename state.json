@@ -15,7 +15,7 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-01T13:15:59.049577+07:00",
     "EVS:MACD_CROSS": "2026-10-02T13:21:08.293561+07:00",
-    "TTA:BUY_ZONE": "2026-10-06T09:01:09.506394+07:00",
+    "TTA:BUY_ZONE": "2026-10-06T13:01:39.855048+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-10-06T10:41:01.851615+07:00",
@@ -29,7 +29,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 54.5,
-      "vol_ratio": 0.37,
+      "vol_ratio": 0.38,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -62,10 +62,10 @@
       ]
     },
     "EVS": {
-      "price": 5900.0,
-      "chg_pct": 1.72,
-      "rsi": 73.1,
-      "vol_ratio": 3.79,
+      "price": 5800.0,
+      "chg_pct": 0.0,
+      "rsi": 72.0,
+      "vol_ratio": 4.03,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -77,10 +77,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+15.7%)",
-        "1 tháng": "TĂNG ↑ (+13.5%)",
-        "3 tháng": "ĐI NGANG → (+1.7%)",
-        "9 tháng": "ĐI NGANG → (-1.7%)"
+        "1 tuần": "TĂNG ↑ (+13.7%)",
+        "1 tháng": "TĂNG ↑ (+11.5%)",
+        "3 tháng": "ĐI NGANG → (+0.0%)",
+        "9 tháng": "ĐI NGANG → (-3.3%)"
       },
       "swings": {
         "swing_high": {
@@ -94,14 +94,14 @@
       },
       "tracked_patterns": "2 đáy quanh 4,900đ, viền cổ 5,800đ; hội tụ (tam giác cân) 5,005-5,518đ",
       "candles": [
-        "Doji"
+        "Shooting Star (Sao Băng)"
       ]
     },
     "TTA": {
       "price": 10600.0,
       "chg_pct": -1.4,
       "rsi": 21.4,
-      "vol_ratio": 1.82,
+      "vol_ratio": 1.83,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -132,10 +132,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 7800.0,
-      "chg_pct": 2.63,
-      "rsi": 62.7,
-      "vol_ratio": 0.7,
+      "price": 7600.0,
+      "chg_pct": 0.0,
+      "rsi": 61.4,
+      "vol_ratio": 0.87,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -147,10 +147,10 @@
         "target_high": 12870
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+6.8%)",
-        "1 tháng": "TĂNG ↑ (+27.9%)",
-        "3 tháng": "TĂNG ↑ (+11.4%)",
-        "9 tháng": "TĂNG ↑ (+66.0%)"
+        "1 tuần": "TĂNG ↑ (+4.1%)",
+        "1 tháng": "TĂNG ↑ (+24.6%)",
+        "3 tháng": "TĂNG ↑ (+8.6%)",
+        "9 tháng": "TĂNG ↑ (+61.7%)"
       },
       "swings": {
         "swing_high": {
@@ -164,9 +164,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Shooting Star (Sao Băng)"
+        "Doji"
       ]
     }
   },
-  "snapshot_time": "2026-10-06T12:56:28.147125+07:00"
+  "snapshot_time": "2026-10-06T13:01:39.855604+07:00"
 }
