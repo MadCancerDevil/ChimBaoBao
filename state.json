@@ -19,9 +19,9 @@
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-10-06T10:41:01.851615+07:00",
-    "EVS:VOL_SPIKE": "2026-10-06T09:31:03.532373+07:00",
+    "EVS:VOL_SPIKE": "2026-10-06T13:31:46.964427+07:00",
     "EVS:CANDLE_Three White ": "2026-10-06T09:31:04.525363+07:00",
-    "EVS:CHART_BOTTOM_BREAK": "2026-10-06T09:31:05.026277+07:00",
+    "EVS:CHART_BOTTOM_BREAK": "2026-10-06T13:31:47.445751+07:00",
     "EVS:CANDLE_Shooting Sta": "2026-10-06T09:46:05.833984+07:00"
   },
   "snapshot": {
@@ -29,7 +29,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 54.5,
-      "vol_ratio": 0.43,
+      "vol_ratio": 0.42,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -65,7 +65,7 @@
       "price": 6000.0,
       "chg_pct": 3.45,
       "rsi": 74.1,
-      "vol_ratio": 4.06,
+      "vol_ratio": 3.95,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -99,7 +99,7 @@
       "price": 10600.0,
       "chg_pct": -1.4,
       "rsi": 21.4,
-      "vol_ratio": 1.63,
+      "vol_ratio": 1.58,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -130,10 +130,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 7600.0,
-      "chg_pct": 0.0,
-      "rsi": 61.4,
-      "vol_ratio": 0.96,
+      "price": 7400.0,
+      "chg_pct": -2.63,
+      "rsi": 59.3,
+      "vol_ratio": 1.23,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -145,10 +145,10 @@
         "target_high": 12870
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+4.1%)",
-        "1 tháng": "TĂNG ↑ (+24.6%)",
-        "3 tháng": "TĂNG ↑ (+8.6%)",
-        "9 tháng": "TĂNG ↑ (+61.7%)"
+        "1 tuần": "ĐI NGANG → (+1.4%)",
+        "1 tháng": "TĂNG ↑ (+21.3%)",
+        "3 tháng": "ĐI NGANG → (+5.7%)",
+        "9 tháng": "TĂNG ↑ (+57.4%)"
       },
       "swings": {
         "swing_high": {
@@ -162,9 +162,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Doji"
+        "Shooting Star (Sao Băng)"
       ]
     }
   },
-  "snapshot_time": "2026-10-06T13:26:30.602321+07:00"
+  "snapshot_time": "2026-10-06T13:31:47.446572+07:00"
 }
