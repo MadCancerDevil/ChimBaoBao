@@ -18,7 +18,7 @@
     "TTA:BUY_ZONE": "2026-10-06T09:01:09.506394+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
-    "TTA:CANDLE_Marubozu tăn": "2026-10-05T10:06:08.076526+07:00",
+    "TTA:CANDLE_Marubozu tăn": "2026-10-06T10:41:01.851615+07:00",
     "EVS:VOL_SPIKE": "2026-10-06T09:31:03.532373+07:00",
     "EVS:CANDLE_Three White ": "2026-10-06T09:31:04.525363+07:00",
     "EVS:CHART_BOTTOM_BREAK": "2026-10-06T09:31:05.026277+07:00",
@@ -29,7 +29,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 54.5,
-      "vol_ratio": 0.34,
+      "vol_ratio": 0.32,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -65,7 +65,7 @@
       "price": 5900.0,
       "chg_pct": 1.72,
       "rsi": 73.1,
-      "vol_ratio": 5.39,
+      "vol_ratio": 5.29,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -98,10 +98,10 @@
       ]
     },
     "TTA": {
-      "price": 10650.0,
-      "chg_pct": -0.93,
-      "rsi": 23.1,
-      "vol_ratio": 0.03,
+      "price": 10700.0,
+      "chg_pct": -0.47,
+      "rsi": 25.0,
+      "vol_ratio": 0.26,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -113,10 +113,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.4%)",
-        "1 tháng": "GIẢM ↓ (-5.8%)",
-        "3 tháng": "ĐI NGANG → (-5.8%)",
-        "9 tháng": "ĐI NGANG → (+1.4%)"
+        "1 tuần": "ĐI NGANG → (-0.9%)",
+        "1 tháng": "GIẢM ↓ (-5.3%)",
+        "3 tháng": "ĐI NGANG → (-5.3%)",
+        "9 tháng": "ĐI NGANG → (+1.9%)"
       },
       "swings": {
         "swing_high": {
@@ -130,14 +130,14 @@
       },
       "tracked_patterns": "chữ nhật 23 phiên 10,550-11,550đ (nén 9.0%); 3 đáy quanh 10,700đ, viền cổ 11,250đ",
       "candles": [
-        "Doji"
+        "Marubozu tăng"
       ]
     },
     "SHN": {
       "price": 7900.0,
       "chg_pct": 3.95,
       "rsi": 63.3,
-      "vol_ratio": 0.85,
+      "vol_ratio": 0.81,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -168,5 +168,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-06T10:36:05.473725+07:00"
+  "snapshot_time": "2026-10-06T10:41:01.852179+07:00"
 }
