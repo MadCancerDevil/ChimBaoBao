@@ -29,7 +29,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 54.5,
-      "vol_ratio": 0.38,
+      "vol_ratio": 0.4,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -62,10 +62,10 @@
       ]
     },
     "EVS": {
-      "price": 5800.0,
-      "chg_pct": 0.0,
-      "rsi": 72.0,
-      "vol_ratio": 4.03,
+      "price": 6000.0,
+      "chg_pct": 3.45,
+      "rsi": 74.1,
+      "vol_ratio": 4.18,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -77,10 +77,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+13.7%)",
-        "1 tháng": "TĂNG ↑ (+11.5%)",
-        "3 tháng": "ĐI NGANG → (+0.0%)",
-        "9 tháng": "ĐI NGANG → (-3.3%)"
+        "1 tuần": "TĂNG ↑ (+17.6%)",
+        "1 tháng": "TĂNG ↑ (+15.4%)",
+        "3 tháng": "ĐI NGANG → (+3.4%)",
+        "9 tháng": "ĐI NGANG → (+0.0%)"
       },
       "swings": {
         "swing_high": {
@@ -93,15 +93,13 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 4,900đ, viền cổ 5,800đ; hội tụ (tam giác cân) 5,005-5,518đ",
-      "candles": [
-        "Shooting Star (Sao Băng)"
-      ]
+      "candles": []
     },
     "TTA": {
-      "price": 10600.0,
-      "chg_pct": -1.4,
-      "rsi": 21.4,
-      "vol_ratio": 1.83,
+      "price": 10650.0,
+      "chg_pct": -0.93,
+      "rsi": 23.1,
+      "vol_ratio": 1.77,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -113,10 +111,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
-        "1 tháng": "GIẢM ↓ (-6.2%)",
-        "3 tháng": "ĐI NGANG → (-6.2%)",
-        "9 tháng": "ĐI NGANG → (+1.0%)"
+        "1 tuần": "ĐI NGANG → (-1.4%)",
+        "1 tháng": "GIẢM ↓ (-5.8%)",
+        "3 tháng": "ĐI NGANG → (-5.8%)",
+        "9 tháng": "ĐI NGANG → (+1.4%)"
       },
       "swings": {
         "swing_high": {
@@ -129,13 +127,15 @@
         }
       },
       "tracked_patterns": "chữ nhật 23 phiên 10,550-11,550đ (nén 9.0%); 3 đáy quanh 10,700đ, viền cổ 11,250đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "SHN": {
-      "price": 7600.0,
-      "chg_pct": 0.0,
-      "rsi": 61.4,
-      "vol_ratio": 0.87,
+      "price": 7700.0,
+      "chg_pct": 1.32,
+      "rsi": 62.1,
+      "vol_ratio": 0.95,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -147,10 +147,10 @@
         "target_high": 12870
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+4.1%)",
-        "1 tháng": "TĂNG ↑ (+24.6%)",
-        "3 tháng": "TĂNG ↑ (+8.6%)",
-        "9 tháng": "TĂNG ↑ (+61.7%)"
+        "1 tuần": "TĂNG ↑ (+5.5%)",
+        "1 tháng": "TĂNG ↑ (+26.2%)",
+        "3 tháng": "TĂNG ↑ (+10.0%)",
+        "9 tháng": "TĂNG ↑ (+63.8%)"
       },
       "swings": {
         "swing_high": {
@@ -164,9 +164,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Doji"
+        "Shooting Star (Sao Băng)"
       ]
     }
   },
-  "snapshot_time": "2026-10-06T13:01:39.855604+07:00"
+  "snapshot_time": "2026-10-06T13:06:46.070985+07:00"
 }
