@@ -62,7 +62,7 @@
       "price": 5900.0,
       "chg_pct": 1.72,
       "rsi": 73.1,
-      "vol_ratio": 1.81,
+      "vol_ratio": 1.91,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -98,7 +98,7 @@
       "price": 10650.0,
       "chg_pct": -0.93,
       "rsi": 23.1,
-      "vol_ratio": 0.0,
+      "vol_ratio": 0.05,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -131,10 +131,10 @@
       ]
     },
     "SHN": {
-      "price": 7600.0,
-      "chg_pct": 0.0,
-      "rsi": 61.4,
-      "vol_ratio": 0.08,
+      "price": 7800.0,
+      "chg_pct": 2.63,
+      "rsi": 62.7,
+      "vol_ratio": 0.61,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -146,10 +146,10 @@
         "target_high": 12870
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+4.1%)",
-        "1 tháng": "TĂNG ↑ (+24.6%)",
-        "3 tháng": "TĂNG ↑ (+8.6%)",
-        "9 tháng": "TĂNG ↑ (+61.7%)"
+        "1 tuần": "TĂNG ↑ (+6.8%)",
+        "1 tháng": "TĂNG ↑ (+27.9%)",
+        "3 tháng": "TĂNG ↑ (+11.4%)",
+        "9 tháng": "TĂNG ↑ (+66.0%)"
       },
       "swings": {
         "swing_high": {
@@ -163,9 +163,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Doji"
+        "Marubozu tăng"
       ]
     }
   },
-  "snapshot_time": "2026-10-06T09:16:03.131568+07:00"
+  "snapshot_time": "2026-10-06T09:21:00.942590+07:00"
 }
