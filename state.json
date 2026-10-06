@@ -29,7 +29,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 54.5,
-      "vol_ratio": 0.42,
+      "vol_ratio": 0.43,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -65,7 +65,7 @@
       "price": 6000.0,
       "chg_pct": 3.45,
       "rsi": 74.1,
-      "vol_ratio": 3.95,
+      "vol_ratio": 4.04,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -96,10 +96,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10600.0,
-      "chg_pct": -1.4,
-      "rsi": 21.4,
-      "vol_ratio": 1.58,
+      "price": 10550.0,
+      "chg_pct": -1.86,
+      "rsi": 20.0,
+      "vol_ratio": 1.54,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -111,10 +111,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
-        "1 tháng": "GIẢM ↓ (-6.2%)",
-        "3 tháng": "ĐI NGANG → (-6.2%)",
-        "9 tháng": "ĐI NGANG → (+1.0%)"
+        "1 tuần": "GIẢM ↓ (-2.3%)",
+        "1 tháng": "GIẢM ↓ (-6.6%)",
+        "3 tháng": "ĐI NGANG → (-6.6%)",
+        "9 tháng": "ĐI NGANG → (+0.5%)"
       },
       "swings": {
         "swing_high": {
@@ -130,10 +130,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 7400.0,
-      "chg_pct": -2.63,
-      "rsi": 59.3,
-      "vol_ratio": 1.23,
+      "price": 7600.0,
+      "chg_pct": 0.0,
+      "rsi": 61.4,
+      "vol_ratio": 1.24,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -145,10 +145,10 @@
         "target_high": 12870
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+1.4%)",
-        "1 tháng": "TĂNG ↑ (+21.3%)",
-        "3 tháng": "ĐI NGANG → (+5.7%)",
-        "9 tháng": "TĂNG ↑ (+57.4%)"
+        "1 tuần": "TĂNG ↑ (+4.1%)",
+        "1 tháng": "TĂNG ↑ (+24.6%)",
+        "3 tháng": "TĂNG ↑ (+8.6%)",
+        "9 tháng": "TĂNG ↑ (+61.7%)"
       },
       "swings": {
         "swing_high": {
@@ -162,9 +162,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Shooting Star (Sao Băng)"
+        "Doji"
       ]
     }
   },
-  "snapshot_time": "2026-10-06T13:31:47.446572+07:00"
+  "snapshot_time": "2026-10-06T13:36:34.996542+07:00"
 }
