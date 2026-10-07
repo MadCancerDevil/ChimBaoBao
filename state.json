@@ -64,10 +64,10 @@
       "candles": []
     },
     "EVS": {
-      "price": 6000.0,
-      "chg_pct": -3.23,
-      "rsi": 67.9,
-      "vol_ratio": 0.91,
+      "price": 5900.0,
+      "chg_pct": -4.84,
+      "rsi": 65.5,
+      "vol_ratio": 1.01,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -79,10 +79,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+20.0%)",
-        "1 tháng": "TĂNG ↑ (+17.6%)",
-        "3 tháng": "ĐI NGANG → (+3.4%)",
-        "9 tháng": "ĐI NGANG → (+0.0%)"
+        "1 tuần": "TĂNG ↑ (+18.0%)",
+        "1 tháng": "TĂNG ↑ (+15.7%)",
+        "3 tháng": "ĐI NGANG → (+1.7%)",
+        "9 tháng": "ĐI NGANG → (-1.7%)"
       },
       "swings": {
         "swing_high": {
@@ -95,13 +95,15 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 4,900đ, viền cổ 6,200đ; hội tụ (tam giác cân) 5,025-5,513đ",
-      "candles": []
+      "candles": [
+        "Marubozu giảm"
+      ]
     },
     "TTA": {
       "price": 10600.0,
       "chg_pct": -0.93,
       "rsi": 0.0,
-      "vol_ratio": 4.41,
+      "vol_ratio": 4.38,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -134,10 +136,10 @@
       ]
     },
     "SHN": {
-      "price": 8600.0,
-      "chg_pct": 3.61,
-      "rsi": 63.9,
-      "vol_ratio": 0.82,
+      "price": 8500.0,
+      "chg_pct": 2.41,
+      "rsi": 63.3,
+      "vol_ratio": 0.88,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -149,10 +151,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+7.5%)",
-        "1 tháng": "TĂNG ↑ (+28.4%)",
-        "3 tháng": "TĂNG ↑ (+36.5%)",
-        "9 tháng": "TĂNG ↑ (+79.2%)"
+        "1 tuần": "TĂNG ↑ (+6.2%)",
+        "1 tháng": "TĂNG ↑ (+26.9%)",
+        "3 tháng": "TĂNG ↑ (+34.9%)",
+        "9 tháng": "TĂNG ↑ (+77.1%)"
       },
       "swings": {
         "swing_high": {
@@ -168,5 +170,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-07T12:56:31.767076+07:00"
+  "snapshot_time": "2026-10-07T13:01:39.945298+07:00"
 }
