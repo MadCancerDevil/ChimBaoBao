@@ -18,7 +18,7 @@
     "TTA:BUY_ZONE": "2026-10-07T09:02:10.553808+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
-    "TTA:CANDLE_Marubozu tăn": "2026-10-06T10:41:01.851615+07:00",
+    "TTA:CANDLE_Marubozu tăn": "2026-10-07T09:36:34.360425+07:00",
     "EVS:VOL_SPIKE": "2026-10-06T13:31:46.964427+07:00",
     "EVS:CANDLE_Three White ": "2026-10-06T14:31:38.131961+07:00",
     "EVS:CHART_BOTTOM_BREAK": "2026-10-06T13:31:47.445751+07:00",
@@ -68,7 +68,7 @@
       "price": 6000.0,
       "chg_pct": -3.23,
       "rsi": 67.9,
-      "vol_ratio": 0.2,
+      "vol_ratio": 0.41,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -101,10 +101,10 @@
       ]
     },
     "TTA": {
-      "price": 10700.0,
-      "chg_pct": 0.0,
-      "rsi": 0.0,
-      "vol_ratio": 0.0,
+      "price": 10800.0,
+      "chg_pct": 0.93,
+      "rsi": 18.2,
+      "vol_ratio": 0.82,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -116,10 +116,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.9%)",
-        "1 tháng": "GIẢM ↓ (-6.1%)",
-        "3 tháng": "ĐI NGANG → (-5.7%)",
-        "9 tháng": "ĐI NGANG → (+0.9%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "GIẢM ↓ (-5.3%)",
+        "3 tháng": "ĐI NGANG → (-4.8%)",
+        "9 tháng": "ĐI NGANG → (+1.9%)"
       },
       "swings": {
         "swing_high": {
@@ -133,14 +133,14 @@
       },
       "tracked_patterns": "chữ nhật 24 phiên 10,550-11,550đ (nén 9.0%); 2 đỉnh quanh 10,850đ, viền cổ 10,550đ",
       "candles": [
-        "Doji"
+        "Marubozu tăng"
       ]
     },
     "SHN": {
-      "price": 8500.0,
-      "chg_pct": 2.41,
-      "rsi": 63.3,
-      "vol_ratio": 0.34,
+      "price": 8700.0,
+      "chg_pct": 4.82,
+      "rsi": 64.5,
+      "vol_ratio": 0.47,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -152,10 +152,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+6.2%)",
-        "1 tháng": "TĂNG ↑ (+26.9%)",
-        "3 tháng": "TĂNG ↑ (+34.9%)",
-        "9 tháng": "TĂNG ↑ (+77.1%)"
+        "1 tuần": "TĂNG ↑ (+8.7%)",
+        "1 tháng": "TĂNG ↑ (+29.9%)",
+        "3 tháng": "TĂNG ↑ (+38.1%)",
+        "9 tháng": "TĂNG ↑ (+81.2%)"
       },
       "swings": {
         "swing_high": {
@@ -171,5 +171,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-07T09:31:41.452642+07:00"
+  "snapshot_time": "2026-10-07T09:36:34.361133+07:00"
 }
