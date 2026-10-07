@@ -33,7 +33,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 45.5,
-      "vol_ratio": 0.47,
+      "vol_ratio": 0.46,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -67,7 +67,7 @@
       "price": 5900.0,
       "chg_pct": -4.84,
       "rsi": 65.5,
-      "vol_ratio": 1.14,
+      "vol_ratio": 1.27,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -101,7 +101,7 @@
       "price": 10600.0,
       "chg_pct": -0.93,
       "rsi": 0.0,
-      "vol_ratio": 3.87,
+      "vol_ratio": 3.76,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -134,10 +134,10 @@
       ]
     },
     "SHN": {
-      "price": 8500.0,
-      "chg_pct": 2.41,
-      "rsi": 63.3,
-      "vol_ratio": 0.85,
+      "price": 8400.0,
+      "chg_pct": 1.2,
+      "rsi": 62.7,
+      "vol_ratio": 0.87,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -149,10 +149,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+6.2%)",
-        "1 tháng": "TĂNG ↑ (+26.9%)",
-        "3 tháng": "TĂNG ↑ (+34.9%)",
-        "9 tháng": "TĂNG ↑ (+77.1%)"
+        "1 tuần": "TĂNG ↑ (+5.0%)",
+        "1 tháng": "TĂNG ↑ (+25.4%)",
+        "3 tháng": "TĂNG ↑ (+33.3%)",
+        "9 tháng": "TĂNG ↑ (+75.0%)"
       },
       "swings": {
         "swing_high": {
@@ -165,8 +165,10 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Shooting Star (Sao Băng)"
+      ]
     }
   },
-  "snapshot_time": "2026-10-07T13:21:42.659354+07:00"
+  "snapshot_time": "2026-10-07T13:26:31.889764+07:00"
 }
