@@ -27,7 +27,8 @@
     "TTA:CANDLE_Hammer (Búa)": "2026-10-07T09:02:11.147485+07:00",
     "EVS:CANDLE_Marubozu giả": "2026-10-07T09:06:33.068953+07:00",
     "TTA:VOL_SPIKE": "2026-10-08T09:41:31.186128+07:00",
-    "TTA:CANDLE_Bearish Engu": "2026-10-07T14:21:39.349302+07:00"
+    "TTA:CANDLE_Bearish Engu": "2026-10-07T14:21:39.349302+07:00",
+    "SHN:CANDLE_Bearish Engu": "2026-10-08T14:26:38.809412+07:00"
   },
   "snapshot": {
     "NRC": {
@@ -67,10 +68,10 @@
       ]
     },
     "EVS": {
-      "price": 6000.0,
-      "chg_pct": 1.69,
-      "rsi": 61.5,
-      "vol_ratio": 1.45,
+      "price": 5900.0,
+      "chg_pct": 0.0,
+      "rsi": 60.0,
+      "vol_ratio": 1.43,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -82,10 +83,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+22.4%)",
-        "1 tháng": "TĂNG ↑ (+22.4%)",
-        "3 tháng": "ĐI NGANG → (+5.3%)",
-        "9 tháng": "ĐI NGANG → (+1.7%)"
+        "1 tuần": "TĂNG ↑ (+20.4%)",
+        "1 tháng": "TĂNG ↑ (+20.4%)",
+        "3 tháng": "ĐI NGANG → (+3.5%)",
+        "9 tháng": "ĐI NGANG → (+0.0%)"
       },
       "swings": {
         "swing_high": {
@@ -104,7 +105,7 @@
       "price": 10600.0,
       "chg_pct": -1.85,
       "rsi": 13.3,
-      "vol_ratio": 1.59,
+      "vol_ratio": 1.57,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -135,11 +136,11 @@
       "candles": []
     },
     "SHN": {
-      "price": 8400.0,
-      "chg_pct": -1.18,
-      "rsi": 58.2,
-      "vol_ratio": 3.22,
-      "ma_ok": true,
+      "price": 8200.0,
+      "chg_pct": -3.53,
+      "rsi": 56.1,
+      "vol_ratio": 3.2,
+      "ma_ok": false,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 5900,
@@ -150,10 +151,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.3%)",
-        "1 tháng": "TĂNG ↑ (+21.7%)",
-        "3 tháng": "TĂNG ↑ (+40.0%)",
-        "9 tháng": "TĂNG ↑ (+75.0%)"
+        "1 tuần": "GIẢM ↓ (-4.7%)",
+        "1 tháng": "TĂNG ↑ (+18.8%)",
+        "3 tháng": "TĂNG ↑ (+36.7%)",
+        "9 tháng": "TĂNG ↑ (+70.8%)"
       },
       "swings": {
         "swing_high": {
@@ -166,8 +167,10 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Bearish Engulfing (Nhấn chìm giảm)"
+      ]
     }
   },
-  "snapshot_time": "2026-10-08T14:21:37.389018+07:00"
+  "snapshot_time": "2026-10-08T14:26:38.809453+07:00"
 }
