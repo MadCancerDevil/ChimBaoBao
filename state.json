@@ -34,7 +34,7 @@
       "price": 4700.0,
       "chg_pct": 2.17,
       "rsi": 54.5,
-      "vol_ratio": 0.52,
+      "vol_ratio": 0.51,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -71,7 +71,7 @@
       "price": 5900.0,
       "chg_pct": 0.0,
       "rsi": 60.0,
-      "vol_ratio": 1.42,
+      "vol_ratio": 1.5,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -102,10 +102,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10700.0,
-      "chg_pct": -0.93,
-      "rsi": 15.4,
-      "vol_ratio": 1.47,
+      "price": 10650.0,
+      "chg_pct": -1.39,
+      "rsi": 14.3,
+      "vol_ratio": 1.5,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -117,10 +117,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.9%)",
-        "1 tháng": "GIẢM ↓ (-5.7%)",
-        "3 tháng": "ĐI NGANG → (-6.6%)",
-        "9 tháng": "ĐI NGANG → (+0.9%)"
+        "1 tuần": "ĐI NGANG → (-1.4%)",
+        "1 tháng": "GIẢM ↓ (-6.2%)",
+        "3 tháng": "ĐI NGANG → (-7.0%)",
+        "9 tháng": "ĐI NGANG → (+0.5%)"
       },
       "swings": {
         "swing_high": {
@@ -136,10 +136,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 8400.0,
-      "chg_pct": -1.18,
-      "rsi": 58.2,
-      "vol_ratio": 3.3,
+      "price": 8500.0,
+      "chg_pct": 0.0,
+      "rsi": 59.3,
+      "vol_ratio": 3.26,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -151,10 +151,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.3%)",
-        "1 tháng": "TĂNG ↑ (+21.7%)",
-        "3 tháng": "TĂNG ↑ (+40.0%)",
-        "9 tháng": "TĂNG ↑ (+75.0%)"
+        "1 tuần": "ĐI NGANG → (-1.2%)",
+        "1 tháng": "TĂNG ↑ (+23.2%)",
+        "3 tháng": "TĂNG ↑ (+41.7%)",
+        "9 tháng": "TĂNG ↑ (+77.1%)"
       },
       "swings": {
         "swing_high": {
@@ -170,5 +170,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-08T14:06:35.715975+07:00"
+  "snapshot_time": "2026-10-08T14:11:31.772140+07:00"
 }
