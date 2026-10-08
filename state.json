@@ -31,10 +31,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4700.0,
-      "chg_pct": 2.17,
-      "rsi": 54.5,
-      "vol_ratio": 0.53,
+      "price": 4600.0,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 0.6,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -46,10 +46,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "ĐI NGANG → (+2.2%)",
-        "3 tháng": "GIẢM ↓ (-28.8%)",
-        "9 tháng": "GIẢM ↓ (-20.3%)"
+        "1 tuần": "GIẢM ↓ (-2.1%)",
+        "1 tháng": "ĐI NGANG → (+0.0%)",
+        "3 tháng": "GIẢM ↓ (-30.3%)",
+        "9 tháng": "GIẢM ↓ (-22.0%)"
       },
       "swings": {
         "swing_high": {
@@ -63,15 +63,14 @@
       },
       "tracked_patterns": "3 đáy quanh 4,600đ, viền cổ 5,000đ; Vai-Đầu-Vai, viền cổ 4,400đ; hội tụ (nêm/tam giác dốc lên) 4,711-4,859đ",
       "candles": [
-        "Morning Star (Sao Mai)",
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "EVS": {
       "price": 5900.0,
       "chg_pct": 0.0,
       "rsi": 60.0,
-      "vol_ratio": 0.94,
+      "vol_ratio": 0.92,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -102,10 +101,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10750.0,
-      "chg_pct": -0.46,
-      "rsi": 16.7,
-      "vol_ratio": 2.04,
+      "price": 10700.0,
+      "chg_pct": -0.93,
+      "rsi": 15.4,
+      "vol_ratio": 1.98,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -117,10 +116,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.5%)",
-        "1 tháng": "GIẢM ↓ (-5.3%)",
-        "3 tháng": "ĐI NGANG → (-6.1%)",
-        "9 tháng": "ĐI NGANG → (+1.4%)"
+        "1 tuần": "ĐI NGANG → (-0.9%)",
+        "1 tháng": "GIẢM ↓ (-5.7%)",
+        "3 tháng": "ĐI NGANG → (-6.6%)",
+        "9 tháng": "ĐI NGANG → (+0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -133,15 +132,13 @@
         }
       },
       "tracked_patterns": "chữ nhật 25 phiên 10,550-11,550đ (nén 9.1%); 2 đáy quanh 10,550đ, viền cổ 10,950đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "SHN": {
       "price": 8500.0,
       "chg_pct": 0.0,
       "rsi": 59.3,
-      "vol_ratio": 4.17,
+      "vol_ratio": 4.08,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -172,5 +169,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-08T13:06:34.569759+07:00"
+  "snapshot_time": "2026-10-08T13:11:36.203259+07:00"
 }
