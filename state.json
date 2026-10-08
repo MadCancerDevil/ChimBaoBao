@@ -15,7 +15,7 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-08T10:21:33.001210+07:00",
     "EVS:MACD_CROSS": "2026-10-02T13:21:08.293561+07:00",
-    "TTA:BUY_ZONE": "2026-10-08T09:01:38.723058+07:00",
+    "TTA:BUY_ZONE": "2026-10-08T13:06:34.568990+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-10-08T09:16:34.496888+07:00",
@@ -34,7 +34,7 @@
       "price": 4700.0,
       "chg_pct": 2.17,
       "rsi": 54.5,
-      "vol_ratio": 0.55,
+      "vol_ratio": 0.53,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -68,10 +68,10 @@
       ]
     },
     "EVS": {
-      "price": 5800.0,
-      "chg_pct": -1.69,
-      "rsi": 57.7,
-      "vol_ratio": 0.85,
+      "price": 5900.0,
+      "chg_pct": 0.0,
+      "rsi": 60.0,
+      "vol_ratio": 0.94,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -83,10 +83,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+18.4%)",
-        "1 tháng": "TĂNG ↑ (+18.4%)",
-        "3 tháng": "ĐI NGANG → (+1.8%)",
-        "9 tháng": "ĐI NGANG → (-1.7%)"
+        "1 tuần": "TĂNG ↑ (+20.4%)",
+        "1 tháng": "TĂNG ↑ (+20.4%)",
+        "3 tháng": "ĐI NGANG → (+3.5%)",
+        "9 tháng": "ĐI NGANG → (+0.0%)"
       },
       "swings": {
         "swing_high": {
@@ -99,15 +99,13 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 4,900đ, viền cổ 6,200đ; hội tụ (tam giác cân) 5,045-5,507đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "TTA": {
       "price": 10750.0,
       "chg_pct": -0.46,
       "rsi": 16.7,
-      "vol_ratio": 2.11,
+      "vol_ratio": 2.04,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -143,7 +141,7 @@
       "price": 8500.0,
       "chg_pct": 0.0,
       "rsi": 59.3,
-      "vol_ratio": 4.19,
+      "vol_ratio": 4.17,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -174,5 +172,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-08T13:01:36.961722+07:00"
+  "snapshot_time": "2026-10-08T13:06:34.569759+07:00"
 }
