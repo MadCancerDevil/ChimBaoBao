@@ -13,7 +13,7 @@
     "EVS:CANDLE_Marubozu tăn": "2026-10-06T09:31:04.033837+07:00",
     "EVS:CANDLE_Bullish Engu": "2026-09-17T14:14:03.530297+07:00",
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
-    "SHN:VOL_SPIKE": "2026-10-01T13:15:59.049577+07:00",
+    "SHN:VOL_SPIKE": "2026-10-08T10:21:33.001210+07:00",
     "EVS:MACD_CROSS": "2026-10-02T13:21:08.293561+07:00",
     "TTA:BUY_ZONE": "2026-10-08T09:01:38.723058+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
@@ -34,7 +34,7 @@
       "price": 4600.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.5,
+      "vol_ratio": 0.47,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -70,7 +70,7 @@
       "price": 5900.0,
       "chg_pct": 0.0,
       "rsi": 60.0,
-      "vol_ratio": 0.62,
+      "vol_ratio": 0.86,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -104,7 +104,7 @@
       "price": 10600.0,
       "chg_pct": -1.85,
       "rsi": 13.3,
-      "vol_ratio": 3.58,
+      "vol_ratio": 3.38,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -135,10 +135,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 9000.0,
-      "chg_pct": 5.88,
-      "rsi": 62.7,
-      "vol_ratio": 2.82,
+      "price": 9100.0,
+      "chg_pct": 7.06,
+      "rsi": 63.3,
+      "vol_ratio": 5.59,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -150,10 +150,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+4.7%)",
-        "1 tháng": "TĂNG ↑ (+30.4%)",
-        "3 tháng": "TĂNG ↑ (+50.0%)",
-        "9 tháng": "TĂNG ↑ (+87.5%)"
+        "1 tuần": "TĂNG ↑ (+5.8%)",
+        "1 tháng": "TĂNG ↑ (+31.9%)",
+        "3 tháng": "TĂNG ↑ (+51.7%)",
+        "9 tháng": "TĂNG ↑ (+89.6%)"
       },
       "swings": {
         "swing_high": {
@@ -169,5 +169,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-08T10:16:36.570719+07:00"
+  "snapshot_time": "2026-10-08T10:21:33.001248+07:00"
 }
