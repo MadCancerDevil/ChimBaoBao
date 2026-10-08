@@ -31,10 +31,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4700.0,
-      "chg_pct": 2.17,
-      "rsi": 54.5,
-      "vol_ratio": 0.58,
+      "price": 4600.0,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 0.66,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -46,10 +46,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "ĐI NGANG → (+2.2%)",
-        "3 tháng": "GIẢM ↓ (-28.8%)",
-        "9 tháng": "GIẢM ↓ (-20.3%)"
+        "1 tuần": "GIẢM ↓ (-2.1%)",
+        "1 tháng": "ĐI NGANG → (+0.0%)",
+        "3 tháng": "GIẢM ↓ (-30.3%)",
+        "9 tháng": "GIẢM ↓ (-22.0%)"
       },
       "swings": {
         "swing_high": {
@@ -63,15 +63,14 @@
       },
       "tracked_patterns": "3 đáy quanh 4,600đ, viền cổ 5,000đ; Vai-Đầu-Vai, viền cổ 4,400đ; hội tụ (nêm/tam giác dốc lên) 4,711-4,859đ",
       "candles": [
-        "Morning Star (Sao Mai)",
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "EVS": {
       "price": 6000.0,
       "chg_pct": 1.69,
       "rsi": 61.5,
-      "vol_ratio": 0.94,
+      "vol_ratio": 1.02,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -105,7 +104,7 @@
       "price": 10700.0,
       "chg_pct": -0.93,
       "rsi": 15.4,
-      "vol_ratio": 1.92,
+      "vol_ratio": 1.86,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -139,7 +138,7 @@
       "price": 8500.0,
       "chg_pct": 0.0,
       "rsi": 59.3,
-      "vol_ratio": 4.0,
+      "vol_ratio": 3.91,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -170,5 +169,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-08T13:16:37.441717+07:00"
+  "snapshot_time": "2026-10-08T13:21:37.087506+07:00"
 }
