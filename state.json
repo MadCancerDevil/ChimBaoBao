@@ -18,7 +18,7 @@
     "TTA:BUY_ZONE": "2026-10-08T09:01:38.723058+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
-    "TTA:CANDLE_Marubozu tăn": "2026-10-07T09:36:34.360425+07:00",
+    "TTA:CANDLE_Marubozu tăn": "2026-10-08T09:16:34.496888+07:00",
     "EVS:VOL_SPIKE": "2026-10-06T13:31:46.964427+07:00",
     "EVS:CANDLE_Three White ": "2026-10-06T14:31:38.131961+07:00",
     "EVS:CHART_BOTTOM_BREAK": "2026-10-06T13:31:47.445751+07:00",
@@ -104,9 +104,9 @@
     },
     "TTA": {
       "price": 10800.0,
-      "chg_pct": 0.93,
+      "chg_pct": 0.0,
       "rsi": 18.2,
-      "vol_ratio": 2.82,
+      "vol_ratio": 0.19,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -119,8 +119,8 @@
       },
       "trends": {
         "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "GIẢM ↓ (-5.3%)",
-        "3 tháng": "ĐI NGANG → (-4.8%)",
+        "1 tháng": "GIẢM ↓ (-4.8%)",
+        "3 tháng": "ĐI NGANG → (-5.7%)",
         "9 tháng": "ĐI NGANG → (+1.9%)"
       },
       "swings": {
@@ -133,14 +133,16 @@
           "date": "2026-10-05"
         }
       },
-      "tracked_patterns": "chữ nhật 24 phiên 10,550-11,550đ (nén 9.0%); 2 đỉnh quanh 10,850đ, viền cổ 10,550đ",
-      "candles": []
+      "tracked_patterns": "chữ nhật 25 phiên 10,550-11,550đ (nén 9.1%); 2 đáy quanh 10,550đ, viền cổ 10,950đ",
+      "candles": [
+        "Marubozu tăng"
+      ]
     },
     "SHN": {
       "price": 8600.0,
       "chg_pct": 1.18,
       "rsi": 60.0,
-      "vol_ratio": 0.2,
+      "vol_ratio": 0.29,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -173,5 +175,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-08T09:11:29.234605+07:00"
+  "snapshot_time": "2026-10-08T09:16:34.497591+07:00"
 }
