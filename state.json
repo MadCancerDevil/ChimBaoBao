@@ -34,7 +34,7 @@
       "price": 4600.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.64,
+      "vol_ratio": 0.61,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -67,10 +67,10 @@
       ]
     },
     "EVS": {
-      "price": 6000.0,
-      "chg_pct": 1.69,
-      "rsi": 61.5,
-      "vol_ratio": 0.6,
+      "price": 6100.0,
+      "chg_pct": 3.39,
+      "rsi": 63.0,
+      "vol_ratio": 0.71,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -82,10 +82,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+22.4%)",
-        "1 tháng": "TĂNG ↑ (+22.4%)",
-        "3 tháng": "ĐI NGANG → (+5.3%)",
-        "9 tháng": "ĐI NGANG → (+1.7%)"
+        "1 tuần": "TĂNG ↑ (+24.5%)",
+        "1 tháng": "TĂNG ↑ (+24.5%)",
+        "3 tháng": "ĐI NGANG → (+7.0%)",
+        "9 tháng": "ĐI NGANG → (+3.4%)"
       },
       "swings": {
         "swing_high": {
@@ -98,13 +98,15 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 4,900đ, viền cổ 6,200đ; hội tụ (tam giác cân) 5,045-5,507đ",
-      "candles": []
+      "candles": [
+        "Piercing Line (Đường nhọn)"
+      ]
     },
     "TTA": {
       "price": 10750.0,
       "chg_pct": -0.46,
       "rsi": 16.7,
-      "vol_ratio": 2.43,
+      "vol_ratio": 2.34,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -140,7 +142,7 @@
       "price": 8600.0,
       "chg_pct": 1.18,
       "rsi": 60.0,
-      "vol_ratio": 4.67,
+      "vol_ratio": 4.51,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -173,5 +175,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-08T11:11:34.115768+07:00"
+  "snapshot_time": "2026-10-08T11:16:41.718850+07:00"
 }
