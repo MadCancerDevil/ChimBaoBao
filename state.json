@@ -34,7 +34,7 @@
       "price": 4700.0,
       "chg_pct": 2.17,
       "rsi": 54.5,
-      "vol_ratio": 0.54,
+      "vol_ratio": 0.52,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -68,10 +68,10 @@
       ]
     },
     "EVS": {
-      "price": 6000.0,
-      "chg_pct": 1.69,
-      "rsi": 61.5,
-      "vol_ratio": 1.4,
+      "price": 5900.0,
+      "chg_pct": 0.0,
+      "rsi": 60.0,
+      "vol_ratio": 1.42,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -83,10 +83,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+22.4%)",
-        "1 tháng": "TĂNG ↑ (+22.4%)",
-        "3 tháng": "ĐI NGANG → (+5.3%)",
-        "9 tháng": "ĐI NGANG → (+1.7%)"
+        "1 tuần": "TĂNG ↑ (+20.4%)",
+        "1 tháng": "TĂNG ↑ (+20.4%)",
+        "3 tháng": "ĐI NGANG → (+3.5%)",
+        "9 tháng": "ĐI NGANG → (+0.0%)"
       },
       "swings": {
         "swing_high": {
@@ -105,7 +105,7 @@
       "price": 10700.0,
       "chg_pct": -0.93,
       "rsi": 15.4,
-      "vol_ratio": 1.51,
+      "vol_ratio": 1.47,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -139,7 +139,7 @@
       "price": 8400.0,
       "chg_pct": -1.18,
       "rsi": 58.2,
-      "vol_ratio": 3.32,
+      "vol_ratio": 3.3,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -170,5 +170,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-08T14:01:46.049517+07:00"
+  "snapshot_time": "2026-10-08T14:06:35.715975+07:00"
 }
