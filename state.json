@@ -31,10 +31,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4600.0,
-      "chg_pct": 0.0,
-      "rsi": 50.0,
-      "vol_ratio": 0.6,
+      "price": 4700.0,
+      "chg_pct": 2.17,
+      "rsi": 54.5,
+      "vol_ratio": 0.58,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -46,10 +46,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.1%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "GIẢM ↓ (-30.3%)",
-        "9 tháng": "GIẢM ↓ (-22.0%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "ĐI NGANG → (+2.2%)",
+        "3 tháng": "GIẢM ↓ (-28.8%)",
+        "9 tháng": "GIẢM ↓ (-20.3%)"
       },
       "swings": {
         "swing_high": {
@@ -63,14 +63,15 @@
       },
       "tracked_patterns": "3 đáy quanh 4,600đ, viền cổ 5,000đ; Vai-Đầu-Vai, viền cổ 4,400đ; hội tụ (nêm/tam giác dốc lên) 4,711-4,859đ",
       "candles": [
-        "Doji"
+        "Morning Star (Sao Mai)",
+        "Marubozu tăng"
       ]
     },
     "EVS": {
-      "price": 5900.0,
-      "chg_pct": 0.0,
-      "rsi": 60.0,
-      "vol_ratio": 0.92,
+      "price": 6000.0,
+      "chg_pct": 1.69,
+      "rsi": 61.5,
+      "vol_ratio": 0.94,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -82,10 +83,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+20.4%)",
-        "1 tháng": "TĂNG ↑ (+20.4%)",
-        "3 tháng": "ĐI NGANG → (+3.5%)",
-        "9 tháng": "ĐI NGANG → (+0.0%)"
+        "1 tuần": "TĂNG ↑ (+22.4%)",
+        "1 tháng": "TĂNG ↑ (+22.4%)",
+        "3 tháng": "ĐI NGANG → (+5.3%)",
+        "9 tháng": "ĐI NGANG → (+1.7%)"
       },
       "swings": {
         "swing_high": {
@@ -104,7 +105,7 @@
       "price": 10700.0,
       "chg_pct": -0.93,
       "rsi": 15.4,
-      "vol_ratio": 1.98,
+      "vol_ratio": 1.92,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -138,7 +139,7 @@
       "price": 8500.0,
       "chg_pct": 0.0,
       "rsi": 59.3,
-      "vol_ratio": 4.08,
+      "vol_ratio": 4.0,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -169,5 +170,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-08T13:11:36.203259+07:00"
+  "snapshot_time": "2026-10-08T13:16:37.441717+07:00"
 }
