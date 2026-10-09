@@ -15,7 +15,7 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-08T10:21:33.001210+07:00",
     "EVS:MACD_CROSS": "2026-10-02T13:21:08.293561+07:00",
-    "TTA:BUY_ZONE": "2026-10-08T13:06:34.568990+07:00",
+    "TTA:BUY_ZONE": "2026-10-09T09:01:34.845966+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-10-08T09:16:34.496888+07:00",
@@ -28,7 +28,7 @@
     "EVS:CANDLE_Marubozu giả": "2026-10-07T09:06:33.068953+07:00",
     "TTA:VOL_SPIKE": "2026-10-08T09:41:31.186128+07:00",
     "TTA:CANDLE_Bearish Engu": "2026-10-07T14:21:39.349302+07:00",
-    "SHN:CANDLE_Bearish Engu": "2026-10-08T14:26:38.809412+07:00"
+    "SHN:CANDLE_Bearish Engu": "2026-10-09T09:01:35.302441+07:00"
   },
   "snapshot": {
     "NRC": {
@@ -69,9 +69,9 @@
     },
     "EVS": {
       "price": 6000.0,
-      "chg_pct": 1.69,
-      "rsi": 61.5,
-      "vol_ratio": 1.36,
+      "chg_pct": 0.0,
+      "rsi": 64.0,
+      "vol_ratio": 0.02,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -83,9 +83,9 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+22.4%)",
-        "1 tháng": "TĂNG ↑ (+22.4%)",
-        "3 tháng": "ĐI NGANG → (+5.3%)",
+        "1 tuần": "TĂNG ↑ (+13.2%)",
+        "1 tháng": "TĂNG ↑ (+20.0%)",
+        "3 tháng": "ĐI NGANG → (+3.4%)",
         "9 tháng": "ĐI NGANG → (+1.7%)"
       },
       "swings": {
@@ -98,8 +98,10 @@
           "date": "2026-10-01"
         }
       },
-      "tracked_patterns": "2 đáy quanh 4,900đ, viền cổ 6,200đ; hội tụ (tam giác cân) 5,045-5,507đ",
-      "candles": []
+      "tracked_patterns": "2 đáy quanh 4,900đ, viền cổ 6,200đ",
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
       "price": 10750.0,
@@ -174,5 +176,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-08T22:47:47.388111+07:00"
+  "snapshot_time": "2026-10-09T09:01:35.302479+07:00"
 }
