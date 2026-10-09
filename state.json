@@ -140,11 +140,11 @@
       ]
     },
     "SHN": {
-      "price": 8100.0,
-      "chg_pct": -4.71,
-      "rsi": 55.2,
-      "vol_ratio": 3.08,
-      "ma_ok": false,
+      "price": 8200.0,
+      "chg_pct": 1.23,
+      "rsi": 58.9,
+      "vol_ratio": 0.01,
+      "ma_ok": true,
       "macd_ok": true,
       "levels": {
         "buy_zone_low": 5900,
@@ -155,10 +155,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-5.8%)",
-        "1 tháng": "TĂNG ↑ (+17.4%)",
-        "3 tháng": "TĂNG ↑ (+35.0%)",
-        "9 tháng": "TĂNG ↑ (+68.8%)"
+        "1 tuần": "TĂNG ↑ (+2.5%)",
+        "1 tháng": "TĂNG ↑ (+15.5%)",
+        "3 tháng": "TĂNG ↑ (+24.2%)",
+        "9 tháng": "TĂNG ↑ (+70.8%)"
       },
       "swings": {
         "swing_high": {
@@ -172,9 +172,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Bearish Engulfing (Nhấn chìm giảm)"
+        "Doji"
       ]
     }
   },
-  "snapshot_time": "2026-10-09T09:06:34.409672+07:00"
+  "snapshot_time": "2026-10-09T09:11:37.228244+07:00"
 }
