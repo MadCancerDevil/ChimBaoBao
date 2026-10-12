@@ -73,7 +73,7 @@
       "price": 6000.0,
       "chg_pct": 1.69,
       "rsi": 60.0,
-      "vol_ratio": 0.47,
+      "vol_ratio": 0.69,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -107,7 +107,7 @@
       "price": 10650.0,
       "chg_pct": -0.93,
       "rsi": 16.7,
-      "vol_ratio": 0.02,
+      "vol_ratio": 0.01,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -143,7 +143,7 @@
       "price": 8000.0,
       "chg_pct": 0.0,
       "rsi": 60.4,
-      "vol_ratio": 0.33,
+      "vol_ratio": 0.37,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -174,5 +174,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-12T10:16:34.589874+07:00"
+  "snapshot_time": "2026-10-12T10:21:37.873772+07:00"
 }
