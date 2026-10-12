@@ -37,7 +37,7 @@
       "price": 4700.0,
       "chg_pct": 2.17,
       "rsi": 54.5,
-      "vol_ratio": 0.01,
+      "vol_ratio": 0.03,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -73,7 +73,7 @@
       "price": 6000.0,
       "chg_pct": 1.69,
       "rsi": 60.0,
-      "vol_ratio": 0.31,
+      "vol_ratio": 0.41,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -140,10 +140,10 @@
       ]
     },
     "SHN": {
-      "price": 7800.0,
-      "chg_pct": -2.5,
-      "rsi": 58.2,
-      "vol_ratio": 0.06,
+      "price": 8100.0,
+      "chg_pct": 1.25,
+      "rsi": 61.1,
+      "vol_ratio": 0.11,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -155,10 +155,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.6%)",
-        "1 tháng": "TĂNG ↑ (+21.9%)",
-        "3 tháng": "TĂNG ↑ (+8.3%)",
-        "9 tháng": "TĂNG ↑ (+62.5%)"
+        "1 tuần": "TĂNG ↑ (+6.6%)",
+        "1 tháng": "TĂNG ↑ (+26.6%)",
+        "3 tháng": "TĂNG ↑ (+12.5%)",
+        "9 tháng": "TĂNG ↑ (+68.8%)"
       },
       "swings": {
         "swing_high": {
@@ -171,10 +171,8 @@
         }
       },
       "tracked_patterns": null,
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-10-12T09:21:29.709908+07:00"
+  "snapshot_time": "2026-10-12T09:26:32.784614+07:00"
 }
