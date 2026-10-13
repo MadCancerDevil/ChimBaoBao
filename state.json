@@ -142,10 +142,10 @@
       ]
     },
     "SHN": {
-      "price": 8800.0,
-      "chg_pct": 10.0,
-      "rsi": 66.7,
-      "vol_ratio": 1.56,
+      "price": 8600.0,
+      "chg_pct": 7.5,
+      "rsi": 65.5,
+      "vol_ratio": 1.87,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -157,10 +157,10 @@
         "target_high": 12610
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+6.0%)",
-        "1 tháng": "TĂNG ↑ (+31.3%)",
-        "3 tháng": "TĂNG ↑ (+11.4%)",
-        "9 tháng": "TĂNG ↑ (+76.0%)"
+        "1 tuần": "TĂNG ↑ (+3.6%)",
+        "1 tháng": "TĂNG ↑ (+28.4%)",
+        "3 tháng": "TĂNG ↑ (+8.9%)",
+        "9 tháng": "TĂNG ↑ (+72.0%)"
       },
       "swings": {
         "swing_high": {
@@ -173,10 +173,8 @@
         }
       },
       "tracked_patterns": "2 đỉnh quanh 9,200đ, viền cổ 7,400đ",
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-10-13T09:11:32.541115+07:00"
+  "snapshot_time": "2026-10-13T09:16:32.234488+07:00"
 }
