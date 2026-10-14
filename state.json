@@ -34,10 +34,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4700.0,
-      "chg_pct": -2.08,
-      "rsi": 44.4,
-      "vol_ratio": 0.25,
+      "price": 4800.0,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 0.24,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -49,10 +49,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+2.2%)",
-        "1 tháng": "ĐI NGANG → (+2.2%)",
-        "3 tháng": "GIẢM ↓ (-21.7%)",
-        "9 tháng": "GIẢM ↓ (-20.3%)"
+        "1 tuần": "TĂNG ↑ (+4.3%)",
+        "1 tháng": "TĂNG ↑ (+4.3%)",
+        "3 tháng": "GIẢM ↓ (-20.0%)",
+        "9 tháng": "GIẢM ↓ (-18.6%)"
       },
       "swings": {
         "swing_high": {
@@ -66,14 +66,14 @@
       },
       "tracked_patterns": "3 đáy quanh 4,500đ, viền cổ 4,800đ",
       "candles": [
-        "Marubozu giảm"
+        "Doji"
       ]
     },
     "EVS": {
       "price": 5400.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.89,
+      "vol_ratio": 0.85,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -106,9 +106,9 @@
       ]
     },
     "TTA": {
-      "price": 10500.0,
-      "chg_pct": -1.87,
-      "rsi": 14.3,
+      "price": 10600.0,
+      "chg_pct": -0.93,
+      "rsi": 16.7,
       "vol_ratio": 0.24,
       "ma_ok": false,
       "macd_ok": false,
@@ -121,10 +121,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.8%)",
-        "1 tháng": "GIẢM ↓ (-4.5%)",
-        "3 tháng": "GIẢM ↓ (-10.3%)",
-        "9 tháng": "ĐI NGANG → (-1.9%)"
+        "1 tuần": "ĐI NGANG → (-1.9%)",
+        "1 tháng": "ĐI NGANG → (-3.6%)",
+        "3 tháng": "GIẢM ↓ (-9.4%)",
+        "9 tháng": "ĐI NGANG → (-0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -137,15 +137,13 @@
         }
       },
       "tracked_patterns": "chữ nhật 29 phiên 10,500-11,550đ (nén 9.5%); 3 đáy quanh 10,500đ, viền cổ 10,950đ",
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     },
     "SHN": {
       "price": 8100.0,
       "chg_pct": -4.71,
       "rsi": 56.4,
-      "vol_ratio": 0.35,
+      "vol_ratio": 0.34,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -178,5 +176,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-14T11:06:12.899234+07:00"
+  "snapshot_time": "2026-10-14T11:10:58.644545+07:00"
 }
