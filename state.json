@@ -37,7 +37,7 @@
       "price": 4700.0,
       "chg_pct": -2.08,
       "rsi": 50.0,
-      "vol_ratio": 0.18,
+      "vol_ratio": 0.29,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -179,5 +179,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-15T09:25:56.568059+07:00"
+  "snapshot_time": "2026-10-15T09:30:57.067035+07:00"
 }
