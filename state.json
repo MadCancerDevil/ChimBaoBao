@@ -15,10 +15,10 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-08T10:21:33.001210+07:00",
     "EVS:MACD_CROSS": "2026-10-02T13:21:08.293561+07:00",
-    "TTA:BUY_ZONE": "2026-10-16T18:56:50.551440+07:00",
+    "TTA:BUY_ZONE": "2026-10-19T09:01:37.694457+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-09-30T10:15:52.379848+07:00",
-    "TTA:CANDLE_Marubozu tăn": "2026-10-16T18:56:51.181006+07:00",
+    "TTA:CANDLE_Marubozu tăn": "2026-10-19T09:01:38.172036+07:00",
     "EVS:VOL_SPIKE": "2026-10-06T13:31:46.964427+07:00",
     "EVS:CANDLE_Three White ": "2026-10-06T14:31:38.131961+07:00",
     "EVS:CHART_BOTTOM_BREAK": "2026-10-06T13:31:47.445751+07:00",
@@ -70,10 +70,10 @@
       ]
     },
     "EVS": {
-      "price": 5600.0,
-      "chg_pct": 1.82,
-      "rsi": 59.3,
-      "vol_ratio": 0.47,
+      "price": 5500.0,
+      "chg_pct": -1.79,
+      "rsi": 57.1,
+      "vol_ratio": 0.03,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -85,10 +85,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-5.1%)",
-        "1 tháng": "TĂNG ↑ (+12.0%)",
-        "3 tháng": "ĐI NGANG → (-5.1%)",
-        "9 tháng": "ĐI NGANG → (-3.4%)"
+        "1 tuần": "GIẢM ↓ (-6.8%)",
+        "1 tháng": "ĐI NGANG → (+1.9%)",
+        "3 tháng": "GIẢM ↓ (-14.1%)",
+        "9 tháng": "ĐI NGANG → (-8.3%)"
       },
       "swings": {
         "swing_high": {
@@ -101,7 +101,9 @@
         }
       },
       "tracked_patterns": "2 đỉnh quanh 6,200đ, viền cổ 5,100đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
       "price": 10650.0,
@@ -140,25 +142,25 @@
       ]
     },
     "SHN": {
-      "price": 8300.0,
-      "chg_pct": 0.0,
-      "rsi": 60.4,
-      "vol_ratio": 0.36,
+      "price": 8200.0,
+      "chg_pct": -1.2,
+      "rsi": 59.2,
+      "vol_ratio": 0.01,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
-        "buy_zone_low": 5900,
-        "buy_zone_high": 6077,
-        "breakout_level": 9700,
-        "stoploss_level": 5634,
-        "target_low": 11155,
-        "target_high": 12610
+        "buy_zone_low": 6100,
+        "buy_zone_high": 6283,
+        "breakout_level": 9200,
+        "stoploss_level": 5826,
+        "target_low": 10580,
+        "target_high": 11960
       },
       "trends": {
-        "1 tuần": "TĂNG ↑ (+3.8%)",
-        "1 tháng": "TĂNG ↑ (+20.3%)",
-        "3 tháng": "ĐI NGANG → (-5.7%)",
-        "9 tháng": "TĂNG ↑ (+69.4%)"
+        "1 tuần": "TĂNG ↑ (+2.5%)",
+        "1 tháng": "TĂNG ↑ (+9.3%)",
+        "3 tháng": "GIẢM ↓ (-14.6%)",
+        "9 tháng": "TĂNG ↑ (+70.8%)"
       },
       "swings": {
         "swing_high": {
@@ -166,13 +168,15 @@
           "date": "2026-10-13"
         },
         "swing_low": {
-          "price": 7800.0,
-          "date": "2026-10-12"
+          "price": 8000.0,
+          "date": "2026-10-15"
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-10-16T20:27:06.047595+07:00"
+  "snapshot_time": "2026-10-19T09:01:38.172567+07:00"
 }
