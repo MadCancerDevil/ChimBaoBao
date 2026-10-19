@@ -71,10 +71,10 @@
       ]
     },
     "EVS": {
-      "price": 5200.0,
-      "chg_pct": -7.14,
-      "rsi": 51.6,
-      "vol_ratio": 2.54,
+      "price": 5300.0,
+      "chg_pct": -5.36,
+      "rsi": 53.3,
+      "vol_ratio": 2.55,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -86,10 +86,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-11.9%)",
-        "1 tháng": "ĐI NGANG → (-3.7%)",
-        "3 tháng": "GIẢM ↓ (-18.8%)",
-        "9 tháng": "ĐI NGANG → (-13.3%)"
+        "1 tuần": "GIẢM ↓ (-10.2%)",
+        "1 tháng": "ĐI NGANG → (-1.9%)",
+        "3 tháng": "GIẢM ↓ (-17.2%)",
+        "9 tháng": "ĐI NGANG → (-11.7%)"
       },
       "swings": {
         "swing_high": {
@@ -105,12 +105,12 @@
       "candles": []
     },
     "TTA": {
-      "price": 10650.0,
-      "chg_pct": 0.0,
-      "rsi": 28.6,
-      "vol_ratio": 0.77,
+      "price": 10600.0,
+      "chg_pct": -0.47,
+      "rsi": 25.0,
+      "vol_ratio": 0.75,
       "ma_ok": false,
-      "macd_ok": true,
+      "macd_ok": false,
       "levels": {
         "buy_zone_low": 10500,
         "buy_zone_high": 10815,
@@ -120,10 +120,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.9%)",
-        "1 tháng": "GIẢM ↓ (-4.5%)",
-        "3 tháng": "ĐI NGANG → (-5.8%)",
-        "9 tháng": "ĐI NGANG → (-2.7%)"
+        "1 tuần": "ĐI NGANG → (-1.4%)",
+        "1 tháng": "GIẢM ↓ (-4.9%)",
+        "3 tháng": "ĐI NGANG → (-6.2%)",
+        "9 tháng": "ĐI NGANG → (-3.2%)"
       },
       "swings": {
         "swing_high": {
@@ -137,14 +137,14 @@
       },
       "tracked_patterns": "chữ nhật 32 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,800đ",
       "candles": [
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "SHN": {
       "price": 8100.0,
       "chg_pct": -2.41,
       "rsi": 58.0,
-      "vol_ratio": 0.33,
+      "vol_ratio": 0.34,
       "ma_ok": true,
       "macd_ok": true,
       "levels": {
@@ -175,5 +175,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-19T13:31:16.952398+07:00"
+  "snapshot_time": "2026-10-19T13:36:11.471698+07:00"
 }
