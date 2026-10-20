@@ -38,7 +38,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 42.9,
-      "vol_ratio": 0.17,
+      "vol_ratio": 0.16,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -71,9 +71,9 @@
       ]
     },
     "EVS": {
-      "price": 5200.0,
-      "chg_pct": -3.7,
-      "rsi": 53.3,
+      "price": 5300.0,
+      "chg_pct": -1.85,
+      "rsi": 55.2,
       "vol_ratio": 0.28,
       "ma_ok": true,
       "macd_ok": false,
@@ -86,10 +86,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-3.7%)",
-        "1 tháng": "ĐI NGANG → (-1.9%)",
-        "3 tháng": "GIẢM ↓ (-16.1%)",
-        "9 tháng": "ĐI NGANG → (-13.3%)"
+        "1 tuần": "ĐI NGANG → (-1.9%)",
+        "1 tháng": "ĐI NGANG → (+0.0%)",
+        "3 tháng": "GIẢM ↓ (-14.5%)",
+        "9 tháng": "ĐI NGANG → (-11.7%)"
       },
       "swings": {
         "swing_high": {
@@ -102,15 +102,13 @@
         }
       },
       "tracked_patterns": "2 đỉnh quanh 6,200đ, viền cổ 5,100đ",
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     },
     "TTA": {
       "price": 10550.0,
       "chg_pct": -0.94,
       "rsi": 22.2,
-      "vol_ratio": 3.58,
+      "vol_ratio": 3.47,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -144,10 +142,10 @@
       ]
     },
     "SHN": {
-      "price": 7700.0,
-      "chg_pct": -3.75,
-      "rsi": 46.8,
-      "vol_ratio": 0.58,
+      "price": 7800.0,
+      "chg_pct": -2.5,
+      "rsi": 47.8,
+      "vol_ratio": 0.57,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -159,10 +157,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-9.4%)",
-        "1 tháng": "TĂNG ↑ (+6.9%)",
-        "3 tháng": "GIẢM ↓ (-26.7%)",
-        "9 tháng": "TĂNG ↑ (+60.4%)"
+        "1 tuần": "GIẢM ↓ (-8.2%)",
+        "1 tháng": "TĂNG ↑ (+8.3%)",
+        "3 tháng": "GIẢM ↓ (-25.7%)",
+        "9 tháng": "TĂNG ↑ (+62.5%)"
       },
       "swings": {
         "swing_high": {
@@ -175,8 +173,10 @@
         }
       },
       "tracked_patterns": null,
-      "candles": []
+      "candles": [
+        "Hammer (Búa)"
+      ]
     }
   },
-  "snapshot_time": "2026-10-20T13:06:08.563572+07:00"
+  "snapshot_time": "2026-10-20T13:11:09.342883+07:00"
 }
