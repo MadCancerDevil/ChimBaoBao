@@ -38,7 +38,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.32,
+      "vol_ratio": 0.31,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -71,9 +71,9 @@
       ]
     },
     "EVS": {
-      "price": 5300.0,
-      "chg_pct": -1.85,
-      "rsi": 55.2,
+      "price": 5200.0,
+      "chg_pct": -3.7,
+      "rsi": 53.3,
       "vol_ratio": 0.31,
       "ma_ok": true,
       "macd_ok": false,
@@ -86,10 +86,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "GIẢM ↓ (-14.5%)",
-        "9 tháng": "ĐI NGANG → (-11.7%)"
+        "1 tuần": "GIẢM ↓ (-3.7%)",
+        "1 tháng": "ĐI NGANG → (-1.9%)",
+        "3 tháng": "GIẢM ↓ (-16.1%)",
+        "9 tháng": "ĐI NGANG → (-13.3%)"
       },
       "swings": {
         "swing_high": {
@@ -102,13 +102,15 @@
         }
       },
       "tracked_patterns": "2 đỉnh quanh 6,200đ, viền cổ 5,100đ",
-      "candles": []
+      "candles": [
+        "Marubozu giảm"
+      ]
     },
     "TTA": {
-      "price": 10600.0,
-      "chg_pct": -0.47,
-      "rsi": 25.0,
-      "vol_ratio": 3.95,
+      "price": 10550.0,
+      "chg_pct": -0.94,
+      "rsi": 22.2,
+      "vol_ratio": 5.13,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -120,10 +122,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.9%)",
-        "1 tháng": "GIẢM ↓ (-4.9%)",
-        "3 tháng": "ĐI NGANG → (+0.5%)",
-        "9 tháng": "ĐI NGANG → (-5.4%)"
+        "1 tuần": "ĐI NGANG → (-1.4%)",
+        "1 tháng": "GIẢM ↓ (-5.4%)",
+        "3 tháng": "ĐI NGANG → (+0.0%)",
+        "9 tháng": "ĐI NGANG → (-5.8%)"
       },
       "swings": {
         "swing_high": {
@@ -136,13 +138,16 @@
         }
       },
       "tracked_patterns": "chữ nhật 33 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,800đ",
-      "candles": []
+      "candles": [
+        "Bearish Engulfing (Nhấn chìm giảm)",
+        "Marubozu giảm"
+      ]
     },
     "SHN": {
-      "price": 7900.0,
-      "chg_pct": -1.25,
-      "rsi": 48.9,
-      "vol_ratio": 0.49,
+      "price": 7800.0,
+      "chg_pct": -2.5,
+      "rsi": 47.8,
+      "vol_ratio": 0.48,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -154,10 +159,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-7.1%)",
-        "1 tháng": "TĂNG ↑ (+9.7%)",
-        "3 tháng": "GIẢM ↓ (-24.8%)",
-        "9 tháng": "TĂNG ↑ (+64.6%)"
+        "1 tuần": "GIẢM ↓ (-8.2%)",
+        "1 tháng": "TĂNG ↑ (+8.3%)",
+        "3 tháng": "GIẢM ↓ (-25.7%)",
+        "9 tháng": "TĂNG ↑ (+62.5%)"
       },
       "swings": {
         "swing_high": {
@@ -171,9 +176,9 @@
       },
       "tracked_patterns": null,
       "candles": [
-        "Doji"
+        "Hammer (Búa)"
       ]
     }
   },
-  "snapshot_time": "2026-10-20T14:01:18.131561+07:00"
+  "snapshot_time": "2026-10-20T14:06:08.634096+07:00"
 }
