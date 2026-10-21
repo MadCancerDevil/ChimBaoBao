@@ -39,7 +39,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 42.9,
-      "vol_ratio": 2.69,
+      "vol_ratio": 2.76,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -74,8 +74,8 @@
     "EVS": {
       "price": 5400.0,
       "chg_pct": 0.0,
-      "rsi": 57.1,
-      "vol_ratio": 0.27,
+      "rsi": 59.3,
+      "vol_ratio": 0.0,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -87,19 +87,19 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "ĐI NGANG → (+1.9%)",
-        "3 tháng": "GIẢM ↓ (-12.9%)",
+        "1 tuần": "ĐI NGANG → (-1.8%)",
+        "1 tháng": "ĐI NGANG → (-1.8%)",
+        "3 tháng": "GIẢM ↓ (-11.5%)",
         "9 tháng": "ĐI NGANG → (-10.0%)"
       },
       "swings": {
         "swing_high": {
-          "price": 6200.0,
-          "date": "2026-10-09"
+          "price": 5700.0,
+          "date": "2026-10-19"
         },
         "swing_low": {
           "price": 5100.0,
-          "date": "2026-10-14"
+          "date": "2026-10-19"
         }
       },
       "tracked_patterns": "2 đỉnh quanh 6,200đ, viền cổ 5,100đ",
@@ -111,7 +111,7 @@
       "price": 10650.0,
       "chg_pct": 0.0,
       "rsi": 28.6,
-      "vol_ratio": 5.53,
+      "vol_ratio": 0.0,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -124,21 +124,21 @@
       },
       "trends": {
         "1 tuần": "ĐI NGANG → (-0.5%)",
-        "1 tháng": "GIẢM ↓ (-4.5%)",
-        "3 tháng": "ĐI NGANG → (+0.9%)",
-        "9 tháng": "ĐI NGANG → (-4.9%)"
+        "1 tháng": "ĐI NGANG → (-3.6%)",
+        "3 tháng": "ĐI NGANG → (+1.9%)",
+        "9 tháng": "ĐI NGANG → (-2.3%)"
       },
       "swings": {
         "swing_high": {
-          "price": 10750.0,
-          "date": "2026-10-13"
+          "price": 10650.0,
+          "date": "2026-10-19"
         },
         "swing_low": {
           "price": 10500.0,
-          "date": "2026-10-14"
+          "date": "2026-10-19"
         }
       },
-      "tracked_patterns": "chữ nhật 33 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,800đ",
+      "tracked_patterns": "chữ nhật 34 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,800đ",
       "candles": [
         "Doji"
       ]
@@ -180,5 +180,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-21T09:11:08.743618+07:00"
+  "snapshot_time": "2026-10-21T09:16:10.559462+07:00"
 }
