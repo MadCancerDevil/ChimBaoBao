@@ -39,7 +39,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 2.41,
+      "vol_ratio": 2.31,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -73,7 +73,7 @@
       "price": 5500.0,
       "chg_pct": 1.85,
       "rsi": 60.7,
-      "vol_ratio": 1.47,
+      "vol_ratio": 1.41,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -104,10 +104,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10750.0,
-      "chg_pct": 0.94,
-      "rsi": 44.4,
-      "vol_ratio": 3.8,
+      "price": 10800.0,
+      "chg_pct": 1.41,
+      "rsi": 50.0,
+      "vol_ratio": 3.65,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -119,10 +119,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.5%)",
-        "1 tháng": "ĐI NGANG → (-2.7%)",
-        "3 tháng": "ĐI NGANG → (+2.9%)",
-        "9 tháng": "ĐI NGANG → (-1.4%)"
+        "1 tuần": "ĐI NGANG → (+0.9%)",
+        "1 tháng": "ĐI NGANG → (-2.3%)",
+        "3 tháng": "ĐI NGANG → (+3.3%)",
+        "9 tháng": "ĐI NGANG → (-0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -138,10 +138,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 8000.0,
-      "chg_pct": 1.27,
-      "rsi": 42.5,
-      "vol_ratio": 0.57,
+      "price": 7800.0,
+      "chg_pct": -1.27,
+      "rsi": 40.0,
+      "vol_ratio": 0.58,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -153,10 +153,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.2%)",
-        "1 tháng": "TĂNG ↑ (+15.9%)",
-        "3 tháng": "GIẢM ↓ (-23.8%)",
-        "9 tháng": "TĂNG ↑ (+66.7%)"
+        "1 tuần": "GIẢM ↓ (-3.7%)",
+        "1 tháng": "TĂNG ↑ (+13.0%)",
+        "3 tháng": "GIẢM ↓ (-25.7%)",
+        "9 tháng": "TĂNG ↑ (+62.5%)"
       },
       "swings": {
         "swing_high": {
@@ -169,8 +169,10 @@
         }
       },
       "tracked_patterns": "hội tụ (nêm/tam giác dốc xuống) 8,320-8,429đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-10-21T11:01:17.032597+07:00"
+  "snapshot_time": "2026-10-21T11:06:14.275939+07:00"
 }
