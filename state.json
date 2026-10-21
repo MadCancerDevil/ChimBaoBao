@@ -37,10 +37,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4700.0,
-      "chg_pct": 0.0,
-      "rsi": 50.0,
-      "vol_ratio": 8.87,
+      "price": 4800.0,
+      "chg_pct": 2.13,
+      "rsi": 57.1,
+      "vol_ratio": 8.65,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -52,10 +52,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.1%)",
-        "1 tháng": "ĐI NGANG → (+2.2%)",
-        "3 tháng": "GIẢM ↓ (-13.0%)",
-        "9 tháng": "GIẢM ↓ (-17.5%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "TĂNG ↑ (+4.3%)",
+        "3 tháng": "GIẢM ↓ (-11.1%)",
+        "9 tháng": "GIẢM ↓ (-15.8%)"
       },
       "swings": {
         "swing_high": {
@@ -68,13 +68,15 @@
         }
       },
       "tracked_patterns": "chữ nhật 17 phiên 4,400-4,800đ (nén 8.6%); 3 đỉnh quanh 4,800đ, viền cổ 4,400đ",
-      "candles": []
+      "candles": [
+        "Morning Star (Sao Mai)"
+      ]
     },
     "EVS": {
-      "price": 5500.0,
-      "chg_pct": 1.85,
-      "rsi": 60.7,
-      "vol_ratio": 1.21,
+      "price": 5400.0,
+      "chg_pct": 0.0,
+      "rsi": 59.3,
+      "vol_ratio": 1.22,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -86,10 +88,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "GIẢM ↓ (-9.8%)",
-        "9 tháng": "ĐI NGANG → (-8.3%)"
+        "1 tuần": "ĐI NGANG → (-1.8%)",
+        "1 tháng": "ĐI NGANG → (-1.8%)",
+        "3 tháng": "GIẢM ↓ (-11.5%)",
+        "9 tháng": "ĐI NGANG → (-10.0%)"
       },
       "swings": {
         "swing_high": {
@@ -102,13 +104,15 @@
         }
       },
       "tracked_patterns": "2 đỉnh quanh 6,200đ, viền cổ 5,100đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
       "price": 10750.0,
       "chg_pct": 0.94,
       "rsi": 44.4,
-      "vol_ratio": 2.37,
+      "vol_ratio": 2.32,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -173,5 +177,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-21T14:16:10.141186+07:00"
+  "snapshot_time": "2026-10-21T14:21:13.761782+07:00"
 }
