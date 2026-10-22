@@ -15,7 +15,7 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-08T10:21:33.001210+07:00",
     "EVS:MACD_CROSS": "2026-10-19T09:26:13.617557+07:00",
-    "TTA:BUY_ZONE": "2026-10-21T14:01:13.344092+07:00",
+    "TTA:BUY_ZONE": "2026-10-22T09:26:18.719194+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-10-21T09:01:16.828105+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-10-19T13:31:16.951959+07:00",
@@ -76,7 +76,7 @@
       "price": 5400.0,
       "chg_pct": 0.0,
       "rsi": 52.2,
-      "vol_ratio": 0.17,
+      "vol_ratio": 0.18,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -109,10 +109,10 @@
       ]
     },
     "TTA": {
-      "price": 10750.0,
-      "chg_pct": -0.46,
-      "rsi": 45.5,
-      "vol_ratio": 0.77,
+      "price": 10650.0,
+      "chg_pct": -1.39,
+      "rsi": 38.5,
+      "vol_ratio": 1.18,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -124,10 +124,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.9%)",
-        "1 tháng": "ĐI NGANG → (-2.3%)",
-        "3 tháng": "ĐI NGANG → (+1.4%)",
-        "9 tháng": "ĐI NGANG → (-1.4%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "ĐI NGANG → (-3.2%)",
+        "3 tháng": "ĐI NGANG → (+0.5%)",
+        "9 tháng": "ĐI NGANG → (-2.3%)"
       },
       "swings": {
         "swing_high": {
@@ -141,14 +141,14 @@
       },
       "tracked_patterns": "chữ nhật 35 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,800đ; hội tụ (nêm/tam giác dốc xuống) 10,480-10,570đ",
       "candles": [
-        "Doji"
+        "Marubozu giảm"
       ]
     },
     "SHN": {
       "price": 7800.0,
       "chg_pct": 0.0,
       "rsi": 47.1,
-      "vol_ratio": 0.0,
+      "vol_ratio": 0.05,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -181,5 +181,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-22T09:21:19.628422+07:00"
+  "snapshot_time": "2026-10-22T09:26:18.719935+07:00"
 }
