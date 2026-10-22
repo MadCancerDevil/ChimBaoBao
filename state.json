@@ -74,7 +74,7 @@
       "price": 5300.0,
       "chg_pct": -1.85,
       "rsi": 50.0,
-      "vol_ratio": 0.69,
+      "vol_ratio": 0.68,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -107,10 +107,10 @@
       ]
     },
     "TTA": {
-      "price": 10700.0,
-      "chg_pct": -0.93,
-      "rsi": 41.7,
-      "vol_ratio": 3.45,
+      "price": 10650.0,
+      "chg_pct": -1.39,
+      "rsi": 38.5,
+      "vol_ratio": 3.38,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -122,10 +122,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.5%)",
-        "1 tháng": "ĐI NGANG → (-2.7%)",
-        "3 tháng": "ĐI NGANG → (+0.9%)",
-        "9 tháng": "ĐI NGANG → (-1.8%)"
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "ĐI NGANG → (-3.2%)",
+        "3 tháng": "ĐI NGANG → (+0.5%)",
+        "9 tháng": "ĐI NGANG → (-2.3%)"
       },
       "swings": {
         "swing_high": {
@@ -144,7 +144,7 @@
       "price": 7700.0,
       "chg_pct": -1.28,
       "rsi": 45.7,
-      "vol_ratio": 0.32,
+      "vol_ratio": 0.31,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -175,5 +175,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-22T13:41:19.016195+07:00"
+  "snapshot_time": "2026-10-22T13:46:26.834746+07:00"
 }
