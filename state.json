@@ -40,7 +40,7 @@
       "price": 4700.0,
       "chg_pct": -2.08,
       "rsi": 57.1,
-      "vol_ratio": 0.3,
+      "vol_ratio": 0.29,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -74,7 +74,7 @@
       "price": 5300.0,
       "chg_pct": -1.85,
       "rsi": 50.0,
-      "vol_ratio": 0.65,
+      "vol_ratio": 0.69,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -105,10 +105,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10700.0,
-      "chg_pct": -0.93,
-      "rsi": 41.7,
-      "vol_ratio": 2.88,
+      "price": 10800.0,
+      "chg_pct": 0.0,
+      "rsi": 50.0,
+      "vol_ratio": 2.94,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -120,10 +120,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.5%)",
-        "1 tháng": "ĐI NGANG → (-2.7%)",
-        "3 tháng": "ĐI NGANG → (+0.9%)",
-        "9 tháng": "ĐI NGANG → (-1.8%)"
+        "1 tuần": "ĐI NGANG → (+1.4%)",
+        "1 tháng": "ĐI NGANG → (-1.8%)",
+        "3 tháng": "ĐI NGANG → (+1.9%)",
+        "9 tháng": "ĐI NGANG → (-0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -139,9 +139,9 @@
       "candles": []
     },
     "SHN": {
-      "price": 7700.0,
-      "chg_pct": -1.28,
-      "rsi": 45.7,
+      "price": 7800.0,
+      "chg_pct": 0.0,
+      "rsi": 47.1,
       "vol_ratio": 0.36,
       "ma_ok": true,
       "macd_ok": false,
@@ -154,10 +154,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-7.2%)",
-        "1 tháng": "TĂNG ↑ (+13.2%)",
-        "3 tháng": "GIẢM ↓ (-18.9%)",
-        "9 tháng": "TĂNG ↑ (+67.4%)"
+        "1 tuần": "GIẢM ↓ (-6.0%)",
+        "1 tháng": "TĂNG ↑ (+14.7%)",
+        "3 tháng": "GIẢM ↓ (-17.9%)",
+        "9 tháng": "TĂNG ↑ (+69.6%)"
       },
       "swings": {
         "swing_high": {
@@ -170,8 +170,10 @@
         }
       },
       "tracked_patterns": "hội tụ (nêm/tam giác dốc xuống) 8,405-8,355đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-10-22T14:21:14.920197+07:00"
+  "snapshot_time": "2026-10-22T14:26:19.270971+07:00"
 }
