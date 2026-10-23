@@ -40,7 +40,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.81,
+      "vol_ratio": 1.21,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -73,10 +73,10 @@
       ]
     },
     "EVS": {
-      "price": 5300.0,
-      "chg_pct": 0.0,
-      "rsi": 36.8,
-      "vol_ratio": 0.09,
+      "price": 5200.0,
+      "chg_pct": -1.89,
+      "rsi": 35.0,
+      "vol_ratio": 0.48,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -88,10 +88,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-5.4%)",
-        "1 tháng": "ĐI NGANG → (-1.9%)",
-        "3 tháng": "GIẢM ↓ (-13.1%)",
-        "9 tháng": "ĐI NGANG → (-10.2%)"
+        "1 tuần": "GIẢM ↓ (-7.1%)",
+        "1 tháng": "ĐI NGANG → (-3.7%)",
+        "3 tháng": "GIẢM ↓ (-14.8%)",
+        "9 tháng": "ĐI NGANG → (-11.9%)"
       },
       "swings": {
         "swing_high": {
@@ -105,14 +105,14 @@
       },
       "tracked_patterns": "2 đáy quanh 5,100đ, viền cổ 5,700đ",
       "candles": [
-        "Doji"
+        "Marubozu giảm"
       ]
     },
     "TTA": {
-      "price": 10850.0,
-      "chg_pct": 0.46,
-      "rsi": 60.0,
-      "vol_ratio": 0.01,
+      "price": 10800.0,
+      "chg_pct": 0.0,
+      "rsi": 55.6,
+      "vol_ratio": 0.07,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -124,10 +124,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+1.9%)",
-        "1 tháng": "ĐI NGANG → (-1.4%)",
-        "3 tháng": "ĐI NGANG → (+2.4%)",
-        "9 tháng": "ĐI NGANG → (+0.5%)"
+        "1 tuần": "ĐI NGANG → (+1.4%)",
+        "1 tháng": "ĐI NGANG → (-1.8%)",
+        "3 tháng": "ĐI NGANG → (+1.9%)",
+        "9 tháng": "ĐI NGANG → (+0.0%)"
       },
       "swings": {
         "swing_high": {
@@ -140,15 +140,13 @@
         }
       },
       "tracked_patterns": "chữ nhật 36 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,850đ; hội tụ (nêm/tam giác dốc xuống) 10,475-10,545đ",
-      "candles": [
-        "Marubozu tăng"
-      ]
+      "candles": []
     },
     "SHN": {
       "price": 7800.0,
       "chg_pct": -1.27,
       "rsi": 53.1,
-      "vol_ratio": 0.89,
+      "vol_ratio": 0.87,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -179,5 +177,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-23T09:56:22.063029+07:00"
+  "snapshot_time": "2026-10-23T10:01:22.191291+07:00"
 }
