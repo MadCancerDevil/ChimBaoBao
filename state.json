@@ -74,7 +74,7 @@
       "price": 5200.0,
       "chg_pct": -1.89,
       "rsi": 35.0,
-      "vol_ratio": 0.7,
+      "vol_ratio": 0.68,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -107,9 +107,9 @@
       ]
     },
     "TTA": {
-      "price": 10750.0,
-      "chg_pct": -0.46,
-      "rsi": 50.0,
+      "price": 10700.0,
+      "chg_pct": -0.93,
+      "rsi": 45.5,
       "vol_ratio": 0.1,
       "ma_ok": false,
       "macd_ok": true,
@@ -122,10 +122,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.9%)",
-        "1 tháng": "ĐI NGANG → (-2.3%)",
-        "3 tháng": "ĐI NGANG → (+1.4%)",
-        "9 tháng": "ĐI NGANG → (-0.5%)"
+        "1 tuần": "ĐI NGANG → (+0.5%)",
+        "1 tháng": "ĐI NGANG → (-2.7%)",
+        "3 tháng": "ĐI NGANG → (+0.9%)",
+        "9 tháng": "ĐI NGANG → (-0.9%)"
       },
       "swings": {
         "swing_high": {
@@ -139,14 +139,15 @@
       },
       "tracked_patterns": "chữ nhật 36 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,850đ; hội tụ (nêm/tam giác dốc xuống) 10,475-10,545đ",
       "candles": [
-        "Doji"
+        "Shooting Star (Sao Băng)",
+        "Evening Star (Sao Hôm)"
       ]
     },
     "SHN": {
       "price": 7600.0,
       "chg_pct": -3.8,
       "rsi": 50.0,
-      "vol_ratio": 0.92,
+      "vol_ratio": 0.89,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -179,5 +180,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-23T13:21:30.732502+07:00"
+  "snapshot_time": "2026-10-23T13:26:27.411313+07:00"
 }
