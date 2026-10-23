@@ -40,7 +40,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 1.18,
+      "vol_ratio": 1.17,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -73,10 +73,10 @@
       ]
     },
     "EVS": {
-      "price": 5200.0,
-      "chg_pct": -1.89,
-      "rsi": 35.0,
-      "vol_ratio": 0.71,
+      "price": 5300.0,
+      "chg_pct": 0.0,
+      "rsi": 36.8,
+      "vol_ratio": 0.8,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -88,10 +88,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-7.1%)",
-        "1 tháng": "ĐI NGANG → (-3.7%)",
-        "3 tháng": "GIẢM ↓ (-14.8%)",
-        "9 tháng": "ĐI NGANG → (-11.9%)"
+        "1 tuần": "GIẢM ↓ (-5.4%)",
+        "1 tháng": "ĐI NGANG → (-1.9%)",
+        "3 tháng": "GIẢM ↓ (-13.1%)",
+        "9 tháng": "ĐI NGANG → (-10.2%)"
       },
       "swings": {
         "swing_high": {
@@ -105,7 +105,7 @@
       },
       "tracked_patterns": "2 đáy quanh 5,100đ, viền cổ 5,700đ",
       "candles": [
-        "Marubozu giảm"
+        "Doji"
       ]
     },
     "TTA": {
@@ -146,10 +146,10 @@
       ]
     },
     "SHN": {
-      "price": 7600.0,
-      "chg_pct": -3.8,
-      "rsi": 50.0,
-      "vol_ratio": 0.93,
+      "price": 7500.0,
+      "chg_pct": -5.06,
+      "rsi": 48.6,
+      "vol_ratio": 0.92,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -161,10 +161,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-8.4%)",
-        "1 tháng": "ĐI NGANG → (+2.7%)",
-        "3 tháng": "GIẢM ↓ (-17.4%)",
-        "9 tháng": "TĂNG ↑ (+65.2%)"
+        "1 tuần": "GIẢM ↓ (-9.6%)",
+        "1 tháng": "ĐI NGANG → (+1.4%)",
+        "3 tháng": "GIẢM ↓ (-18.5%)",
+        "9 tháng": "TĂNG ↑ (+63.0%)"
       },
       "swings": {
         "swing_high": {
@@ -182,5 +182,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-23T14:01:53.629230+07:00"
+  "snapshot_time": "2026-10-23T14:06:21.087963+07:00"
 }
