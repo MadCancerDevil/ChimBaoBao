@@ -40,7 +40,7 @@
       "price": 4700.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 1.28,
+      "vol_ratio": 1.21,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -76,7 +76,7 @@
       "price": 5300.0,
       "chg_pct": 0.0,
       "rsi": 36.8,
-      "vol_ratio": 0.37,
+      "vol_ratio": 0.35,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -109,10 +109,10 @@
       ]
     },
     "TTA": {
-      "price": 10800.0,
-      "chg_pct": 0.0,
-      "rsi": 55.6,
-      "vol_ratio": 0.11,
+      "price": 10750.0,
+      "chg_pct": -0.46,
+      "rsi": 50.0,
+      "vol_ratio": 0.19,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -124,10 +124,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+1.4%)",
-        "1 tháng": "ĐI NGANG → (-1.8%)",
-        "3 tháng": "ĐI NGANG → (+1.9%)",
-        "9 tháng": "ĐI NGANG → (+0.0%)"
+        "1 tuần": "ĐI NGANG → (+0.9%)",
+        "1 tháng": "ĐI NGANG → (-2.3%)",
+        "3 tháng": "ĐI NGANG → (+1.4%)",
+        "9 tháng": "ĐI NGANG → (-0.5%)"
       },
       "swings": {
         "swing_high": {
@@ -140,13 +140,15 @@
         }
       },
       "tracked_patterns": "chữ nhật 36 phiên 10,500-11,550đ (nén 9.6%); 3 đáy quanh 10,500đ, viền cổ 10,850đ; hội tụ (nêm/tam giác dốc xuống) 10,475-10,545đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "SHN": {
-      "price": 7800.0,
-      "chg_pct": -1.27,
-      "rsi": 53.1,
-      "vol_ratio": 0.77,
+      "price": 7700.0,
+      "chg_pct": -2.53,
+      "rsi": 51.5,
+      "vol_ratio": 0.87,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -158,10 +160,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-6.0%)",
-        "1 tháng": "TĂNG ↑ (+5.4%)",
-        "3 tháng": "GIẢM ↓ (-15.2%)",
-        "9 tháng": "TĂNG ↑ (+69.6%)"
+        "1 tuần": "GIẢM ↓ (-7.2%)",
+        "1 tháng": "TĂNG ↑ (+4.1%)",
+        "3 tháng": "GIẢM ↓ (-16.3%)",
+        "9 tháng": "TĂNG ↑ (+67.4%)"
       },
       "swings": {
         "swing_high": {
@@ -174,8 +176,10 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,624-8,282đ",
-      "candles": []
+      "candles": [
+        "Bearish Engulfing (Nhấn chìm giảm)"
+      ]
     }
   },
-  "snapshot_time": "2026-10-23T10:21:20.867814+07:00"
+  "snapshot_time": "2026-10-23T10:26:19.120640+07:00"
 }
