@@ -40,7 +40,7 @@
       "price": 4600.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 1.64,
+      "vol_ratio": 2.28,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -145,10 +145,10 @@
       ]
     },
     "SHN": {
-      "price": 7500.0,
-      "chg_pct": -5.06,
-      "rsi": 48.6,
-      "vol_ratio": 1.0,
+      "price": 7400.0,
+      "chg_pct": -1.33,
+      "rsi": 34.5,
+      "vol_ratio": 0.1,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -160,10 +160,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-9.6%)",
-        "1 tháng": "ĐI NGANG → (+1.4%)",
-        "3 tháng": "GIẢM ↓ (-18.5%)",
-        "9 tháng": "TĂNG ↑ (+63.0%)"
+        "1 tuần": "GIẢM ↓ (-7.5%)",
+        "1 tháng": "GIẢM ↓ (-5.1%)",
+        "3 tháng": "GIẢM ↓ (-14.0%)",
+        "9 tháng": "TĂNG ↑ (+60.9%)"
       },
       "swings": {
         "swing_high": {
@@ -175,11 +175,11 @@
           "date": "2026-10-20"
         }
       },
-      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,624-8,282đ",
+      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,641-8,208đ",
       "candles": [
-        "Bearish Engulfing (Nhấn chìm giảm)"
+        "Doji"
       ]
     }
   },
-  "snapshot_time": "2026-10-26T09:36:28.555634+07:00"
+  "snapshot_time": "2026-10-26T09:41:26.022252+07:00"
 }
