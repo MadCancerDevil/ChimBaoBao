@@ -7,7 +7,7 @@
     "SHN:CANDLE_Evening Star": "2026-08-25T09:58:39.906266+07:00",
     "SHN:CANDLE_Marubozu giả": "2026-08-25T09:58:40.472457+07:00",
     "SHN:CANDLE_Hammer (Búa)": "2026-08-25T13:20:09.817083+07:00",
-    "NRC:BUY_ZONE": "2026-10-27T10:41:32.457261+07:00",
+    "NRC:BUY_ZONE": "2026-10-27T14:41:39.253392+07:00",
     "SHN:MACD_CROSS": "2026-09-17T19:37:31.413179+07:00",
     "NRC:CANDLE_Marubozu tăn": "2026-09-23T14:25:21.866468+07:00",
     "EVS:CANDLE_Marubozu tăn": "2026-10-06T09:31:04.033837+07:00",
@@ -40,7 +40,7 @@
       "price": 4500.0,
       "chg_pct": -4.26,
       "rsi": 44.4,
-      "vol_ratio": 1.04,
+      "vol_ratio": 1.02,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -144,7 +144,7 @@
       "price": 7500.0,
       "chg_pct": 0.0,
       "rsi": 30.8,
-      "vol_ratio": 0.5,
+      "vol_ratio": 0.49,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -175,5 +175,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-27T14:36:31.785327+07:00"
+  "snapshot_time": "2026-10-27T14:41:39.254171+07:00"
 }
