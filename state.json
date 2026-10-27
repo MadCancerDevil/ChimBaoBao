@@ -37,12 +37,12 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4700.0,
-      "chg_pct": 2.17,
-      "rsi": 57.1,
-      "vol_ratio": 0.61,
+      "price": 4600.0,
+      "chg_pct": -2.13,
+      "rsi": 50.0,
+      "vol_ratio": 0.36,
       "ma_ok": false,
-      "macd_ok": true,
+      "macd_ok": false,
       "levels": {
         "buy_zone_low": 4400,
         "buy_zone_high": 4532,
@@ -52,10 +52,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tuần": "GIẢM ↓ (-2.1%)",
         "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "ĐI NGANG → (-7.8%)",
-        "9 tháng": "GIẢM ↓ (-17.5%)"
+        "3 tháng": "ĐI NGANG → (-6.1%)",
+        "9 tháng": "GIẢM ↓ (-19.3%)"
       },
       "swings": {
         "swing_high": {
@@ -67,7 +67,7 @@
           "date": "2026-10-20"
         }
       },
-      "tracked_patterns": "chữ nhật 20 phiên 4,400-4,800đ (nén 8.5%); 3 đỉnh quanh 4,800đ, viền cổ 4,400đ",
+      "tracked_patterns": "chữ nhật 21 phiên 4,400-4,800đ (nén 8.5%); 3 đỉnh quanh 4,800đ, viền cổ 4,400đ",
       "candles": [
         "Doji"
       ]
@@ -177,5 +177,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-27T09:06:30.654710+07:00"
+  "snapshot_time": "2026-10-27T09:11:34.702016+07:00"
 }
