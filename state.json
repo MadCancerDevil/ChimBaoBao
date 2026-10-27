@@ -40,7 +40,7 @@
       "price": 4600.0,
       "chg_pct": -2.13,
       "rsi": 50.0,
-      "vol_ratio": 1.52,
+      "vol_ratio": 1.42,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -109,10 +109,10 @@
       ]
     },
     "TTA": {
-      "price": 10650.0,
-      "chg_pct": -0.93,
-      "rsi": 36.4,
-      "vol_ratio": 0.03,
+      "price": 10600.0,
+      "chg_pct": -1.4,
+      "rsi": 33.3,
+      "vol_ratio": 0.12,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -124,10 +124,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "ĐI NGANG → (-2.3%)",
-        "3 tháng": "ĐI NGANG → (+1.4%)",
-        "9 tháng": "ĐI NGANG → (-3.2%)"
+        "1 tuần": "ĐI NGANG → (-0.5%)",
+        "1 tháng": "ĐI NGANG → (-2.8%)",
+        "3 tháng": "ĐI NGANG → (+1.0%)",
+        "9 tháng": "ĐI NGANG → (-3.6%)"
       },
       "swings": {
         "swing_high": {
@@ -145,10 +145,10 @@
       ]
     },
     "SHN": {
-      "price": 7300.0,
-      "chg_pct": -2.67,
-      "rsi": 28.6,
-      "vol_ratio": 0.57,
+      "price": 7400.0,
+      "chg_pct": -1.33,
+      "rsi": 29.6,
+      "vol_ratio": 0.66,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -160,10 +160,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-7.6%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "ĐI NGANG → (-7.6%)",
-        "9 tháng": "TĂNG ↑ (+58.7%)"
+        "1 tuần": "GIẢM ↓ (-6.3%)",
+        "1 tháng": "ĐI NGANG → (+1.4%)",
+        "3 tháng": "ĐI NGANG → (-6.3%)",
+        "9 tháng": "TĂNG ↑ (+60.9%)"
       },
       "swings": {
         "swing_high": {
@@ -176,10 +176,8 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,659-8,135đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-10-27T10:06:30.916748+07:00"
+  "snapshot_time": "2026-10-27T10:11:36.330793+07:00"
 }
