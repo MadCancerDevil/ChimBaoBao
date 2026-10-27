@@ -7,7 +7,7 @@
     "SHN:CANDLE_Evening Star": "2026-08-25T09:58:39.906266+07:00",
     "SHN:CANDLE_Marubozu giả": "2026-08-25T09:58:40.472457+07:00",
     "SHN:CANDLE_Hammer (Búa)": "2026-08-25T13:20:09.817083+07:00",
-    "NRC:BUY_ZONE": "2026-10-21T09:01:16.325912+07:00",
+    "NRC:BUY_ZONE": "2026-10-27T10:41:32.457261+07:00",
     "SHN:MACD_CROSS": "2026-09-17T19:37:31.413179+07:00",
     "NRC:CANDLE_Marubozu tăn": "2026-09-23T14:25:21.866468+07:00",
     "EVS:CANDLE_Marubozu tăn": "2026-10-06T09:31:04.033837+07:00",
@@ -37,10 +37,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4600.0,
-      "chg_pct": -2.13,
-      "rsi": 50.0,
-      "vol_ratio": 1.06,
+      "price": 4500.0,
+      "chg_pct": -4.26,
+      "rsi": 44.4,
+      "vol_ratio": 1.03,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -52,10 +52,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.1%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "ĐI NGANG → (-6.1%)",
-        "9 tháng": "GIẢM ↓ (-19.3%)"
+        "1 tuần": "GIẢM ↓ (-4.3%)",
+        "1 tháng": "ĐI NGANG → (-2.2%)",
+        "3 tháng": "GIẢM ↓ (-8.2%)",
+        "9 tháng": "GIẢM ↓ (-21.1%)"
       },
       "swings": {
         "swing_high": {
@@ -68,15 +68,13 @@
         }
       },
       "tracked_patterns": "chữ nhật 21 phiên 4,400-4,800đ (nén 8.5%); 3 đỉnh quanh 4,800đ, viền cổ 4,400đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     },
     "EVS": {
       "price": 5200.0,
       "chg_pct": -1.89,
       "rsi": 26.7,
-      "vol_ratio": 0.26,
+      "vol_ratio": 0.25,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -112,7 +110,7 @@
       "price": 10600.0,
       "chg_pct": -1.4,
       "rsi": 33.3,
-      "vol_ratio": 0.13,
+      "vol_ratio": 0.12,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -148,7 +146,7 @@
       "price": 7300.0,
       "chg_pct": -2.67,
       "rsi": 28.6,
-      "vol_ratio": 0.5,
+      "vol_ratio": 0.47,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -181,5 +179,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-27T10:36:31.242175+07:00"
+  "snapshot_time": "2026-10-27T10:41:32.458284+07:00"
 }
