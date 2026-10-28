@@ -40,7 +40,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 44.4,
-      "vol_ratio": 0.07,
+      "vol_ratio": 0.06,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -73,10 +73,10 @@
       ]
     },
     "EVS": {
-      "price": 5300.0,
-      "chg_pct": 0.0,
-      "rsi": 23.1,
-      "vol_ratio": 0.51,
+      "price": 5200.0,
+      "chg_pct": -1.89,
+      "rsi": 21.4,
+      "vol_ratio": 0.68,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -88,10 +88,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
-        "1 tháng": "ĐI NGANG → (+3.9%)",
-        "3 tháng": "GIẢM ↓ (-10.2%)",
-        "9 tháng": "ĐI NGANG → (-8.6%)"
+        "1 tuần": "GIẢM ↓ (-3.7%)",
+        "1 tháng": "ĐI NGANG → (+2.0%)",
+        "3 tháng": "GIẢM ↓ (-11.9%)",
+        "9 tháng": "ĐI NGANG → (-10.3%)"
       },
       "swings": {
         "swing_high": {
@@ -104,7 +104,9 @@
         }
       },
       "tracked_patterns": "3 đáy quanh 5,200đ, viền cổ 5,700đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
       "price": 10700.0,
@@ -143,10 +145,10 @@
       ]
     },
     "SHN": {
-      "price": 7400.0,
-      "chg_pct": -1.33,
-      "rsi": 34.8,
-      "vol_ratio": 0.28,
+      "price": 7100.0,
+      "chg_pct": -5.33,
+      "rsi": 30.8,
+      "vol_ratio": 0.45,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -158,10 +160,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-5.1%)",
-        "1 tháng": "ĐI NGANG → (+1.4%)",
-        "3 tháng": "ĐI NGANG → (+2.8%)",
-        "9 tháng": "TĂNG ↑ (+60.9%)"
+        "1 tuần": "GIẢM ↓ (-9.0%)",
+        "1 tháng": "ĐI NGANG → (-2.7%)",
+        "3 tháng": "ĐI NGANG → (-1.4%)",
+        "9 tháng": "TĂNG ↑ (+54.3%)"
       },
       "swings": {
         "swing_high": {
@@ -175,9 +177,9 @@
       },
       "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,677-8,061đ",
       "candles": [
-        "Doji"
+        "Marubozu giảm"
       ]
     }
   },
-  "snapshot_time": "2026-10-28T10:11:34.137273+07:00"
+  "snapshot_time": "2026-10-28T10:16:28.860826+07:00"
 }
