@@ -76,7 +76,7 @@
       "price": 5200.0,
       "chg_pct": -1.89,
       "rsi": 21.4,
-      "vol_ratio": 0.68,
+      "vol_ratio": 0.69,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -148,7 +148,7 @@
       "price": 7100.0,
       "chg_pct": -5.33,
       "rsi": 30.8,
-      "vol_ratio": 0.45,
+      "vol_ratio": 0.72,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -181,5 +181,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-28T10:16:28.860826+07:00"
+  "snapshot_time": "2026-10-28T10:21:31.120353+07:00"
 }
