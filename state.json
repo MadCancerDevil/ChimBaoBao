@@ -40,7 +40,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 44.4,
-      "vol_ratio": 0.39,
+      "vol_ratio": 0.36,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -76,7 +76,7 @@
       "price": 5200.0,
       "chg_pct": -1.89,
       "rsi": 23.1,
-      "vol_ratio": 0.66,
+      "vol_ratio": 0.6,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -109,10 +109,10 @@
       ]
     },
     "TTA": {
-      "price": 10600.0,
-      "chg_pct": -0.47,
-      "rsi": 36.4,
-      "vol_ratio": 0.19,
+      "price": 10550.0,
+      "chg_pct": -0.94,
+      "rsi": 33.3,
+      "vol_ratio": 0.34,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -124,10 +124,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
-        "1 tháng": "ĐI NGANG → (-1.9%)",
-        "3 tháng": "ĐI NGANG → (+0.5%)",
-        "9 tháng": "ĐI NGANG → (-3.6%)"
+        "1 tuần": "GIẢM ↓ (-2.3%)",
+        "1 tháng": "ĐI NGANG → (-2.3%)",
+        "3 tháng": "ĐI NGANG → (+0.0%)",
+        "9 tháng": "ĐI NGANG → (-4.1%)"
       },
       "swings": {
         "swing_high": {
@@ -145,10 +145,10 @@
       ]
     },
     "SHN": {
-      "price": 7400.0,
-      "chg_pct": -1.33,
-      "rsi": 36.4,
-      "vol_ratio": 0.03,
+      "price": 7300.0,
+      "chg_pct": -2.67,
+      "rsi": 34.8,
+      "vol_ratio": 0.25,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -160,10 +160,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-6.3%)",
-        "1 tháng": "GIẢM ↓ (-7.5%)",
-        "3 tháng": "ĐI NGANG → (-6.3%)",
-        "9 tháng": "TĂNG ↑ (+64.4%)"
+        "1 tuần": "GIẢM ↓ (-7.6%)",
+        "1 tháng": "GIẢM ↓ (-8.8%)",
+        "3 tháng": "ĐI NGANG → (-7.6%)",
+        "9 tháng": "TĂNG ↑ (+62.2%)"
       },
       "swings": {
         "swing_high": {
@@ -176,10 +176,8 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,695-7,988đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-10-29T09:51:28.882412+07:00"
+  "snapshot_time": "2026-10-29T09:56:26.106472+07:00"
 }
