@@ -15,7 +15,7 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-08T10:21:33.001210+07:00",
     "EVS:MACD_CROSS": "2026-10-19T09:26:13.617557+07:00",
-    "TTA:BUY_ZONE": "2026-10-28T13:06:32.105581+07:00",
+    "TTA:BUY_ZONE": "2026-10-29T09:01:31.276530+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-10-26T09:31:37.945101+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-10-19T13:31:16.951959+07:00",
@@ -24,7 +24,7 @@
     "EVS:CHART_BOTTOM_BREAK": "2026-10-06T13:31:47.445751+07:00",
     "EVS:CANDLE_Shooting Sta": "2026-10-06T09:46:05.833984+07:00",
     "SHN:CANDLE_Bullish Engu": "2026-10-06T14:26:37.629941+07:00",
-    "TTA:CANDLE_Hammer (Búa)": "2026-10-28T14:31:31.472994+07:00",
+    "TTA:CANDLE_Hammer (Búa)": "2026-10-29T09:01:31.742510+07:00",
     "EVS:CANDLE_Marubozu giả": "2026-10-21T09:56:11.689545+07:00",
     "TTA:VOL_SPIKE": "2026-10-22T09:36:22.293585+07:00",
     "TTA:CANDLE_Bearish Engu": "2026-10-07T14:21:39.349302+07:00",
@@ -143,25 +143,25 @@
       ]
     },
     "SHN": {
-      "price": 7500.0,
-      "chg_pct": 0.0,
-      "rsi": 36.4,
-      "vol_ratio": 0.84,
+      "price": 7700.0,
+      "chg_pct": 2.67,
+      "rsi": 43.5,
+      "vol_ratio": 0.01,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
-        "buy_zone_low": 6400,
-        "buy_zone_high": 6592,
+        "buy_zone_low": 6600,
+        "buy_zone_high": 6798,
         "breakout_level": 9200,
-        "stoploss_level": 6112,
+        "stoploss_level": 6303,
         "target_low": 10580,
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-3.8%)",
-        "1 tháng": "ĐI NGANG → (+2.7%)",
-        "3 tháng": "ĐI NGANG → (+4.2%)",
-        "9 tháng": "TĂNG ↑ (+63.0%)"
+        "1 tuần": "GIẢM ↓ (-2.5%)",
+        "1 tháng": "ĐI NGANG → (-3.7%)",
+        "3 tháng": "ĐI NGANG → (-2.5%)",
+        "9 tháng": "TĂNG ↑ (+71.1%)"
       },
       "swings": {
         "swing_high": {
@@ -173,9 +173,9 @@
           "date": "2026-10-20"
         }
       },
-      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,677-8,061đ",
+      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,695-7,988đ",
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-28T22:20:34.653773+07:00"
+  "snapshot_time": "2026-10-29T09:01:31.743099+07:00"
 }
