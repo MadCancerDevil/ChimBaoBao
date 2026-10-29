@@ -7,7 +7,7 @@
     "SHN:CANDLE_Evening Star": "2026-08-25T09:58:39.906266+07:00",
     "SHN:CANDLE_Marubozu giả": "2026-08-25T09:58:40.472457+07:00",
     "SHN:CANDLE_Hammer (Búa)": "2026-08-25T13:20:09.817083+07:00",
-    "NRC:BUY_ZONE": "2026-10-29T09:21:29.245290+07:00",
+    "NRC:BUY_ZONE": "2026-10-29T13:26:02.502460+07:00",
     "SHN:MACD_CROSS": "2026-09-17T19:37:31.413179+07:00",
     "NRC:CANDLE_Marubozu tăn": "2026-09-23T14:25:21.866468+07:00",
     "EVS:CANDLE_Marubozu tăn": "2026-10-06T09:31:04.033837+07:00",
@@ -40,7 +40,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 44.4,
-      "vol_ratio": 0.83,
+      "vol_ratio": 0.88,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -76,7 +76,7 @@
       "price": 5200.0,
       "chg_pct": -1.89,
       "rsi": 23.1,
-      "vol_ratio": 0.79,
+      "vol_ratio": 0.77,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -107,10 +107,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10550.0,
-      "chg_pct": -0.94,
-      "rsi": 33.3,
-      "vol_ratio": 0.37,
+      "price": 10500.0,
+      "chg_pct": -1.41,
+      "rsi": 30.8,
+      "vol_ratio": 0.36,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -122,10 +122,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.3%)",
-        "1 tháng": "ĐI NGANG → (-2.3%)",
-        "3 tháng": "ĐI NGANG → (+0.0%)",
-        "9 tháng": "ĐI NGANG → (-4.1%)"
+        "1 tuần": "GIẢM ↓ (-2.8%)",
+        "1 tháng": "ĐI NGANG → (-2.8%)",
+        "3 tháng": "ĐI NGANG → (-0.5%)",
+        "9 tháng": "ĐI NGANG → (-4.5%)"
       },
       "swings": {
         "swing_high": {
@@ -146,7 +146,7 @@
       "price": 7200.0,
       "chg_pct": -4.0,
       "rsi": 33.3,
-      "vol_ratio": 0.4,
+      "vol_ratio": 0.39,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -177,5 +177,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-29T13:21:03.002896+07:00"
+  "snapshot_time": "2026-10-29T13:26:02.503479+07:00"
 }
