@@ -15,7 +15,7 @@
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
     "SHN:VOL_SPIKE": "2026-10-08T10:21:33.001210+07:00",
     "EVS:MACD_CROSS": "2026-10-19T09:26:13.617557+07:00",
-    "TTA:BUY_ZONE": "2026-10-29T09:01:31.276530+07:00",
+    "TTA:BUY_ZONE": "2026-10-29T13:06:04.408883+07:00",
     "SHN:CANDLE_Morning Star": "2026-09-30T13:25:56.543895+07:00",
     "NRC:CANDLE_Marubozu giả": "2026-10-26T09:31:37.945101+07:00",
     "TTA:CANDLE_Marubozu tăn": "2026-10-19T13:31:16.951959+07:00",
@@ -40,7 +40,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 44.4,
-      "vol_ratio": 0.94,
+      "vol_ratio": 0.91,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -76,7 +76,7 @@
       "price": 5200.0,
       "chg_pct": -1.89,
       "rsi": 23.1,
-      "vol_ratio": 0.71,
+      "vol_ratio": 0.69,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -110,7 +110,7 @@
       "price": 10550.0,
       "chg_pct": -0.94,
       "rsi": 33.3,
-      "vol_ratio": 0.38,
+      "vol_ratio": 0.37,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -146,7 +146,7 @@
       "price": 7300.0,
       "chg_pct": -2.67,
       "rsi": 34.8,
-      "vol_ratio": 0.2,
+      "vol_ratio": 0.21,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -177,5 +177,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-29T13:01:07.175262+07:00"
+  "snapshot_time": "2026-10-29T13:06:04.409485+07:00"
 }
