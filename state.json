@@ -76,7 +76,7 @@
       "price": 5300.0,
       "chg_pct": 0.0,
       "rsi": 25.0,
-      "vol_ratio": 0.03,
+      "vol_ratio": 0.05,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -110,9 +110,9 @@
     },
     "TTA": {
       "price": 10650.0,
-      "chg_pct": -0.93,
+      "chg_pct": 0.0,
       "rsi": 40.0,
-      "vol_ratio": 1.38,
+      "vol_ratio": 0.16,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -126,8 +126,8 @@
       "trends": {
         "1 tuần": "ĐI NGANG → (-1.4%)",
         "1 tháng": "ĐI NGANG → (-1.4%)",
-        "3 tháng": "ĐI NGANG → (+1.4%)",
-        "9 tháng": "ĐI NGANG → (-2.7%)"
+        "3 tháng": "ĐI NGANG → (+0.9%)",
+        "9 tháng": "ĐI NGANG → (-3.2%)"
       },
       "swings": {
         "swing_high": {
@@ -139,15 +139,15 @@
           "date": "2026-10-19"
         }
       },
-      "tracked_patterns": "chữ nhật 39 phiên 10,500-11,550đ (nén 9.6%); 3 đỉnh quanh 10,850đ, viền cổ 10,500đ",
+      "tracked_patterns": "chữ nhật 40 phiên 10,500-11,550đ (nén 9.6%); 3 đỉnh quanh 10,850đ, viền cổ 10,500đ",
       "candles": [
-        "Hammer (Búa)"
+        "Doji"
       ]
     },
     "SHN": {
-      "price": 7700.0,
-      "chg_pct": 2.67,
-      "rsi": 43.5,
+      "price": 7400.0,
+      "chg_pct": -1.33,
+      "rsi": 36.4,
       "vol_ratio": 0.01,
       "ma_ok": true,
       "macd_ok": false,
@@ -160,10 +160,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.5%)",
-        "1 tháng": "ĐI NGANG → (-3.7%)",
-        "3 tháng": "ĐI NGANG → (-2.5%)",
-        "9 tháng": "TĂNG ↑ (+71.1%)"
+        "1 tuần": "GIẢM ↓ (-6.3%)",
+        "1 tháng": "GIẢM ↓ (-7.5%)",
+        "3 tháng": "ĐI NGANG → (-6.3%)",
+        "9 tháng": "TĂNG ↑ (+64.4%)"
       },
       "swings": {
         "swing_high": {
@@ -176,8 +176,10 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,695-7,988đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-10-29T09:11:31.074635+07:00"
+  "snapshot_time": "2026-10-29T09:16:25.824038+07:00"
 }
