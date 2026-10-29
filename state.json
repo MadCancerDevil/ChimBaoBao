@@ -40,7 +40,7 @@
       "price": 4600.0,
       "chg_pct": 0.0,
       "rsi": 50.0,
-      "vol_ratio": 0.33,
+      "vol_ratio": 0.3,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -73,10 +73,10 @@
       ]
     },
     "EVS": {
-      "price": 5200.0,
-      "chg_pct": -1.89,
-      "rsi": 23.1,
-      "vol_ratio": 0.74,
+      "price": 5100.0,
+      "chg_pct": -3.77,
+      "rsi": 21.4,
+      "vol_ratio": 0.68,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -88,10 +88,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
-        "1 tháng": "TĂNG ↑ (+4.0%)",
-        "3 tháng": "GIẢM ↓ (-11.9%)",
-        "9 tháng": "ĐI NGANG → (-11.9%)"
+        "1 tuần": "GIẢM ↓ (-3.8%)",
+        "1 tháng": "ĐI NGANG → (+2.0%)",
+        "3 tháng": "GIẢM ↓ (-13.6%)",
+        "9 tháng": "ĐI NGANG → (-13.6%)"
       },
       "swings": {
         "swing_high": {
@@ -105,6 +105,7 @@
       },
       "tracked_patterns": "3 đáy quanh 5,200đ, viền cổ 5,700đ",
       "candles": [
+        "Bearish Engulfing (Nhấn chìm giảm)",
         "Marubozu giảm"
       ]
     },
@@ -112,7 +113,7 @@
       "price": 10550.0,
       "chg_pct": -0.94,
       "rsi": 33.3,
-      "vol_ratio": 0.31,
+      "vol_ratio": 0.33,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -148,7 +149,7 @@
       "price": 7300.0,
       "chg_pct": -2.67,
       "rsi": 34.8,
-      "vol_ratio": 0.23,
+      "vol_ratio": 0.21,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -179,5 +180,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-29T10:01:33.654338+07:00"
+  "snapshot_time": "2026-10-29T10:06:40.730085+07:00"
 }
