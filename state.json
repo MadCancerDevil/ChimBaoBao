@@ -75,23 +75,23 @@
     "EVS": {
       "price": 5300.0,
       "chg_pct": 0.0,
-      "rsi": 23.1,
-      "vol_ratio": 0.98,
+      "rsi": 25.0,
+      "vol_ratio": 0.03,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
-        "buy_zone_low": 4700,
-        "buy_zone_high": 4841,
+        "buy_zone_low": 4900,
+        "buy_zone_high": 5047,
         "breakout_level": 6200,
-        "stoploss_level": 4488,
+        "stoploss_level": 4680,
         "target_low": 7130,
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
-        "1 tháng": "ĐI NGANG → (+3.9%)",
+        "1 tuần": "ĐI NGANG → (+0.0%)",
+        "1 tháng": "TĂNG ↑ (+6.0%)",
         "3 tháng": "GIẢM ↓ (-10.2%)",
-        "9 tháng": "ĐI NGANG → (-8.6%)"
+        "9 tháng": "ĐI NGANG → (-10.2%)"
       },
       "swings": {
         "swing_high": {
@@ -104,7 +104,9 @@
         }
       },
       "tracked_patterns": "3 đáy quanh 5,200đ, viền cổ 5,700đ",
-      "candles": []
+      "candles": [
+        "Doji"
+      ]
     },
     "TTA": {
       "price": 10650.0,
@@ -177,5 +179,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-10-29T09:01:31.743099+07:00"
+  "snapshot_time": "2026-10-29T09:06:28.965631+07:00"
 }
