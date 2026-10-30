@@ -76,7 +76,7 @@
       "price": 5100.0,
       "chg_pct": -1.92,
       "rsi": 21.4,
-      "vol_ratio": 0.92,
+      "vol_ratio": 0.98,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -99,20 +99,18 @@
           "date": "2026-10-26"
         },
         "swing_low": {
-          "price": 5100.0,
-          "date": "2026-10-28"
+          "price": 5200.0,
+          "date": "2026-10-22"
         }
       },
       "tracked_patterns": "3 đáy quanh 5,200đ, viền cổ 5,700đ",
-      "candles": [
-        "Marubozu giảm"
-      ]
+      "candles": []
     },
     "TTA": {
       "price": 10550.0,
       "chg_pct": -0.94,
       "rsi": 33.3,
-      "vol_ratio": 0.03,
+      "vol_ratio": 0.05,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -148,7 +146,7 @@
       "price": 7100.0,
       "chg_pct": -2.74,
       "rsi": 32.0,
-      "vol_ratio": 0.45,
+      "vol_ratio": 0.48,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -181,5 +179,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-10-30T09:45:53.823965+07:00"
+  "snapshot_time": "2026-10-30T09:50:54.435551+07:00"
 }
