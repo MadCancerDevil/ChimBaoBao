@@ -40,7 +40,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 37.5,
-      "vol_ratio": 0.93,
+      "vol_ratio": 1.29,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -107,10 +107,10 @@
       "candles": []
     },
     "TTA": {
-      "price": 10650.0,
-      "chg_pct": 0.0,
-      "rsi": 40.0,
-      "vol_ratio": 0.02,
+      "price": 10600.0,
+      "chg_pct": -0.47,
+      "rsi": 36.4,
+      "vol_ratio": 0.03,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -122,10 +122,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.5%)",
-        "1 tháng": "ĐI NGANG → (-1.4%)",
-        "3 tháng": "ĐI NGANG → (+1.4%)",
-        "9 tháng": "ĐI NGANG → (-3.2%)"
+        "1 tuần": "ĐI NGANG → (-0.9%)",
+        "1 tháng": "ĐI NGANG → (-1.9%)",
+        "3 tháng": "ĐI NGANG → (+1.0%)",
+        "9 tháng": "ĐI NGANG → (-3.6%)"
       },
       "swings": {
         "swing_high": {
@@ -139,14 +139,14 @@
       },
       "tracked_patterns": "chữ nhật 41 phiên 10,500-11,550đ (nén 9.6%); 3 đỉnh quanh 10,850đ, viền cổ 10,500đ",
       "candles": [
-        "Doji"
+        "Marubozu giảm"
       ]
     },
     "SHN": {
-      "price": 7300.0,
-      "chg_pct": -2.67,
-      "rsi": 34.8,
-      "vol_ratio": 0.4,
+      "price": 7200.0,
+      "chg_pct": -1.37,
+      "rsi": 33.3,
+      "vol_ratio": 0.11,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -158,24 +158,26 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-7.6%)",
-        "1 tháng": "GIẢM ↓ (-8.8%)",
-        "3 tháng": "ĐI NGANG → (-7.6%)",
-        "9 tháng": "TĂNG ↑ (+62.2%)"
+        "1 tuần": "GIẢM ↓ (-4.0%)",
+        "1 tháng": "GIẢM ↓ (-16.3%)",
+        "3 tháng": "GIẢM ↓ (-16.3%)",
+        "9 tháng": "TĂNG ↑ (+56.5%)"
       },
       "swings": {
         "swing_high": {
-          "price": 8500.0,
-          "date": "2026-10-16"
+          "price": 7700.0,
+          "date": "2026-10-28"
         },
         "swing_low": {
-          "price": 7400.0,
-          "date": "2026-10-20"
+          "price": 7000.0,
+          "date": "2026-10-28"
         }
       },
-      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,695-7,988đ",
-      "candles": []
+      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,713-7,914đ",
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-10-30T09:15:58.669478+07:00"
+  "snapshot_time": "2026-10-30T09:20:54.927183+07:00"
 }
