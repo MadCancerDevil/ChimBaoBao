@@ -9,7 +9,7 @@
     "SHN:CANDLE_Hammer (Búa)": "2026-08-25T13:20:09.817083+07:00",
     "NRC:BUY_ZONE": "2026-11-02T09:15:54.752334+07:00",
     "SHN:MACD_CROSS": "2026-09-17T19:37:31.413179+07:00",
-    "NRC:CANDLE_Marubozu tăn": "2026-10-30T10:55:57.809170+07:00",
+    "NRC:CANDLE_Marubozu tăn": "2026-11-02T09:25:55.397758+07:00",
     "EVS:CANDLE_Marubozu tăn": "2026-10-06T09:31:04.033837+07:00",
     "EVS:CANDLE_Bullish Engu": "2026-09-17T14:14:03.530297+07:00",
     "NRC:MACD_CROSS": "2026-09-17T19:37:30.857672+07:00",
@@ -37,9 +37,9 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4500.0,
-      "chg_pct": -2.17,
-      "rsi": 28.6,
+      "price": 4600.0,
+      "chg_pct": 0.0,
+      "rsi": 33.3,
       "vol_ratio": 0.25,
       "ma_ok": false,
       "macd_ok": false,
@@ -52,10 +52,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-4.3%)",
-        "1 tháng": "ĐI NGANG → (-2.2%)",
-        "3 tháng": "ĐI NGANG → (-4.3%)",
-        "9 tháng": "GIẢM ↓ (-22.4%)"
+        "1 tuần": "GIẢM ↓ (-2.1%)",
+        "1 tháng": "ĐI NGANG → (+0.0%)",
+        "3 tháng": "ĐI NGANG → (-2.1%)",
+        "9 tháng": "GIẢM ↓ (-20.7%)"
       },
       "swings": {
         "swing_high": {
@@ -69,7 +69,7 @@
       },
       "tracked_patterns": "chữ nhật 25 phiên 4,400-4,800đ (nén 8.6%); 3 đáy quanh 4,500đ, viền cổ 4,800đ",
       "candles": [
-        "Doji"
+        "Marubozu tăng"
       ]
     },
     "EVS": {
@@ -108,11 +108,11 @@
     },
     "TTA": {
       "price": 10500.0,
-      "chg_pct": -1.41,
-      "rsi": 30.8,
-      "vol_ratio": 0.22,
+      "chg_pct": 0.0,
+      "rsi": 33.3,
+      "vol_ratio": 0.08,
       "ma_ok": false,
-      "macd_ok": true,
+      "macd_ok": false,
       "levels": {
         "buy_zone_low": 10450,
         "buy_zone_high": 10764,
@@ -122,10 +122,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-1.9%)",
+        "1 tuần": "GIẢM ↓ (-2.3%)",
         "1 tháng": "ĐI NGANG → (-2.8%)",
-        "3 tháng": "ĐI NGANG → (+0.0%)",
-        "9 tháng": "ĐI NGANG → (-4.5%)"
+        "3 tháng": "ĐI NGANG → (-0.9%)",
+        "9 tháng": "ĐI NGANG → (-2.8%)"
       },
       "swings": {
         "swing_high": {
@@ -137,14 +137,16 @@
           "date": "2026-10-19"
         }
       },
-      "tracked_patterns": "chữ nhật 41 phiên 10,500-11,550đ (nén 9.6%); 3 đỉnh quanh 10,850đ, viền cổ 10,450đ",
-      "candles": []
+      "tracked_patterns": "chữ nhật 41 phiên 10,450-11,400đ (nén 8.7%); 3 đỉnh quanh 10,850đ, viền cổ 10,450đ",
+      "candles": [
+        "Marubozu giảm"
+      ]
     },
     "SHN": {
       "price": 6800.0,
       "chg_pct": -4.23,
       "rsi": 13.0,
-      "vol_ratio": 1.03,
+      "vol_ratio": 1.1,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -175,5 +177,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-11-02T09:20:57.350745+07:00"
+  "snapshot_time": "2026-11-02T09:25:55.398753+07:00"
 }
