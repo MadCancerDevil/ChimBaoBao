@@ -141,10 +141,10 @@
       "candles": []
     },
     "SHN": {
-      "price": 7100.0,
-      "chg_pct": -2.74,
-      "rsi": 32.0,
-      "vol_ratio": 0.52,
+      "price": 6900.0,
+      "chg_pct": -2.82,
+      "rsi": 13.6,
+      "vol_ratio": 0.14,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -156,10 +156,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-5.3%)",
-        "1 tháng": "GIẢM ↓ (-17.4%)",
-        "3 tháng": "GIẢM ↓ (-17.4%)",
-        "9 tháng": "TĂNG ↑ (+54.3%)"
+        "1 tuần": "GIẢM ↓ (-8.0%)",
+        "1 tháng": "GIẢM ↓ (-13.7%)",
+        "3 tháng": "GIẢM ↓ (-21.6%)",
+        "9 tháng": "TĂNG ↑ (+50.0%)"
       },
       "swings": {
         "swing_high": {
@@ -171,11 +171,11 @@
           "date": "2026-10-20"
         }
       },
-      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,713-7,914đ",
+      "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,730-7,471đ",
       "candles": [
-        "Hammer (Búa)"
+        "Marubozu giảm"
       ]
     }
   },
-  "snapshot_time": "2026-11-02T09:05:54.741181+07:00"
+  "snapshot_time": "2026-11-02T09:10:57.685346+07:00"
 }
