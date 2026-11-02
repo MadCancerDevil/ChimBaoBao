@@ -1,7 +1,7 @@
 {
   "last_update_id": 0,
   "last_alerts": {
-    "EVS:BUY_ZONE": "2026-11-02T10:05:58.824285+07:00",
+    "EVS:BUY_ZONE": "2026-11-02T14:30:57.445664+07:00",
     "SHN:BUY_ZONE": "2026-11-02T10:25:53.003862+07:00",
     "SHN:CANDLE_Marubozu tăn": "2026-10-13T09:11:32.541088+07:00",
     "SHN:CANDLE_Evening Star": "2026-08-25T09:58:39.906266+07:00",
@@ -24,7 +24,7 @@
     "EVS:CHART_BOTTOM_BREAK": "2026-10-06T13:31:47.445751+07:00",
     "EVS:CANDLE_Shooting Sta": "2026-10-06T09:46:05.833984+07:00",
     "SHN:CANDLE_Bullish Engu": "2026-10-06T14:26:37.629941+07:00",
-    "TTA:CANDLE_Hammer (Búa)": "2026-10-30T14:30:55.856022+07:00",
+    "TTA:CANDLE_Hammer (Búa)": "2026-11-02T14:30:58.043994+07:00",
     "EVS:CANDLE_Marubozu giả": "2026-10-21T09:56:11.689545+07:00",
     "TTA:VOL_SPIKE": "2026-10-22T09:36:22.293585+07:00",
     "TTA:CANDLE_Bearish Engu": "2026-10-07T14:21:39.349302+07:00",
@@ -41,7 +41,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 28.6,
-      "vol_ratio": 1.99,
+      "vol_ratio": 1.95,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -74,10 +74,10 @@
       ]
     },
     "EVS": {
-      "price": 5000.0,
-      "chg_pct": -1.96,
-      "rsi": 30.0,
-      "vol_ratio": 0.41,
+      "price": 4900.0,
+      "chg_pct": -3.92,
+      "rsi": 27.3,
+      "vol_ratio": 0.4,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -89,10 +89,10 @@
         "target_high": 8060
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-5.7%)",
-        "1 tháng": "GIẢM ↓ (-5.7%)",
-        "3 tháng": "GIẢM ↓ (-13.8%)",
-        "9 tháng": "ĐI NGANG → (-12.3%)"
+        "1 tuần": "GIẢM ↓ (-7.5%)",
+        "1 tháng": "GIẢM ↓ (-7.5%)",
+        "3 tháng": "GIẢM ↓ (-15.5%)",
+        "9 tháng": "ĐI NGANG → (-14.0%)"
       },
       "swings": {
         "swing_high": {
@@ -105,14 +105,12 @@
         }
       },
       "tracked_patterns": "3 đáy quanh 5,200đ, viền cổ 5,700đ",
-      "candles": [
-        "Hammer (Búa)"
-      ]
+      "candles": []
     },
     "TTA": {
-      "price": 10400.0,
-      "chg_pct": -0.95,
-      "rsi": 28.6,
+      "price": 10500.0,
+      "chg_pct": 0.0,
+      "rsi": 33.3,
       "vol_ratio": 0.69,
       "ma_ok": false,
       "macd_ok": false,
@@ -125,10 +123,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-3.3%)",
-        "1 tháng": "ĐI NGANG → (-3.7%)",
-        "3 tháng": "ĐI NGANG → (-1.9%)",
-        "9 tháng": "ĐI NGANG → (-3.7%)"
+        "1 tuần": "GIẢM ↓ (-2.3%)",
+        "1 tháng": "ĐI NGANG → (-2.8%)",
+        "3 tháng": "ĐI NGANG → (-0.9%)",
+        "9 tháng": "ĐI NGANG → (-2.8%)"
       },
       "swings": {
         "swing_high": {
@@ -141,13 +139,15 @@
         }
       },
       "tracked_patterns": "chữ nhật 41 phiên 10,450-11,400đ (nén 8.7%); 3 đỉnh quanh 10,850đ, viền cổ 10,250đ",
-      "candles": []
+      "candles": [
+        "Hammer (Búa)"
+      ]
     },
     "SHN": {
-      "price": 6700.0,
-      "chg_pct": -5.63,
-      "rsi": 12.5,
-      "vol_ratio": 1.64,
+      "price": 6800.0,
+      "chg_pct": -4.23,
+      "rsi": 13.0,
+      "vol_ratio": 1.63,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -159,10 +159,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-10.7%)",
-        "1 tháng": "GIẢM ↓ (-16.2%)",
-        "3 tháng": "GIẢM ↓ (-23.9%)",
-        "9 tháng": "TĂNG ↑ (+45.7%)"
+        "1 tuần": "GIẢM ↓ (-9.3%)",
+        "1 tháng": "GIẢM ↓ (-15.0%)",
+        "3 tháng": "GIẢM ↓ (-22.7%)",
+        "9 tháng": "TĂNG ↑ (+47.8%)"
       },
       "swings": {
         "swing_high": {
@@ -178,5 +178,5 @@
       "candles": []
     }
   },
-  "snapshot_time": "2026-11-02T14:26:02.074972+07:00"
+  "snapshot_time": "2026-11-02T14:30:58.044594+07:00"
 }
