@@ -112,7 +112,7 @@
       "price": 10500.0,
       "chg_pct": 0.0,
       "rsi": 33.3,
-      "vol_ratio": 0.32,
+      "vol_ratio": 0.33,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -145,10 +145,10 @@
       ]
     },
     "SHN": {
-      "price": 7000.0,
-      "chg_pct": -1.41,
-      "rsi": 14.3,
-      "vol_ratio": 1.17,
+      "price": 6800.0,
+      "chg_pct": -4.23,
+      "rsi": 13.0,
+      "vol_ratio": 1.2,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -160,10 +160,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-6.7%)",
-        "1 tháng": "GIẢM ↓ (-12.5%)",
-        "3 tháng": "GIẢM ↓ (-20.5%)",
-        "9 tháng": "TĂNG ↑ (+52.2%)"
+        "1 tuần": "GIẢM ↓ (-9.3%)",
+        "1 tháng": "GIẢM ↓ (-15.0%)",
+        "3 tháng": "GIẢM ↓ (-22.7%)",
+        "9 tháng": "TĂNG ↑ (+47.8%)"
       },
       "swings": {
         "swing_high": {
@@ -176,10 +176,8 @@
         }
       },
       "tracked_patterns": "2 đáy quanh 7,400đ, viền cổ 8,800đ; hội tụ (nêm/tam giác dốc xuống) 7,730-7,471đ",
-      "candles": [
-        "Doji"
-      ]
+      "candles": []
     }
   },
-  "snapshot_time": "2026-11-02T09:40:53.131013+07:00"
+  "snapshot_time": "2026-11-02T09:45:57.173762+07:00"
 }
