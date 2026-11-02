@@ -5,7 +5,7 @@
     "SHN:BUY_ZONE": "2026-11-02T10:25:53.003862+07:00",
     "SHN:CANDLE_Marubozu tăn": "2026-10-13T09:11:32.541088+07:00",
     "SHN:CANDLE_Evening Star": "2026-08-25T09:58:39.906266+07:00",
-    "SHN:CANDLE_Marubozu giả": "2026-08-25T09:58:40.472457+07:00",
+    "SHN:CANDLE_Marubozu giả": "2026-11-02T11:00:56.452978+07:00",
     "SHN:CANDLE_Hammer (Búa)": "2026-11-02T10:10:57.364721+07:00",
     "NRC:BUY_ZONE": "2026-11-02T09:15:54.752334+07:00",
     "SHN:MACD_CROSS": "2026-09-17T19:37:31.413179+07:00",
@@ -40,7 +40,7 @@
       "price": 4500.0,
       "chg_pct": -2.17,
       "rsi": 28.6,
-      "vol_ratio": 1.15,
+      "vol_ratio": 1.11,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -76,7 +76,7 @@
       "price": 5000.0,
       "chg_pct": -1.96,
       "rsi": 30.0,
-      "vol_ratio": 0.1,
+      "vol_ratio": 0.13,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -112,7 +112,7 @@
       "price": 10450.0,
       "chg_pct": -0.48,
       "rsi": 30.8,
-      "vol_ratio": 0.34,
+      "vol_ratio": 0.33,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -148,7 +148,7 @@
       "price": 6600.0,
       "chg_pct": -7.04,
       "rsi": 12.0,
-      "vol_ratio": 1.22,
+      "vol_ratio": 1.59,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -181,5 +181,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-11-02T10:55:57.271395+07:00"
+  "snapshot_time": "2026-11-02T11:00:56.453017+07:00"
 }
