@@ -37,10 +37,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4600.0,
-      "chg_pct": 0.0,
-      "rsi": 33.3,
-      "vol_ratio": 0.28,
+      "price": 4500.0,
+      "chg_pct": -2.17,
+      "rsi": 28.6,
+      "vol_ratio": 0.36,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -52,10 +52,10 @@
         "target_high": 6630
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.1%)",
-        "1 tháng": "ĐI NGANG → (+0.0%)",
-        "3 tháng": "ĐI NGANG → (-2.1%)",
-        "9 tháng": "GIẢM ↓ (-20.7%)"
+        "1 tuần": "GIẢM ↓ (-4.3%)",
+        "1 tháng": "ĐI NGANG → (-2.2%)",
+        "3 tháng": "ĐI NGANG → (-4.3%)",
+        "9 tháng": "GIẢM ↓ (-22.4%)"
       },
       "swings": {
         "swing_high": {
@@ -69,14 +69,14 @@
       },
       "tracked_patterns": "chữ nhật 25 phiên 4,400-4,800đ (nén 8.6%); 3 đáy quanh 4,500đ, viền cổ 4,800đ",
       "candles": [
-        "Marubozu tăng"
+        "Doji"
       ]
     },
     "EVS": {
       "price": 5000.0,
       "chg_pct": -1.96,
       "rsi": 30.0,
-      "vol_ratio": 0.06,
+      "vol_ratio": 0.05,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -109,10 +109,10 @@
       ]
     },
     "TTA": {
-      "price": 10500.0,
-      "chg_pct": 0.0,
-      "rsi": 33.3,
-      "vol_ratio": 0.22,
+      "price": 10450.0,
+      "chg_pct": -0.48,
+      "rsi": 30.8,
+      "vol_ratio": 0.23,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -124,10 +124,10 @@
         "target_high": 15405
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-2.3%)",
-        "1 tháng": "ĐI NGANG → (-2.8%)",
-        "3 tháng": "ĐI NGANG → (-0.9%)",
-        "9 tháng": "ĐI NGANG → (-2.8%)"
+        "1 tuần": "GIẢM ↓ (-2.8%)",
+        "1 tháng": "ĐI NGANG → (-3.2%)",
+        "3 tháng": "ĐI NGANG → (-1.4%)",
+        "9 tháng": "ĐI NGANG → (-3.2%)"
       },
       "swings": {
         "swing_high": {
@@ -148,7 +148,7 @@
       "price": 6900.0,
       "chg_pct": -2.82,
       "rsi": 13.6,
-      "vol_ratio": 0.97,
+      "vol_ratio": 0.91,
       "ma_ok": true,
       "macd_ok": false,
       "levels": {
@@ -181,5 +181,5 @@
       ]
     }
   },
-  "snapshot_time": "2026-11-02T10:15:54.282641+07:00"
+  "snapshot_time": "2026-11-02T10:20:53.820139+07:00"
 }
