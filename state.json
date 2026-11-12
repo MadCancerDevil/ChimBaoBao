@@ -38,10 +38,10 @@
   },
   "snapshot": {
     "NRC": {
-      "price": 4600.0,
-      "chg_pct": -2.13,
-      "rsi": 44.4,
-      "vol_ratio": 0.14,
+      "price": 4700.0,
+      "chg_pct": 2.17,
+      "rsi": 55.6,
+      "vol_ratio": 3.63,
       "ma_ok": false,
       "macd_ok": true,
       "levels": {
@@ -53,10 +53,10 @@
         "target_high": 6500
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "GIẢM ↓ (-4.2%)",
-        "3 tháng": "ĐI NGANG → (-4.2%)",
-        "9 tháng": "GIẢM ↓ (-19.3%)"
+        "1 tuần": "TĂNG ↑ (+4.4%)",
+        "1 tháng": "ĐI NGANG → (-2.1%)",
+        "3 tháng": "ĐI NGANG → (+0.0%)",
+        "9 tháng": "GIẢM ↓ (-17.5%)"
       },
       "swings": {
         "swing_high": {
@@ -68,16 +68,16 @@
           "date": "2026-11-05"
         }
       },
-      "tracked_patterns": "chữ nhật 32 phiên 4,400-4,800đ (nén 8.6%); 3 đáy quanh 4,500đ, viền cổ 4,800đ; hội tụ (nêm/tam giác dốc xuống) 4,492-4,516đ",
+      "tracked_patterns": "chữ nhật 33 phiên 4,400-4,800đ (nén 8.6%); 3 đáy quanh 4,500đ, viền cổ 4,800đ",
       "candles": [
-        "Marubozu giảm"
+        "Doji"
       ]
     },
     "EVS": {
       "price": 5100.0,
       "chg_pct": 0.0,
-      "rsi": 41.7,
-      "vol_ratio": 0.66,
+      "rsi": 36.4,
+      "vol_ratio": 0.54,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -90,14 +90,14 @@
       },
       "trends": {
         "1 tuần": "ĐI NGANG → (+0.0%)",
-        "1 tháng": "GIẢM ↓ (-5.6%)",
+        "1 tháng": "GIẢM ↓ (-7.3%)",
         "3 tháng": "GIẢM ↓ (-12.1%)",
-        "9 tháng": "ĐI NGANG → (-10.5%)"
+        "9 tháng": "ĐI NGANG → (-7.3%)"
       },
       "swings": {
         "swing_high": {
-          "price": 5200.0,
-          "date": "2026-11-04"
+          "price": 5300.0,
+          "date": "2026-11-10"
         },
         "swing_low": {
           "price": 4900.0,
@@ -111,24 +111,24 @@
     },
     "TTA": {
       "price": 10450.0,
-      "chg_pct": 4.5,
-      "rsi": 40.0,
-      "vol_ratio": 5.5,
+      "chg_pct": 0.0,
+      "rsi": 42.4,
+      "vol_ratio": 0.86,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
         "buy_zone_low": 9800,
         "buy_zone_high": 10094,
-        "breakout_level": 11550,
+        "breakout_level": 11400,
         "stoploss_level": 9359,
-        "target_low": 13282,
-        "target_high": 15015
+        "target_low": 13110,
+        "target_high": 14820
       },
       "trends": {
-        "1 tuần": "ĐI NGANG → (-0.5%)",
+        "1 tuần": "ĐI NGANG → (+0.5%)",
         "1 tháng": "ĐI NGANG → (-2.3%)",
-        "3 tháng": "GIẢM ↓ (-8.3%)",
-        "9 tháng": "ĐI NGANG → (-4.6%)"
+        "3 tháng": "ĐI NGANG → (-7.5%)",
+        "9 tháng": "ĐI NGANG → (-4.1%)"
       },
       "swings": {
         "swing_high": {
@@ -140,14 +140,16 @@
           "date": "2026-11-06"
         }
       },
-      "tracked_patterns": "chữ nhật 30 phiên 9,800-10,850đ (nén 9.9%); 2 đỉnh quanh 10,500đ, viền cổ 9,800đ",
-      "candles": []
+      "tracked_patterns": "chữ nhật 31 phiên 9,800-10,850đ (nén 9.9%); 2 đỉnh quanh 10,500đ, viền cổ 9,800đ",
+      "candles": [
+        "Doji"
+      ]
     },
     "SHN": {
       "price": 6700.0,
-      "chg_pct": 1.52,
-      "rsi": 25.0,
-      "vol_ratio": 0.18,
+      "chg_pct": 0.0,
+      "rsi": 30.0,
+      "vol_ratio": 0.16,
       "ma_ok": false,
       "macd_ok": false,
       "levels": {
@@ -159,10 +161,10 @@
         "target_high": 11960
       },
       "trends": {
-        "1 tuần": "GIẢM ↓ (-4.3%)",
-        "1 tháng": "GIẢM ↓ (-21.2%)",
-        "3 tháng": "GIẢM ↓ (-13.0%)",
-        "9 tháng": "TĂNG ↑ (+71.8%)"
+        "1 tuần": "ĐI NGANG → (-1.5%)",
+        "1 tháng": "GIẢM ↓ (-17.3%)",
+        "3 tháng": "GIẢM ↓ (-15.2%)",
+        "9 tháng": "TĂNG ↑ (+76.3%)"
       },
       "swings": {
         "swing_high": {
@@ -174,9 +176,11 @@
           "date": "2026-11-09"
         }
       },
-      "tracked_patterns": null,
-      "candles": []
+      "tracked_patterns": "2 đáy quanh 6,400đ, viền cổ 7,300đ",
+      "candles": [
+        "Doji"
+      ]
     }
   },
-  "snapshot_time": "2026-11-11T23:28:42.850277+07:00"
+  "snapshot_time": "2026-11-12T16:21:37.372982+07:00"
 }
